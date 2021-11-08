@@ -408,6 +408,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _startScenery: {fileID: 11400000, guid: 3cbaf809f2422414f82d41305e978a29, type: 2}
+  _fadeTime: 5
 --- !u!4 &1471880843
 Transform:
   m_ObjectHideFlags: 0
@@ -519,6 +520,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53eaa026c0c50e8448c9239967a64780, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  FadeEnded:
+    m_PersistentCalls:
+      m_Calls: []
   _curtain: {fileID: 1926208810}
 --- !u!1 &1926208808
 GameObject:
@@ -570,7 +574,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
