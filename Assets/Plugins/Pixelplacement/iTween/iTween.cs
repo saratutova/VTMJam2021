@@ -37,6 +37,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
 using UnityEngine;
+using UnityEngine.UI;
 #endregion
 
 /// <summary>
@@ -551,6 +552,10 @@ public class iTween : MonoBehaviour
 		}else if(target.GetComponent<Light>()){
 			tempColor=fromColor=target.GetComponent<Light>().color;
 		}
+        else if (target.GetComponent<Image>())
+        {
+			tempColor=fromColor=target.GetComponent<Image>().color;
+        }
 		
 		//set augmented fromColor:
 		if(args.Contains("color")){
@@ -585,6 +590,10 @@ public class iTween : MonoBehaviour
 		}else if(target.GetComponent<Light>()){
 			target.GetComponent<Light>().color=fromColor;
 		}
+		else if (target.GetComponent<Image>())
+		{
+			target.GetComponent<Image>().color=fromColor;
+        }
 		
 		//set new color arg:
 		args["color"]=tempColor;
@@ -3175,7 +3184,14 @@ public class iTween : MonoBehaviour
 		}else if(GetComponent<Light>()){
 			colors = new Color[1,3];
 			colors[0,0] = colors[0,1] = GetComponent<Light>().color;	
-		}else{
+		}
+		else if (GetComponent<Image>())
+		{
+			colors = new Color[1, 3];
+			colors[0, 0] = colors[0, 1] = GetComponent<Image>().color;
+		}
+		else
+		{
 			colors = new Color[1,3]; //empty placeholder incase the GO is perhaps an empty holder or something similar
 		}
 		
@@ -3944,6 +3960,10 @@ public class iTween : MonoBehaviour
 			//light.color=colors[2];	
 			GetComponent<Light>().color=colors[0,2];
 		}
+        else if (GetComponent<Image>())
+        {
+			GetComponent<Image>().color=colors[0,2];
+        }
 		
 		//dial in:
 		if(percentage==1){
