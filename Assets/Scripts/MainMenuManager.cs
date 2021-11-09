@@ -37,6 +37,8 @@ public class MainMenuManager : MonoBehaviour
     private void StartClicked()
     {
         //Start the Game
-        SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
+        FadeManager.Instance.FadeIn(2f);
+        FadeManager.Instance.FadeEnded.AddListener(() => { SceneManager.LoadScene(sceneName, LoadSceneMode.Single); });
+        
     }
 }

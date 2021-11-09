@@ -8,13 +8,18 @@ public class GameManager : Manager<GameManager>
 
     protected override void Awake()
     {
+
+    }
+
+    private void Start()
+    {
         FadeManager.Instance.FadeInColor(Color.black);
         FadeManager.Instance.FadeOut(_fadeTime);
-        FadeManager.Instance.FadeEnded.AddListener(FadedFinished);
+        FadeManager.Instance.FadeEnded.AddListener(FadedFinished);        
     }
 
     private void FadedFinished()
     {
-        Debug.Log("fsdgasdgsdgdg");
+        //After Fade OUT
     }
 }

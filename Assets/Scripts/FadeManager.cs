@@ -17,21 +17,15 @@ public class FadeManager : Manager<FadeManager>
     public void FadeOut(float time)
     {
         var color = new Color(_curtain.color.r, _curtain.color.g, _curtain.color.b, 0);
-        var hash = new Hashtable();
-        hash.Add("oncomplete", "OnITweenComplete");
-        hash.Add("oncompletetarget", gameObject);
-        hash.Add("time", time);
-        hash.Add("color", color);
 
-        iTween.ColorTo(_curtain.gameObject, hash);
-        //iTween.FadeTo(_curtain.gameObject, 0f, 5f);// iTween.Hash("alpha", 0f, "time", 1f, "easetype", "linear"));
-        //iTween.ColorTo(gameObject, iTween.Hash("color", color, "time", time, "easetype", "linear"));
+        SetAnimation(time, color);
     }
 
     public void FadeIn(float time)
     {
-        var colorTo = new Color(_curtain.color.r, _curtain.color.g, _curtain.color.b, 1);
-        iTween.ColorTo(_curtain.gameObject, colorTo, time);
+        var color = new Color(_curtain.color.r, _curtain.color.g, _curtain.color.b, 1);
+
+        SetAnimation(time, color);
     }
 
     public void FadeOutCompletly()
@@ -43,5 +37,23 @@ public class FadeManager : Manager<FadeManager>
     {
         FadeEnded.Invoke();
         FadeEnded.RemoveAllListeners();
+        _curtain.raycastTarget = false;
+    }
+
+    private void SetAnimation(float time, Color color)
+    {
+        _curtain.raycastTarget = true;
+        iTween.ColorTo(_curtain.gameObject, CreateHashtable(time, color));
+    }
+
+    private Hashtable CreateHashtable(float time, Color color)
+    {
+        var hash = new Hashtable();
+        hash.Add("oncomplete", "OnITweenComplete");
+        hash.Add("oncompletetarget", gameObject);
+        hash.Add("time", time);
+        hash.Add("color", color);
+
+        return hash;
     }
 }
