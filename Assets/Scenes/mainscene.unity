@@ -198,6 +198,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 782803370}
+  - component: {fileID: 782803372}
+  - component: {fileID: 782803371}
   m_Layer: 0
   m_Name: Scene
   m_TagString: Untagged
@@ -220,6 +222,35 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &782803371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 782803369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ffb3b90c9faa544eb4d6decba61b749, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _controller: {fileID: 782803372}
+--- !u!114 &782803372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 782803369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5afb5644641fe3e4aa838a85382739d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Refresh:
+    m_PersistentCalls:
+      m_Calls: []
+  _model: {fileID: 782803371}
 --- !u!1 &800883148
 GameObject:
   m_ObjectHideFlags: 0
@@ -262,6 +293,7 @@ GameObject:
   m_Component:
   - component: {fileID: 905484771}
   - component: {fileID: 905484772}
+  - component: {fileID: 905484773}
   m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
@@ -335,6 +367,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &905484773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905484770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd1eee99ee7c727468f25c30d841ad8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _controller: {fileID: 782803372}
+  _model: {fileID: 782803371}
+  _image: {fileID: 905484772}
 --- !u!1 &990274839
 GameObject:
   m_ObjectHideFlags: 0
@@ -378,6 +425,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 450dccfd499ed1c419bac477849994f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _controller: {fileID: 782803372}
 --- !u!1 &1471880841
 GameObject:
   m_ObjectHideFlags: 0

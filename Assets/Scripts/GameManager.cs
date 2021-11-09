@@ -15,7 +15,9 @@ public class GameManager : Manager<GameManager>
     {
         FadeManager.Instance.FadeInColor(Color.black);
         FadeManager.Instance.FadeOut(_fadeTime);
-        FadeManager.Instance.FadeEnded.AddListener(FadedFinished);        
+        FadeManager.Instance.FadeEnded.AddListener(FadedFinished);
+
+        ScreenManager.Instance.SetScenery(_startScenery);
     }
 
     private void FadedFinished()
