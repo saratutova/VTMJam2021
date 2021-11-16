@@ -15,13 +15,21 @@ public class GameManager : Manager<GameManager>
     {
         FadeManager.Instance.FadeInColor(Color.black);
         FadeManager.Instance.FadeOut(_fadeTime);
-        FadeManager.Instance.FadeEnded.AddListener(FadedFinished);
 
         ScreenManager.Instance.SetScenery(_startScenery);
+        MessageManager.Instance.SetMessage("Chapter 1");
+        MessageManager.Instance.MessageEnded.AddListener(() => 
+            { 
+                FadeManager.Instance.FadeBreak(1f); 
+                FadeManager.Instance.HalfFadeEnded.AddListener(() => MessageManager.Instance.TurnOff()); 
+                FadeManager.Instance.FadeEnded.AddListener(FadedFinished); 
+            }
+        );
     }
 
     private void FadedFinished()
     {
         //After Fade OUT
+
     }
 }

@@ -7,7 +7,13 @@ using UnityEngine.UI;
 public class FadeManager : Manager<FadeManager>
 {
     [HideInInspector] public UnityEvent FadeEnded = new UnityEvent();
+    [HideInInspector] public UnityEvent HalfFadeEnded = new UnityEvent();
     [SerializeField] private Image _curtain;
+
+    private Color ColorTransparent => new Color(_curtain.color.r, _curtain.color.g, _curtain.color.b, 0);
+    private Color ColorFull => new Color(_curtain.color.r, _curtain.color.g, _curtain.color.b, 1);
+
+    private float _midTime = 0f;
 
     public void FadeInColor(Color color)
     {
@@ -16,21 +22,28 @@ public class FadeManager : Manager<FadeManager>
 
     public void FadeOut(float time)
     {
-        var color = new Color(_curtain.color.r, _curtain.color.g, _curtain.color.b, 0);
-
-        SetAnimation(time, color);
+        SetAnimation(time, ColorTransparent);
     }
 
     public void FadeIn(float time)
     {
-        var color = new Color(_curtain.color.r, _curtain.color.g, _curtain.color.b, 1);
-
-        SetAnimation(time, color);
+        SetAnimation(time, ColorFull);
     }
 
     public void FadeOutCompletly()
     {
-        _curtain.color = new Color(1, 1, 1, 0);
+        _curtain.color = ColorTransparent;
+    }
+
+    public void FadeBreak(float time)
+    {
+        _midTime = time / 2;
+        var hash = new Hashtable();
+        hash.Add("time", _midTime);
+        hash.Add("color", ColorFull);
+        hash.Add("oncomplete", "OnHalfFadeITweenComplete");
+        hash.Add("oncompletetarget", gameObject);
+        iTween.ColorTo(_curtain.gameObject, hash);
     }
 
     public void OnITweenComplete()
@@ -39,6 +52,14 @@ public class FadeManager : Manager<FadeManager>
         FadeEnded.RemoveAllListeners();
         _curtain.raycastTarget = false;
     }
+
+    public void OnHalfFadeITweenComplete()
+    {
+        HalfFadeEnded.Invoke();
+        HalfFadeEnded.RemoveAllListeners();
+        iTween.ColorTo(_curtain.gameObject, CreateHashtable(_midTime, ColorTransparent));
+    }
+
 
     private void SetAnimation(float time, Color color)
     {
@@ -56,4 +77,6 @@ public class FadeManager : Manager<FadeManager>
 
         return hash;
     }
+
+
 }
