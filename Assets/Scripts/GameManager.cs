@@ -29,7 +29,7 @@ public class GameManager : Manager<GameManager>
 
     private void FadedFinished()
     {
-        //After Fade OUT
-
+        //After Fade OUT - start dialogue
+        DialogueManager.Instance.StartDialogue("Slajd4");
     }
 }
