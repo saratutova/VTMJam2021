@@ -21,15 +21,19 @@ public class GameManager : Manager<GameManager>
         MessageManager.Instance.MessageEnded.AddListener(() => 
             { 
                 FadeManager.Instance.FadeBreak(1f); 
-                FadeManager.Instance.HalfFadeEnded.AddListener(() => MessageManager.Instance.TurnOff()); 
-                FadeManager.Instance.FadeEnded.AddListener(FadedFinished); 
+                FadeManager.Instance.HalfFadeEnded.AddListener(() => 
+                { 
+                    MessageManager.Instance.TurnOff();
+                    DialogueManager.Instance.StartDialogue("Slajd4");
+                }); 
+                //FadeManager.Instance.FadeEnded.AddListener(FadedFinished); 
             }
         );
     }
 
-    private void FadedFinished()
-    {
-        //After Fade OUT - start dialogue
-        DialogueManager.Instance.StartDialogue("Slajd4");
-    }
+    //private void FadedFinished()
+    //{
+    //    //After Fade OUT - start dialogue
+        
+    //}
 }
