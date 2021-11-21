@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: e5203c0989dd7cc42aa194b61d601f32
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-GB
+  stringIDs:
+  - Slajd 5 Bohater otwiera oczy normalne widzenie-5-0
+  - Slajd 5 Bohater otwiera oczy normalne widzenie-5-1
+  - Slajd 5 Bohater otwiera oczy normalne widzenie-5-2
+  - Slajd 5 Bohater otwiera oczy normalne widzenie-5-3
+  - Slajd 5 Bohater otwiera oczy normalne widzenie-5-4
+  - Slajd 5 Bohater otwiera oczy normalne widzenie-5-5
+  - Slajd 5 Bohater otwiera oczy normalne widzenie-5-6
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: The node 'Slajd 5 Bohater otwiera oczy normalne widzenie'
+    contains illegal characters in its title.
+  baseLanguage: {fileID: 7128917941130120860, guid: e5203c0989dd7cc42aa194b61d601f32, type: 3}
+  localizations: []
