@@ -1,0 +1,53 @@
+fileFormatVersion: 2
+guid: 276e65265e4c4454bbd8a233f9fa0aaf
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-GB
+  stringIDs:
+  - Slaj_3_-_Poczatek_-_wyciemnienie-Slajd3Poczatekwyciemnienie-0
+  - Slaj_3_-_Poczatek_-_wyciemnienie-Slajd3Poczatekwyciemnienie-1
+  - Slaj_3_-_Poczatek_-_wyciemnienie-Slajd3Poczatekwyciemnienie-2
+  - Slaj_3_-_Poczatek_-_wyciemnienie-Slajd3Poczatekwyciemnienie-3
+  - Slaj_3_-_Poczatek_-_wyciemnienie-Slajd3Poczatekwyciemnienie-4
+  - Slaj_3_-_Poczatek_-_wyciemnienie-Slajd3Poczatekwyciemnienie-5
+  - Slaj_3_-_Poczatek_-_wyciemnienie-Slajd3Poczatekwyciemnienie-6
+  - Slaj_3_-_Poczatek_-_wyciemnienie-Slajd3Poczatekwyciemnienie-7
+  - Slaj_3_-_Poczatek_-_wyciemnienie-Slajd3Poczatekwyciemnienie-8
+  - Slaj_3_-_Poczatek_-_wyciemnienie-Slajd3Poczatekwyciemnienie-9
+  - Slaj_3_-_Poczatek_-_wyciemnienie-Slajd3Poczatekwyciemnienie-10
+  - Slaj_3_-_Poczatek_-_wyciemnienie-Slajd3Poczatekwyciemnienie-11
+  - Slaj_3_-_Poczatek_-_wyciemnienie-Slajd3Poczatekwyciemnienie-12
+  - Slaj_3_-_Poczatek_-_wyciemnienie-Slajd3Poczatekwyciemnienie-13
+  - Slaj_3_-_Poczatek_-_wyciemnienie-Slajd3Poczatekwyciemnienie-14
+  - Slaj_3_-_Poczatek_-_wyciemnienie-Slajd3Poczatekwyciemnienie-15
+  - Slaj_3_-_Poczatek_-_wyciemnienie-Slajd3Poczatekwyciemnienie-16
+  - Slaj_3_-_Poczatek_-_wyciemnienie-Slajd3Poczatekwyciemnienie-17
+  - Slaj_3_-_Poczatek_-_wyciemnienie-Slajd3Poczatekwyciemnienie-18
+  - Slaj_3_-_Poczatek_-_wyciemnienie-Slajd3Poczatekwyciemnienie-19
+  - Slaj_3_-_Poczatek_-_wyciemnienie-Slajd3Poczatekwyciemnienie-20
+  - Slaj_3_-_Poczatek_-_wyciemnienie-Slajd3Poczatekwyciemnienie-21
+  - Slaj_3_-_Poczatek_-_wyciemnienie-Slajd3Poczatekwyciemnienie-22
+  - Slaj_3_-_Poczatek_-_wyciemnienie-Slajd3Poczatekwyciemnienie-23
+  - Slaj_3_-_Poczatek_-_wyciemnienie-Slajd3Poczatekwyciemnienie-24
+  - Slaj_3_-_Poczatek_-_wyciemnienie-Slajd3Poczatekwyciemnienie-25
+  - Slaj_3_-_Poczatek_-_wyciemnienie-Slajd3Poczatekwyciemnienie-26
+  - Slaj_3_-_Poczatek_-_wyciemnienie-Slajd3Poczatekwyciemnienie-27
+  - Slaj_3_-_Poczatek_-_wyciemnienie-Slajd3Poczatekwyciemnienie-28
+  - Slaj_3_-_Poczatek_-_wyciemnienie-Slajd3Poczatekwyciemnienie-29
+  - Slaj_3_-_Poczatek_-_wyciemnienie-Slajd3Poczatekwyciemnienie-30
+  - Slaj_3_-_Poczatek_-_wyciemnienie-Slajd3Poczatekwyciemnienie-31
+  - Slaj_3_-_Poczatek_-_wyciemnienie-Slajd3Poczatekwyciemnienie-32
+  - Slaj_3_-_Poczatek_-_wyciemnienie-Slajd3Poczatekwyciemnienie-33
+  - Slaj_3_-_Poczatek_-_wyciemnienie-Slajd3Poczatekwyciemnienie-34
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: The node 'Slajd 3 - Poczatek - wyciemnienie' contains
+    illegal characters in its title.
+  baseLanguage: {fileID: 7128917941130120860, guid: 276e65265e4c4454bbd8a233f9fa0aaf, type: 3}
+  localizations: []

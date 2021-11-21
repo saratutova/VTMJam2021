@@ -38,6 +38,8 @@ public class GameManager : Manager<GameManager>
         );
     }
 
+
+
     public void ChangeFocus(int amount)
     {
         _focus += amount;
