@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5be3fa07d2a40da4b83682681aa5841a, type: 3}
   m_Name: Wall1 1
   m_EditorClassIdentifier: 
-  side: 0
+  side: 1
   background: {fileID: 21300000, guid: c3f636301fe194649977c88424cab17a, type: 3}

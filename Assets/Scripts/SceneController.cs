@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,4 +16,9 @@ public class SceneController : MonoBehaviour
         Refresh.Invoke();
     }
 
+    internal void ArrowClicked(ArrowSide side)
+    {
+        _model.CurrentWall = _model.CurrentScenery.GetWall(Scenery.GetSide(side, _model.CurrentWall.side));
+        Refresh.Invoke();
+    }
 }
