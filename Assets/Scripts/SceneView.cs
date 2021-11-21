@@ -8,7 +8,7 @@ public abstract class SceneView : MonoBehaviour
     [SerializeField] protected SceneController _controller;
     [SerializeField] protected SceneModel _model;
 
-    private void Start()
+    protected virtual void Start()
     {
         _controller.Refresh.AddListener(OnRefresh);
     }
