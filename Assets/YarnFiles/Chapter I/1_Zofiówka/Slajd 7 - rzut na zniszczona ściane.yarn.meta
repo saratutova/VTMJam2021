@@ -9,10 +9,15 @@ ScriptedImporter:
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
   baseLanguageID: 
-  stringIDs: []
-  compilationStatus: 0
-  isSuccesfullyCompiled: 0
+  stringIDs:
+  - "Slajd 7 - rzut na zniszczona \u015Bciane-Slajd7-0"
+  - "Slajd 7 - rzut na zniszczona \u015Bciane-Slajd7-1"
+  - "Slajd 7 - rzut na zniszczona \u015Bciane-Slajd7-2"
+  - "Slajd 7 - rzut na zniszczona \u015Bciane-Slajd7-3"
+  - "Slajd 7 - rzut na zniszczona \u015Bciane-Slajd7-4"
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
   compilationErrorMessage: The node 'Slajd 7 rzuta na zniszczona sciane' contains
     illegal characters in its title.
-  baseLanguage: {instanceID: 0}
+  baseLanguage: {fileID: 7128917941130120860, guid: d3065d51f65ecb040b7ebca16a804471, type: 3}
   localizations: []
