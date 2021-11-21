@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: fdb2c58c6282d2643ac69f4b6d76d262
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Slajd_4_-_wyciemnienie-Node-0
+  - Slajd_4_-_wyciemnienie-Node-1
+  - Slajd_4_-_wyciemnienie-Node_2-2
+  - Slajd_4_-_wyciemnienie-Node_2-3
+  - Slajd_4_-_wyciemnienie-Node_2-4
+  - Slajd_4_-_wyciemnienie-Node_2-5
+  - Slajd_4_-_wyciemnienie-Node_2-6
+  - Slajd_4_-_wyciemnienie-Node_2-7
+  - Slajd_4_-_wyciemnienie-Node_2-8
+  - Slajd_4_-_wyciemnienie-Node_2-9
+  - Slajd_4_-_wyciemnienie-Node_2-10
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

@@ -30,13 +30,15 @@ public class GameManager : Manager<GameManager>
                 FadeManager.Instance.HalfFadeEnded.AddListener(() => 
                 { 
                     MessageManager.Instance.TurnOff();
-                    DialogueManager.Instance.StartDialogue("Slajd4");
+                    DialogueManager.Instance.StartDialogue("Slajd3");
                     DialogueManager.Instance.DialogueCompleted.AddListener(() => FadeManager.Instance.FadeBreak(1f));
                 }); 
                 //FadeManager.Instance.FadeEnded.AddListener(FadedFinished); 
             }
         );
     }
+
+
 
     public void ChangeFocus(int amount)
     {
