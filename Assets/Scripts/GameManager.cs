@@ -12,11 +12,6 @@ public class GameManager : Manager<GameManager>
 
     public int Focus => _focus;
 
-    protected override void Awake()
-    {
-
-    }
-
     private void Start()
     {
         FadeManager.Instance.FadeInColor(Color.black);
@@ -30,7 +25,7 @@ public class GameManager : Manager<GameManager>
                 FadeManager.Instance.HalfFadeEnded.AddListener(() => 
                 { 
                     MessageManager.Instance.TurnOff();
-                    DialogueManager.Instance.StartDialogue("Slajd4");
+                    DialogueManager.Instance.StartDialogue("Test");
                 }); 
             }
         );

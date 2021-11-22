@@ -9,26 +9,17 @@ public enum ArrowSide
     Right, Left
 }
 
-public class ArrowViewer : SceneView
+public class ArrowViewer : SceneButton
 {
-    [SerializeField] private Button _button = default;
     [SerializeField] private ArrowSide _side = default;
-
-    protected override void Start()
-    {
-        base.Start();
-        _button.onClick.AddListener(Clicked);
-    }
 
     protected override void OnRefresh()
     {
-        gameObject.SetActive(_model.ShouldIBeVisible(_side));
+        gameObject.SetActive(_model.ShouldArrowBeVisible(_side));
     }
 
-    private void Clicked()
+    protected override void Clicked()
     {
         _controller.ArrowClicked(_side);
     }
-
-
 }
