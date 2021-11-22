@@ -12,10 +12,7 @@ public class SceneModel : MonoBehaviour
 
     public Scenery CurrentScenery { get => _currentScenery; set => _currentScenery = value; }
 
-    internal bool ShouldIBeVisible(ArrowSide side)
-    {
-        return _currentScenery.IsSide(side, _currentWall.side);
-    }
+    internal bool ShouldIBeVisible(ArrowSide side) => _currentScenery.IsSide(side, _currentWall.side) && !DialogueManager.Instance.IsDuringDialogue;
 
     public Wall CurrentWall { get => _currentWall; set => _currentWall = value; }
 

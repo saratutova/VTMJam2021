@@ -23,22 +23,18 @@ public class GameManager : Manager<GameManager>
         FadeManager.Instance.FadeOut(_fadeTime);
 
         ScreenManager.Instance.SetScenery(_startScenery);
-        MessageManager.Instance.SetMessage("Chapter 1");
+        MessageManager.Instance.SetMessage(StaticStrings.chapter1);
         MessageManager.Instance.MessageEnded.AddListener(() => 
             { 
-                FadeManager.Instance.FadeBreak(1f); 
+                FadeManager.Instance.FadeBreak(FadeManager.breakTime); 
                 FadeManager.Instance.HalfFadeEnded.AddListener(() => 
                 { 
                     MessageManager.Instance.TurnOff();
                     DialogueManager.Instance.StartDialogue("Slajd4");
-                    DialogueManager.Instance.DialogueCompleted.AddListener(() => FadeManager.Instance.FadeBreak(1f));
                 }); 
-                //FadeManager.Instance.FadeEnded.AddListener(FadedFinished); 
             }
         );
     }
-
-
 
     public void ChangeFocus(int amount)
     {

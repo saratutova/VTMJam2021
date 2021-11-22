@@ -9,6 +9,11 @@ public class SceneController : MonoBehaviour
     [HideInInspector] public UnityEvent Refresh = new UnityEvent();
     [SerializeField] private SceneModel _model;
 
+    private void Start()
+    {
+        DialogueManager.Instance.DialogueStarted.AddListener(() => Refresh.Invoke());
+    }
+
     public void SetScenery(Scenery scenery)
     {
         _model.CurrentScenery = scenery;

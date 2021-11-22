@@ -13,8 +13,10 @@ public class DialogueManager : Manager<DialogueManager>
     [SerializeField] private Image _background = default;
     [SerializeField] private Image _character = default;
     [SerializeField] private DialogueRunner _dialogueRunner = default;
+    [SerializeField] private DialogueUI _dialogueUI = default;
     [SerializeField] private List<DialogueData> _programs = new List<DialogueData>();
     [HideInInspector] public UnityEvent DialogueCompleted = new UnityEvent();
+    [HideInInspector] public UnityEvent DialogueStarted = new UnityEvent();
 
     public bool IsDuringDialogue => _isRunning;
 
@@ -27,10 +29,16 @@ public class DialogueManager : Manager<DialogueManager>
 
     private void OnDialogueComplite()
     {
-        _isRunning = false;
-        _backgroundsGO.SetActive(false);
-        DialogueCompleted.Invoke();
-        DialogueCompleted.RemoveAllListeners();
+        FadeManager.Instance.FadeBreak(FadeManager.breakTime);
+        FadeManager.Instance.HalfFadeEnded.AddListener(() =>
+            {
+                _isRunning = false;
+                _backgroundsGO.SetActive(false);
+                _dialogueUI.DialogueComplete();
+                DialogueCompleted.Invoke();
+                DialogueCompleted.RemoveAllListeners();
+            }
+        );
     }
 
     public void StartDialogue(string name)
@@ -41,6 +49,7 @@ public class DialogueManager : Manager<DialogueManager>
             Debug.LogError($"Couldn't find program named: {name}");
             return;
         }
+        DialogueStarted.Invoke();
         _isRunning = true;
         _backgroundsGO.SetActive(true);
         _background.gameObject.SetActive(program.background != null);
