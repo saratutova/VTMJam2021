@@ -10,13 +10,13 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
   baseLanguageID: 
   stringIDs:
-  - "Slajd 4 Bohater budzi si\u0119 niewyra\u017Ane widzenie-Slajd4-0"
-  - "Slajd 4 Bohater budzi si\u0119 niewyra\u017Ane widzenie-Slajd4-1"
-  - "Slajd 4 Bohater budzi si\u0119 niewyra\u017Ane widzenie-Slajd4-2"
-  - "Slajd 4 Bohater budzi si\u0119 niewyra\u017Ane widzenie-Slajd4-3"
-  - "Slajd 4 Bohater budzi si\u0119 niewyra\u017Ane widzenie-Slajd4-4"
-  - "Slajd 4 Bohater budzi si\u0119 niewyra\u017Ane widzenie-Slajd4-5"
-  - "Slajd 4 Bohater budzi si\u0119 niewyra\u017Ane widzenie-Slajd4-6"
+  - "Slajd 4 Bohater budzi si\u0119 niewyra\u017Ane widzenie-lajd4-0"
+  - "Slajd 4 Bohater budzi si\u0119 niewyra\u017Ane widzenie-lajd4-1"
+  - "Slajd 4 Bohater budzi si\u0119 niewyra\u017Ane widzenie-lajd4-2"
+  - "Slajd 4 Bohater budzi si\u0119 niewyra\u017Ane widzenie-lajd4-3"
+  - "Slajd 4 Bohater budzi si\u0119 niewyra\u017Ane widzenie-lajd4-4"
+  - "Slajd 4 Bohater budzi si\u0119 niewyra\u017Ane widzenie-lajd4-5"
+  - "Slajd 4 Bohater budzi si\u0119 niewyra\u017Ane widzenie-lajd4-6"
   compilationStatus: 1
   isSuccesfullyCompiled: 1
   compilationErrorMessage: "The node 'Slajd 4 BOHATER OTWIERA OCZY I WIDZI POK\xD3J
