@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 336501e02a0ae3040941cfda732f4b04
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - "Slajd 11 - Graffiti sp\u0142ywaj\u0105ce krwi\u0105-Slajd11-0"
+  - "Slajd 11 - Graffiti sp\u0142ywaj\u0105ce krwi\u0105-Slajd11-1"
+  - "Slajd 11 - Graffiti sp\u0142ywaj\u0105ce krwi\u0105-Slajd11-2"
+  - "Slajd 11 - Graffiti sp\u0142ywaj\u0105ce krwi\u0105-Slajd11-3"
+  - "Slajd 11 - Graffiti sp\u0142ywaj\u0105ce krwi\u0105-Slajd11-4"
+  - "Slajd 11 - Graffiti sp\u0142ywaj\u0105ce krwi\u0105-Slajd11-5"
+  - "Slajd 11 - Graffiti sp\u0142ywaj\u0105ce krwi\u0105-Slajd11-6"
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

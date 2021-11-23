@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: 438b5450608cd0c4ba11f36119a6540b
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Slajd 17 Rzut na drzwi z puk puk-Slajd17-0
+  - Slajd 17 Rzut na drzwi z puk puk-Slajd17-1
+  - Slajd 17 Rzut na drzwi z puk puk-Slajd17-2
+  - Slajd 17 Rzut na drzwi z puk puk-Slajd17-3
+  - Slajd 17 Rzut na drzwi z puk puk-Slajd17-4
+  - Slajd 17 Rzut na drzwi z puk puk-Slajd17-5
+  - Slajd 17 Rzut na drzwi z puk puk-Slajd17-6
+  - Slajd 17 Rzut na drzwi z puk puk-Slajd17-7
+  - Slajd 17 Rzut na drzwi z puk puk-Slajd17-8
+  - Slajd 17 Rzut na drzwi z puk puk-Slajd17-9
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []
