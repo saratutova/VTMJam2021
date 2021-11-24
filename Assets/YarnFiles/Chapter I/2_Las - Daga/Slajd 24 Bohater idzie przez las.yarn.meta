@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: 58a391e379db6ef47a7c9c6ab84c1ed3
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Slajd 24 Bohater idzie przez las-Slajd24-0
+  - Slajd 24 Bohater idzie przez las-Slajd24-1
+  - Slajd 24 Bohater idzie przez las-Slajd24-2
+  - Slajd 24 Bohater idzie przez las-Slajd24-3
+  - Slajd 24 Bohater idzie przez las-Slajd24-4
+  - Slajd 24 Bohater idzie przez las-Slajd24-5
+  - Slajd 24 Bohater idzie przez las-Slajd24-6
+  - Slajd 24 Bohater idzie przez las-Slajd24-7
+  - Slajd 24 Bohater idzie przez las-Slajd24-8
+  - Slajd 24 Bohater idzie przez las-Slajd24-9
+  - Slajd 24 Bohater idzie przez las-Slajd24-10
+  - Slajd 24 Bohater idzie przez las-Slajd24-11
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

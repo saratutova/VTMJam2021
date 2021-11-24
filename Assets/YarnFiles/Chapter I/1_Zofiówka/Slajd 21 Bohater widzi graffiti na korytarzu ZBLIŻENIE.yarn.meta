@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: bf0a23307fe6dbd49bf074be67e4aa4e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - "Slajd 21 Bohater widzi graffiti na korytarzu ZBLI\u017BENIE-Slajd21-0"
+  - "Slajd 21 Bohater widzi graffiti na korytarzu ZBLI\u017BENIE-Slajd21-1"
+  - "Slajd 21 Bohater widzi graffiti na korytarzu ZBLI\u017BENIE-Slajd21-2"
+  - "Slajd 21 Bohater widzi graffiti na korytarzu ZBLI\u017BENIE-Slajd21-3"
+  - "Slajd 21 Bohater widzi graffiti na korytarzu ZBLI\u017BENIE-Slajd21-4"
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 87633969953b4fe42b033bce2b1f050d
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Slajd 15 Wyciemnienie - atak paniki-Slajd15-0
+  - Slajd 15 Wyciemnienie - atak paniki-Slajd15-1
+  - Slajd 15 Wyciemnienie - atak paniki-Slajd15-2
+  - Slajd 15 Wyciemnienie - atak paniki-Slajd15-3
+  - Slajd 15 Wyciemnienie - atak paniki-Slajd15-4
+  - Slajd 15 Wyciemnienie - atak paniki-Slajd15-5
+  - Slajd 15 Wyciemnienie - atak paniki-Slajd15-6
+  - Slajd 15 Wyciemnienie - atak paniki-Slajd15-7
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

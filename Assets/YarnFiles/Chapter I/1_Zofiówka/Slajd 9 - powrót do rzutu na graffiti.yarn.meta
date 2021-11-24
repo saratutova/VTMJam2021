@@ -1,0 +1,33 @@
+fileFormatVersion: 2
+guid: ef1b23f50818a8a4bbbc015bddeb989b
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - "Slajd 9 - powr\xF3t do rzutu na graffiti-Slajd9graffiti-0"
+  - "Slajd 9 - powr\xF3t do rzutu na graffiti-Slajd9graffiti-1"
+  - "Slajd 9 - powr\xF3t do rzutu na graffiti-Slajd9graffiti-2"
+  - "Slajd 9 - powr\xF3t do rzutu na graffiti-Slajd9graffiti-3"
+  - "Slajd 9 - powr\xF3t do rzutu na graffiti-Slajd9graffiti-4"
+  - "Slajd 9 - powr\xF3t do rzutu na graffiti-Slajd9graffiti-5"
+  - "Slajd 9 - powr\xF3t do rzutu na graffiti-Slajd9graffiti-6"
+  - "Slajd 9 - powr\xF3t do rzutu na graffiti-Slajd9graffiti-7"
+  - "Slajd 9 - powr\xF3t do rzutu na graffiti-Slajd9graffiti-8"
+  - "Slajd 9 - powr\xF3t do rzutu na graffiti-Slajd9graffiti-9"
+  - "Slajd 9 - powr\xF3t do rzutu na graffiti-Slajd9graffiti-10"
+  - "Slajd 9 - powr\xF3t do rzutu na graffiti-Slajd9graffiti-11"
+  - "Slajd 9 - powr\xF3t do rzutu na graffiti-Slajd9graffiti-12"
+  - "Slajd 9 - powr\xF3t do rzutu na graffiti-Slajd9graffiti-13"
+  - "Slajd 9 - powr\xF3t do rzutu na graffiti-Slajd9graffiti-14"
+  - "Slajd 9 - powr\xF3t do rzutu na graffiti-Slajd9graffiti-15"
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []
