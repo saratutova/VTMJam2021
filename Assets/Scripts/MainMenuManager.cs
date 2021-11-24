@@ -15,6 +15,8 @@ public class MainMenuManager : MonoBehaviour
 
     private void Start()
     {
+        FadeManager.Instance.FadeInColor(Color.black);
+        FadeManager.Instance.FadeOut(FadeManager.startFadeTime);
         _startButton.onClick.AddListener(StartClicked);
         _creditsButton.onClick.AddListener(CreditsClicked);
         _exitButton.onClick.AddListener(ExitClicked);
@@ -37,7 +39,7 @@ public class MainMenuManager : MonoBehaviour
     private void StartClicked()
     {
         //Start the Game
-        FadeManager.Instance.FadeIn(2f);
+        FadeManager.Instance.FadeIn(FadeManager.startFadeTime);
         FadeManager.Instance.FadeEnded.AddListener(() => { SceneManager.LoadScene(sceneName, LoadSceneMode.Single); });
         
     }

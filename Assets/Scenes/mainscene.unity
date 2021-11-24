@@ -2318,8 +2318,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 739079c77d8987747b57d1888ab40cb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: mainmenu
   _startScenery: {fileID: 11400000, guid: 3cbaf809f2422414f82d41305e978a29, type: 2}
-  _fadeTime: 1
   _model: {fileID: 1471880844}
   FocusChanged:
     m_PersistentCalls:

@@ -13,6 +13,6 @@ public class SettingsButton : SceneButton
 
     protected override void Clicked()
     {
-
+        _controller.SettingButtonClicked(type);
     }
 }
