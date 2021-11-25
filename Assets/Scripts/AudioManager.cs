@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
 public class AudioManager : Manager<AudioManager>
 {
     [SerializeField] private AudioSource _main = default;
