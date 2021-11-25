@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class FadeManager : Manager<FadeManager>
 {
     public static float breakTime = 1f;
+    public static float startFadeTime = 1f;
     [HideInInspector] public UnityEvent FadeEnded = new UnityEvent();
     [HideInInspector] public UnityEvent HalfFadeEnded = new UnityEvent();
     [SerializeField] private Image _curtain;
