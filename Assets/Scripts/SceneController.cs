@@ -20,7 +20,7 @@ public class SceneController : MonoBehaviour
         switch (type)
         {
             case SettingsType.Settings:
-                GameManager.Instance.EndGame();
+                InGameMenu.Instance.TurnMenuOn();
                 break;
             case SettingsType.Help:
                 break;

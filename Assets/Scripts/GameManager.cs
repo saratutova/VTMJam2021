@@ -24,7 +24,8 @@ public class GameManager : Manager<GameManager>
         ScreenManager.Instance.SetScenery(_startScenery);
         MessageManager.Instance.SetMessage(StaticStrings.chapter1);
         MessageManager.Instance.MessageEnded.AddListener(() => 
-            { 
+            {
+                AudioManager.Instance.PlayClip("Zofiówka - budzenie siê poprawiony - slajd");
                 FadeManager.Instance.FadeBreak(FadeManager.breakTime); 
                 FadeManager.Instance.HalfFadeEnded.AddListener(() => 
                 { 

@@ -50,6 +50,9 @@ TagManager:
   - name: Message
     uniqueID: 200038813
     locked: 0
+  - name: InGameMenu
+    uniqueID: 1027776251
+    locked: 0
   - name: Curtain
     uniqueID: 743557485
     locked: 0
