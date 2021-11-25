@@ -4683,6 +4683,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _controller: {fileID: 782803372}
   _model: {fileID: 782803371}
+  _highlightColor: {r: 1, g: 0.8392157, b: 0.69803923, a: 1}
 --- !u!114 &8639573312738520283
 MonoBehaviour:
   m_ObjectHideFlags: 0
