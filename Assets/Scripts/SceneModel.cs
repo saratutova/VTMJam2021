@@ -19,4 +19,6 @@ public class SceneModel : MonoBehaviour
     public Wall CurrentWall { get => _currentWall; set => _currentWall = value; }
 
     public Sprite CurrentBackground => _currentWall.background;
+
+    public StarState StartState => StarState.Something;
 }
