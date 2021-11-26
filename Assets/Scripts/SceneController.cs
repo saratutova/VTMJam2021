@@ -12,6 +12,21 @@ public class SceneController : MonoBehaviour
     private void Start()
     {
         DialogueManager.Instance.DialogueStarted.AddListener(() => Refresh.Invoke());
+        GameManager.Instance.FocusChanged.AddListener(() => Refresh.Invoke());
+    }
+
+    internal void SettingButtonClicked(SettingsType type)
+    {
+        switch (type)
+        {
+            case SettingsType.Settings:
+                InGameMenu.Instance.TurnMenuOn();
+                break;
+            case SettingsType.Help:
+                break;
+            default:
+                break;
+        }
     }
 
     public void SetScenery(Scenery scenery)

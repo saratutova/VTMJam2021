@@ -2,11 +2,13 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class GameManager : Manager<GameManager>
 {
+    [SerializeField] private string sceneName;
     [SerializeField] private Scenery _startScenery;
-    [SerializeField] private float _fadeTime = 5f;
+    
     [SerializeField] private GameManagerModel _model = default;
     [HideInInspector] public UnityEvent FocusChanged = new UnityEvent();
 
@@ -17,12 +19,13 @@ public class GameManager : Manager<GameManager>
     private void Start()
     {
         FadeManager.Instance.FadeInColor(Color.black);
-        FadeManager.Instance.FadeOut(_fadeTime);
+        FadeManager.Instance.FadeOut(FadeManager.startFadeTime);
 
         ScreenManager.Instance.SetScenery(_startScenery);
         MessageManager.Instance.SetMessage(StaticStrings.chapter1);
         MessageManager.Instance.MessageEnded.AddListener(() => 
-            { 
+            {
+                AudioManager.Instance.PlayClip("Zofiówka - budzenie siê poprawiony - slajd");
                 FadeManager.Instance.FadeBreak(FadeManager.breakTime); 
                 FadeManager.Instance.HalfFadeEnded.AddListener(() => 
                 { 
@@ -31,6 +34,12 @@ public class GameManager : Manager<GameManager>
                 }); 
             }
         );
+    }
+
+    internal void EndGame()
+    {
+        FadeManager.Instance.FadeIn(2f);
+        FadeManager.Instance.FadeEnded.AddListener(() => { SceneManager.LoadScene(sceneName, LoadSceneMode.Single); });
     }
 
     public void ChangeFocus(int amount)

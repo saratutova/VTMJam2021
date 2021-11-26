@@ -7,7 +7,6 @@ public class GameManagerModel : MonoBehaviour
     private int _focus = 0;
     private List<Item> _items;
     private List<Memory> _memories;
-    
 
     public int Focus { get => _focus; set => _focus = value; }
 
