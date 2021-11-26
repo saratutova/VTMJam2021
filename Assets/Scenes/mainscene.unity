@@ -2112,13 +2112,23 @@ MonoBehaviour:
     isTheme: 0
   - clip: {fileID: 8300000, guid: 4d3ed1696c92d5d45a9c0ce1bd1c104d, type: 3}
     isTheme: 0
-  - clip: {fileID: 8300000, guid: 69c7a10d238452d45a22e1cabe32f1a6, type: 3}
-    isTheme: 0
   - clip: {fileID: 8300000, guid: 4f111b6b369f85743915856046b33de1, type: 3}
     isTheme: 0
   - clip: {fileID: 8300000, guid: 2bd8faa48f12c5a4a97283d7956e2573, type: 3}
     isTheme: 0
   - clip: {fileID: 8300000, guid: eb7df77255bca524f8bc24f052284c8e, type: 3}
+    isTheme: 0
+  - clip: {fileID: 8300000, guid: 4163b9c74385dac4ea65367901986e7d, type: 3}
+    isTheme: 1
+  - clip: {fileID: 8300000, guid: 141d56d50a524aa4fbc350c189d4c057, type: 3}
+    isTheme: 1
+  - clip: {fileID: 8300000, guid: 64e4a656379f12f438643c756483cc9f, type: 3}
+    isTheme: 1
+  - clip: {fileID: 8300000, guid: ab7f3c87918c21945a5c12635d02fc78, type: 3}
+    isTheme: 1
+  - clip: {fileID: 8300000, guid: cf264e42d8c61e6499de2ef3bc55c639, type: 3}
+    isTheme: 1
+  - clip: {fileID: 8300000, guid: 6389328d8c614c44ba1b54201348a237, type: 3}
     isTheme: 0
 --- !u!82 &1056375175
 AudioSource:

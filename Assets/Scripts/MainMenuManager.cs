@@ -33,7 +33,13 @@ public class MainMenuManager : MonoBehaviour
 
     private void CreditsClicked()
     {
-        //TODO: Turn on the credits
+        CreditsManager.Instance.SetActive(true);
+        CreditsManager.Instance.CreditsEnded.AddListener(() => 
+        { 
+            FadeManager.Instance.FadeBreak(1);
+            FadeManager.Instance.HalfFadeEnded.AddListener(() => CreditsManager.Instance.SetActive(false));
+        }
+        );
     }
 
     private void StartClicked()
