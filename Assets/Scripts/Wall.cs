@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum Side
+public enum WallSide
 {
     North, South, West, East, Ceiling
 }
@@ -10,6 +10,6 @@ public enum Side
 [CreateAssetMenu(fileName = "Wall", menuName = "SO/New Wall", order = 2)]
 public class Wall : ScriptableObject
 {
-    public Side side;
+    public WallSide side;
     public Sprite background;
 }
