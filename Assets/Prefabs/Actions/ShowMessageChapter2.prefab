@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6620653812639528012}
   - component: {fileID: 5212699258288810559}
   m_Layer: 0
-  m_Name: ShowMessage
+  m_Name: ShowMessageChapter2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45,4 +45,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _beforeAction: {fileID: 0}
   _afterAction: {fileID: 0}
-  type: 0
+  _massageEnded: []
+  type: 1

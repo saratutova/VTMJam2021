@@ -6,9 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : Manager<GameManager>
 {
-    [SerializeField] private string sceneName;
-    [SerializeField] private Scenery _startScenery;
-    
+    [SerializeField] private string sceneName;    
     [SerializeField] private GameManagerModel _model = default;
     [HideInInspector] public UnityEvent FocusChanged = new UnityEvent();
 
@@ -21,7 +19,7 @@ public class GameManager : Manager<GameManager>
         FadeManager.Instance.FadeInColor(Color.black);
         FadeManager.Instance.FadeOut(FadeManager.startFadeTime);
 
-        ScreenManager.Instance.SetScenery(_startScenery);
+        ScreenManager.Instance.SetScenery(_model.StartScenery);
     }
 
     internal void EndGame()

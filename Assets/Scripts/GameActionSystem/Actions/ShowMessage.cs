@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class ShowMessage : GameAction
 {
-    public StringType type;
+    [SerializeField] private List<GameAction> _massageEnded = new List<GameAction>();
+    [SerializeField] private StringType type = default;
 
     protected override void DoAction()
     {
@@ -12,12 +13,14 @@ public class ShowMessage : GameAction
         MessageManager.Instance.SetMessage(StaticStrings.GetString(type));
         MessageManager.Instance.MessageEnded.AddListener(() =>
         {
-            AudioManager.Instance.PlayClip("Zofiówka - budzenie siê poprawiony - slajd");
             FadeManager.Instance.FadeBreak(FadeManager.breakTime);
             FadeManager.Instance.HalfFadeEnded.AddListener(() =>
             {
                 MessageManager.Instance.TurnOff();
-                DialogueManager.Instance.StartDialogue("Test");
+                if (_massageEnded != null)
+                {
+                    _massageEnded.ForEach(x => x.Action());
+                }
             });
         }
         );
