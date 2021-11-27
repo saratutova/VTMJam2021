@@ -9,5 +9,6 @@ public class ScreenManager : Manager<ScreenManager>
     public void SetScenery(Scenery scenery)
     {
         _controller.SetScenery(scenery);
+        scenery.OnFirstEnter();
     }
 }

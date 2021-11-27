@@ -4,10 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public enum EquipmentType
-{
-    Item, Memory
-}
+
 
 public class EquipmentView : SceneUIView
 {

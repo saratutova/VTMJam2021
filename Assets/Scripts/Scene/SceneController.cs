@@ -38,7 +38,7 @@ public class SceneController : MonoBehaviour
 
     internal void ArrowClicked(ArrowSide side)
     {
-        _model.CurrentWall = _model.CurrentScenery.GetWall(Scenery.GetSide(side, _model.CurrentWall.side));
+        _model.CurrentWall = _model.CurrentScenery.GetWall(Scenery.GetNextSide(side, _model.CurrentWall.side));
         Refresh.Invoke();
     }
 }

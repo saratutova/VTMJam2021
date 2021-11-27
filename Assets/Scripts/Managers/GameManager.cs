@@ -22,18 +22,6 @@ public class GameManager : Manager<GameManager>
         FadeManager.Instance.FadeOut(FadeManager.startFadeTime);
 
         ScreenManager.Instance.SetScenery(_startScenery);
-        MessageManager.Instance.SetMessage(StaticStrings.chapter1);
-        MessageManager.Instance.MessageEnded.AddListener(() => 
-            {
-                AudioManager.Instance.PlayClip("Zofiówka - budzenie siê poprawiony - slajd");
-                FadeManager.Instance.FadeBreak(FadeManager.breakTime); 
-                FadeManager.Instance.HalfFadeEnded.AddListener(() => 
-                { 
-                    MessageManager.Instance.TurnOff();
-                    DialogueManager.Instance.StartDialogue("Test");
-                }); 
-            }
-        );
     }
 
     internal void EndGame()
