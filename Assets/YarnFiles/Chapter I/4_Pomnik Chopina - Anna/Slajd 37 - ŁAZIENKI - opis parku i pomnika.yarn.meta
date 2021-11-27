@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 7af2ddfc3db6fe044aae018b3c470ee6
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - "Slajd 37 - \u0141AZIENKI - opis parku i pomnika-Slajd37-0"
+  - "Slajd 37 - \u0141AZIENKI - opis parku i pomnika-Slajd37-1"
+  - "Slajd 37 - \u0141AZIENKI - opis parku i pomnika-Slajd37-2"
+  - "Slajd 37 - \u0141AZIENKI - opis parku i pomnika-Slajd37-3"
+  - "Slajd 37 - \u0141AZIENKI - opis parku i pomnika-Slajd37-4"
+  - "Slajd 37 - \u0141AZIENKI - opis parku i pomnika-Slajd37-5"
+  - "Slajd 37 - \u0141AZIENKI - opis parku i pomnika-Slajd37-6"
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []
