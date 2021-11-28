@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class DoSomethingOnSceneStuff : GameAction
 {
+    [SerializeField] private string stuffName = default;
+
     protected override void DoAction()
     {
         base.DoAction();
-        ScreenManager.Instance.DoSomethingOnSceneStuff();
+        ScreenManager.Instance.DoSomethingOnSceneStuff(stuffName);
     }
 }

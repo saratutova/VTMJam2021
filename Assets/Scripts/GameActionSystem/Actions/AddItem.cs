@@ -2,17 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AddItem : MonoBehaviour
+public class AddItem : GameAction
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private Item _item = default;
 
-    // Update is called once per frame
-    void Update()
+    protected override void DoAction()
     {
-        
+        base.DoAction();
+        GameManager.Instance.AddItem(_item);
     }
 }

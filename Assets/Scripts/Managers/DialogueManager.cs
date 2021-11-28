@@ -28,19 +28,18 @@ public class DialogueManager : Manager<DialogueManager>
         _dialogueRunner.onDialogueComplete.AddListener(OnDialogueComplete);
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            OnDialogueComplete();
+        }
+    }
+
     private void OnDialogueComplete()
     {
         FadeManager.Instance.FadeBreak(FadeManager.breakTime);
-        FadeManager.Instance.HalfFadeEnded.AddListener(() =>
-            {
-                _isRunning = false;
-                _backgroundsGO.SetActive(false);
-                _dialogueUI.DialogueComplete();
-                DialogueCompleted.Invoke();
-                DialogueCompleted.RemoveAllListeners();
-                DialogueEnded.Invoke();
-            }
-        );
+        FadeManager.Instance.HalfFadeEnded.AddListener(() => EndDialogue());
     }
 
     public void StartDialogue(string name)
@@ -61,6 +60,16 @@ public class DialogueManager : Manager<DialogueManager>
         _dialogueRunner.startNode = program.startNode;
         _dialogueRunner.StartDialogue();
         DialogueStarted.Invoke();
+    }
+
+    private void EndDialogue()
+    {
+        _isRunning = false;
+        _backgroundsGO.SetActive(false);
+        _dialogueUI.DialogueComplete();
+        DialogueCompleted.Invoke();
+        DialogueCompleted.RemoveAllListeners();
+        DialogueEnded.Invoke();
     }
 }
 
