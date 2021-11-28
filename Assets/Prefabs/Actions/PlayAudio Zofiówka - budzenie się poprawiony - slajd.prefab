@@ -43,6 +43,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ec29dad9702d544eb666eea6876f253, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _isOneTime: 0
   _beforeAction: {fileID: 0}
   _afterAction: {fileID: 0}
+  _wasUsed: 0
   _audioName: "Zofi\xF3wka - budzenie si\u0119 poprawiony - slajd"

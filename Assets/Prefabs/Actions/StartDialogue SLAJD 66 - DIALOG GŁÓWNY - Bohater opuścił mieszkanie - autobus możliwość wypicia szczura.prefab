@@ -44,9 +44,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec552152b2e6f9e49ab8b992e2723266, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _isOneTime: 1
+  _isOneTime: 0
   _beforeAction: {fileID: 0}
   _afterAction: {fileID: 0}
+  _wasUsed: 0
   _dialogueName: "SLAJD 66 - DIALOG G\u0141\xD3WNY - Bohater opu\u015Bci\u0142 mieszkanie
     - autobus mo\u017Cliwo\u015B\u0107 wypicia szczura"
   _dialogueEnded: {fileID: 0}
