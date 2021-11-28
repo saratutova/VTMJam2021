@@ -6,12 +6,16 @@ using UnityEngine;
 public class SceneModel : MonoBehaviour
 {
     [SerializeField] private SceneController _controller;
+    [SerializeField] private Transform _stuff = default;
 
     private Scenery _currentScenery;
     private Wall _currentWall;
 
     internal int Focus => GameManager.Instance.Focus;
+    public Transform StuffPlace => _stuff;
     public Scenery CurrentScenery { get => _currentScenery; set => _currentScenery = value; }
+
+    private SceneStuff _currentStuff;
 
     internal bool CanUsePower(Power power)
     {
@@ -41,5 +45,8 @@ public class SceneModel : MonoBehaviour
 
     public Sprite CurrentBackground => _currentWall.background;
 
-    public StarState StartState => StarState.Something;
+    public StarState StartState => (CurrentStuff != null && CurrentStuff.IsThereSometingImportant)? StarState.Important 
+        : (CurrentStuff.IsThereSometingToClick)? StarState.Something : StarState.Inactive;
+
+    public SceneStuff CurrentStuff { get => _currentStuff; set => _currentStuff = value; }
 }

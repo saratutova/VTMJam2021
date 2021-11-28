@@ -1,0 +1,97 @@
+fileFormatVersion: 2
+guid: 0821e215ab5d1a24d8af412efa397fa3
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-0"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-1"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-2"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-3"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-4"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-5"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-6"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-7"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-8"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-9"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-10"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-11"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-12"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-13"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-14"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-15"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-16"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-17"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-18"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-19"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-20"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-21"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-22"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-23"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-24"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-25"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-26"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-27"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-28"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-29"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-30"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-31"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-32"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-33"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-34"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-35"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-36"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-37"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-38"
+  - "SLAJD 85 - BOHATER DOCIERA NA CHMIELN\u0104 - spotyka Marcelin\u0119 DIALOG
+    VER. NO.2-Slajd852-39"
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

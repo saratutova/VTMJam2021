@@ -14,6 +14,7 @@ public class Wall : ScriptableObject
     public Sprite background;
 
     public GameAction firstEnter = default;
+    public SceneStuff stuff;
 
     public void OnFirstEnter()
     {
