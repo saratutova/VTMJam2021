@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: da2c2cc1b796520469cf071dcff16930
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - "Slajd 73 - DIALOG G\u0141\xD3WNY - Wyciemnienie - mo\u017Cliwo\u015B\u0107 rozwalenia
+    \u015Bmietnika-Slajd73-0"
+  - "Slajd 73 - DIALOG G\u0141\xD3WNY - Wyciemnienie - mo\u017Cliwo\u015B\u0107 rozwalenia
+    \u015Bmietnika-Slajd73-1"
+  - "Slajd 73 - DIALOG G\u0141\xD3WNY - Wyciemnienie - mo\u017Cliwo\u015B\u0107 rozwalenia
+    \u015Bmietnika-Slajd73-2"
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 1c4563f593d5a3e4992fdf5fa888cdd7
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - "Slajd 73 - Odpowied\u017A alternatywna no.1 - wypijamy-Slajd731-0"
+  - "Slajd 73 - Odpowied\u017A alternatywna no.1 - wypijamy-Slajd731-1"
+  - "Slajd 73 - Odpowied\u017A alternatywna no.1 - wypijamy-Slajd731-2"
+  - "Slajd 73 - Odpowied\u017A alternatywna no.1 - wypijamy-Slajd731-3"
+  - "Slajd 73 - Odpowied\u017A alternatywna no.1 - wypijamy-Slajd731-4"
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []
