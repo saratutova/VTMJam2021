@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,8 +10,12 @@ public class FadeManager : Manager<FadeManager>
     public static float breakTime = 1f;
     public static float startFadeTime = 1f;
     [HideInInspector] public UnityEvent FadeEnded = new UnityEvent();
+
+    internal Camera Camera => _camera;
+
     [HideInInspector] public UnityEvent HalfFadeEnded = new UnityEvent();
     [SerializeField] private Image _curtain;
+    [SerializeField] private Camera _camera;
 
     private Color ColorTransparent => new Color(_curtain.color.r, _curtain.color.g, _curtain.color.b, 0);
     private Color ColorFull => new Color(_curtain.color.r, _curtain.color.g, _curtain.color.b, 1);
