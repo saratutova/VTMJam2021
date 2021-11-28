@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5be3fa07d2a40da4b83682681aa5841a, type: 3}
-  m_Name: Forest-Wall
+  m_Script: {fileID: 11500000, guid: 51aca430d90536046ba4ef37be872a2e, type: 3}
+  m_Name: Bus stop otwock
   m_EditorClassIdentifier: 
-  side: 0
-  background: {fileID: 21300000, guid: bb5220832f170cf41add563f7443e2b8, type: 3}
+  mainWall: {fileID: 11400000, guid: 0fdfd7652e9ef394094c76e9e0065649, type: 2}
+  surroundings: []
   firstEnter: {fileID: 0}
-  stuff: {fileID: 4892206824717161815, guid: 6b90ef664fa4d5542bd43d88d6809735, type: 3}

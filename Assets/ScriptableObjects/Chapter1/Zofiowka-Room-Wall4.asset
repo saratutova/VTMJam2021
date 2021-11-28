@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5be3fa07d2a40da4b83682681aa5841a, type: 3}
-  m_Name: Forest-Wall
+  m_Name: Zofiowka-Room-Wall4
   m_EditorClassIdentifier: 
-  side: 0
-  background: {fileID: 21300000, guid: bb5220832f170cf41add563f7443e2b8, type: 3}
+  side: 2
+  background: {fileID: 21300000, guid: a1a6f7043ea2d994ab41f7a095650ded, type: 3}
   firstEnter: {fileID: 0}
-  stuff: {fileID: 4892206824717161815, guid: 6b90ef664fa4d5542bd43d88d6809735, type: 3}
+  stuff: {fileID: 0}

@@ -10,12 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 51aca430d90536046ba4ef37be872a2e, type: 3}
-  m_Name: Zofiowka-Room
+  m_Name: ParkChopin
   m_EditorClassIdentifier: 
-  mainWall: {fileID: 11400000, guid: 64bdc43d7cccc224c81f6795aad7561f, type: 2}
+  mainWall: {fileID: 11400000, guid: e5702b6d282d25b4fa03a14ef817ec41, type: 2}
   surroundings:
-  - {fileID: 11400000, guid: 8c26b22acaab0794a8af393b341a7df9, type: 2}
-  - {fileID: 11400000, guid: 1a43a55f1557a524fa3c52cea2099109, type: 2}
-  - {fileID: 11400000, guid: 64bdc43d7cccc224c81f6795aad7561f, type: 2}
-  - {fileID: 11400000, guid: edb48664a463420449cb2039c456ba3c, type: 2}
+  - {fileID: 11400000, guid: e5702b6d282d25b4fa03a14ef817ec41, type: 2}
+  - {fileID: 11400000, guid: 944086b24ae34524daf126e1f1869fc6, type: 2}
   firstEnter: {fileID: 0}
