@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 75ecc2965953f24478147d89cf404fad
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - "Slajd 23 - Rzut na Zofi\xF3wk\u0119-Slajd23-0"
+  - "Slajd 23 - Rzut na Zofi\xF3wk\u0119-Slajd23-1"
+  - "Slajd 23 - Rzut na Zofi\xF3wk\u0119-Slajd23-2"
+  - "Slajd 23 - Rzut na Zofi\xF3wk\u0119-Slajd23-3"
+  - "Slajd 23 - Rzut na Zofi\xF3wk\u0119-Slajd23-4"
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

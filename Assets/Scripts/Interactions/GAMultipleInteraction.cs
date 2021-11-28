@@ -11,7 +11,7 @@ public class GAMultipleInteraction : Interaction
         base.Interact();
         if (_gameActions != null)
         {
-            _gameActions.ForEach(x => x.Action());
+            _gameActions.ForEach(x => GameActionManager.Instance.PlayAction(x));
         }
     }
 }

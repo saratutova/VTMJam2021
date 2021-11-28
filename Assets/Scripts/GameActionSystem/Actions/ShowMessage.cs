@@ -19,7 +19,7 @@ public class ShowMessage : GameAction
                 MessageManager.Instance.TurnOff();
                 if (_massageEnded != null)
                 {
-                    _massageEnded.ForEach(x => x.Action());
+                    _massageEnded.ForEach(x => GameActionManager.Instance.PlayAction(x));
                 }
             });
         }

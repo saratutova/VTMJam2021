@@ -15,6 +15,7 @@ public class SceneController : MonoBehaviour
     private void Start()
     {
         DialogueManager.Instance.DialogueStarted.AddListener(() => Refresh.Invoke());
+        DialogueManager.Instance.DialogueEnded.AddListener(() => Refresh.Invoke());
         GameManager.Instance.FocusChanged.AddListener(() => Refresh.Invoke());
     }
 
@@ -60,6 +61,7 @@ public class SceneController : MonoBehaviour
             {
                 stuff = Instantiate(_model.CurrentWall.stuff, _model.StuffPlace);
                 stuff.name = _model.CurrentWall.stuff.name;
+                stuffs.Add(stuff);
             }
             stuff.Init();
             _model.CurrentStuff = stuff;

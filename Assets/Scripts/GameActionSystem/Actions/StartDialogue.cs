@@ -13,10 +13,16 @@ public class StartDialogue : GameAction
         DialogueManager.Instance.StartDialogue(_dialogueName);
         DialogueManager.Instance.DialogueCompleted.AddListener(() =>
         {
-            if (_dialogueEnded != null)
-            {
-                _dialogueEnded.Action();
-            }
+            StartCoroutine(AfterDialogue());
         });
+    }
+
+    IEnumerator AfterDialogue()
+    {
+        yield return new WaitForEndOfFrame();
+        if (_dialogueEnded != null)
+        {
+            GameActionManager.Instance.PlayAction(_dialogueEnded);
+        }
     }
 }

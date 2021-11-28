@@ -7,10 +7,11 @@ public class Interaction : MonoBehaviour
 {
     public bool important = false;
     public bool clicked = false;
+    public bool canInteract = true;
 
     private void OnMouseDown()
     {
-        if (!DialogueManager.Instance.IsDuringDialogue)
+        if (!DialogueManager.Instance.IsDuringDialogue && canInteract)
         {
             clicked = true;
 

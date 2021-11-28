@@ -1,0 +1,100 @@
+fileFormatVersion: 2
+guid: b129983438c769841a4b51266012ab01
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-0
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-1
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-2
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-3
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-4
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-5
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-6
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-7
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-8
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-9
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-10
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-11
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-12
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-13
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-14
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-15
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-16
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-17
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-18
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-19
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-20
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-21
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-22
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-23
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-24
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-25
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-26
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-27
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-28
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-29
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-30
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-31
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-32
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-33
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-34
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-35
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-36
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-37
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-38
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-39
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-40
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-41
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-42
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-43
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-44
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-45
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-46
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-47
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-48
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-49
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-50
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-51
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-52
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-53
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-54
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-55
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-56
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-57
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-58
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-59
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-60
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-61
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-62
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-63
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-64
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-65
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-66
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-67
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-68
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-69
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-70
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-71
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-72
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-73
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-74
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-75
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-76
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-77
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-78
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-79
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-80
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-81
+  - Slajd 52 - Mieszkanie bohatera - Teksty SUCHARY-SLAJD52-82
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

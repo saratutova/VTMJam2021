@@ -17,6 +17,7 @@ public class DialogueManager : Manager<DialogueManager>
     [SerializeField] private List<DialogueData> _programs = new List<DialogueData>();
     [HideInInspector] public UnityEvent DialogueCompleted = new UnityEvent();
     [HideInInspector] public UnityEvent DialogueStarted = new UnityEvent();
+    [HideInInspector] public UnityEvent DialogueEnded = new UnityEvent();
 
     public bool IsDuringDialogue => _isRunning;
 
@@ -24,10 +25,10 @@ public class DialogueManager : Manager<DialogueManager>
 
     private void Start()
     {
-        _dialogueRunner.onDialogueComplete.AddListener(OnDialogueComplite);
+        _dialogueRunner.onDialogueComplete.AddListener(OnDialogueComplete);
     }
 
-    private void OnDialogueComplite()
+    private void OnDialogueComplete()
     {
         FadeManager.Instance.FadeBreak(FadeManager.breakTime);
         FadeManager.Instance.HalfFadeEnded.AddListener(() =>
@@ -37,6 +38,7 @@ public class DialogueManager : Manager<DialogueManager>
                 _dialogueUI.DialogueComplete();
                 DialogueCompleted.Invoke();
                 DialogueCompleted.RemoveAllListeners();
+                DialogueEnded.Invoke();
             }
         );
     }
@@ -49,7 +51,6 @@ public class DialogueManager : Manager<DialogueManager>
             Debug.LogError($"Couldn't find program named: {name}");
             return;
         }
-        DialogueStarted.Invoke();
         _isRunning = true;
         _backgroundsGO.SetActive(true);
         _background.gameObject.SetActive(program.background != null);
@@ -59,6 +60,7 @@ public class DialogueManager : Manager<DialogueManager>
         _dialogueRunner.Add(program.program);
         _dialogueRunner.startNode = program.startNode;
         _dialogueRunner.StartDialogue();
+        DialogueStarted.Invoke();
     }
 }
 
