@@ -15,10 +15,11 @@ public class PowerButton : SceneButton
     protected override void OnRefresh()
     {
         base.OnRefresh();
+        _button.interactable = _model.CanUsePower(power);
     }
 
     protected override void Clicked()
     {
-        base.Clicked();
+        throw new NotImplementedException();
     }
 }

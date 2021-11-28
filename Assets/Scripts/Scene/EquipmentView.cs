@@ -45,6 +45,12 @@ public class EquipmentView : SceneUIView
                 Destroy(_listPlace.GetChild(i).gameObject);
             }
         }
+        var list = GameManager.Instance.GetItemList(_currentType);
+        for (int i = 0; i < list.Count; i++)
+        {
+            var newItem = Instantiate(_item, _listPlace);
+            newItem.Init(list[i]);
+        }
     }
 
     protected override void OnRefresh()
