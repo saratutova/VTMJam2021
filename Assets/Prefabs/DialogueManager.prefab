@@ -367,6 +367,30 @@ MonoBehaviour:
     startNode: Slajd74
     background: {fileID: 0}
     character: {fileID: 0}
+  - program: {fileID: 2480198943629176163, guid: 8affc33cf5b708d49aac399a5bb7e8a5, type: 3}
+    startNode: Slajd25
+    background: {fileID: 0}
+    character: {fileID: 0}
+  - program: {fileID: 2480198943629176163, guid: e36aab2d784ea894cacf61126028cc12, type: 3}
+    startNode: Slajd28
+    background: {fileID: 0}
+    character: {fileID: 0}
+  - program: {fileID: 2480198943629176163, guid: 3bc81c85e4e860f47b6aa7299c843618, type: 3}
+    startNode: Slajd29
+    background: {fileID: 0}
+    character: {fileID: 0}
+  - program: {fileID: 2480198943629176163, guid: 6ee6297bcdce8ad44bac1b1cf86e1338, type: 3}
+    startNode: Slajd76
+    background: {fileID: 0}
+    character: {fileID: 0}
+  - program: {fileID: 2480198943629176163, guid: b6f923394abb2f3409f4790e69bd81d3, type: 3}
+    startNode: Slajd77
+    background: {fileID: 0}
+    character: {fileID: 0}
+  - program: {fileID: 2480198943629176163, guid: b3bda7bb0e8be4a4c8807ac3fe8a19c1, type: 3}
+    startNode: Slajd80
+    background: {fileID: 0}
+    character: {fileID: 0}
   DialogueCompleted:
     m_PersistentCalls:
       m_Calls: []
