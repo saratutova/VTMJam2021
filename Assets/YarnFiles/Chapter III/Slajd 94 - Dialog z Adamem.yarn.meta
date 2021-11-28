@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: b614c76086975c34888048d739dded60
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Slajd 94 - Dialog z Adamem-Slajd94-0
+  - Slajd 94 - Dialog z Adamem-Slajd94-1
+  - Slajd 94 - Dialog z Adamem-Slajd94-2
+  - Slajd 94 - Dialog z Adamem-Slajd94-3
+  - Slajd 94 - Dialog z Adamem-Slajd94-4
+  - Slajd 94 - Dialog z Adamem-Slajd94-5
+  - Slajd 94 - Dialog z Adamem-Slajd94-6
+  - Slajd 94 - Dialog z Adamem-Slajd94-7
+  - Slajd 94 - Dialog z Adamem-Slajd94-8
+  - Slajd 94 - Dialog z Adamem-Slajd94-9
+  - Slajd 94 - Dialog z Adamem-Slajd94-10
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

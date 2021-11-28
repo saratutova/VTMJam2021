@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 8cd88148b7426e7488df75dd07b7c467
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Slajd 89 - Chmielna - Bubble Tea-Slajd89-0
+  - Slajd 89 - Chmielna - Bubble Tea-Slajd89-1
+  - Slajd 89 - Chmielna - Bubble Tea-Slajd89-2
+  - Slajd 89 - Chmielna - Bubble Tea-Slajd89-3
+  - Slajd 89 - Chmielna - Bubble Tea-Slajd89-4
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

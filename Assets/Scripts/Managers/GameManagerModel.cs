@@ -7,7 +7,7 @@ public class GameManagerModel : MonoBehaviour
 {
     [SerializeField] private Scenery _startScenery;
     private int _focus = 0;
-    private List<Item> _items;
+    private List<Item> _items = new List<Item>();
 
     public int Focus { get => _focus; set => _focus = value; }
     public Scenery StartScenery => _startScenery;
@@ -25,14 +25,4 @@ public class GameManagerModel : MonoBehaviour
     {
         _items.Remove(item);
     }
-    
-    //public void AddMemory(Memory memory)
-    //{
-    //    _memories.Add(memory);
-    //}
-    
-    //public void RemoveMemory(Memory memory)
-    //{
-    //    _memories.Remove(memory);
-    //}
 }
