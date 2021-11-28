@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 2d06cb86c2befd943ba397606631f51b
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - "SLAJD 66 - Odpowied\u017A no.1 - Pomagamy-Slajd661-0"
+  - "SLAJD 66 - Odpowied\u017A no.1 - Pomagamy-Slajd661-1"
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

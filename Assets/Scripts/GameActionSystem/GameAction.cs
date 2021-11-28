@@ -4,8 +4,11 @@ using UnityEngine;
 
 public abstract class GameAction : MonoBehaviour
 {
+    [SerializeField] private bool _isOneTime = true;
     [SerializeField] private GameAction _beforeAction = default;
     [SerializeField] private GameAction _afterAction = default;
+
+    protected bool _wasUsed = false;
 
     private void BeforeAction()
     {
@@ -17,9 +20,14 @@ public abstract class GameAction : MonoBehaviour
 
     public void Action()
     {
+        if (_wasUsed && _isOneTime)
+        {
+            return;
+        }
         BeforeAction();
         DoAction();
         ActerAction();
+        _wasUsed = true;
     }
     
     protected virtual void DoAction()

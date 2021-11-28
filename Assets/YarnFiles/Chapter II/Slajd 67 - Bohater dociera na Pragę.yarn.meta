@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: d3a2bd6e6b6ba8f4391b6462d4bba2a2
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - "Slajd 67 - Bohater dociera na Prag\u0119-Slajd67-0"
+  - "Slajd 67 - Bohater dociera na Prag\u0119-Slajd67-1"
+  - "Slajd 67 - Bohater dociera na Prag\u0119-Slajd67-2"
+  - "Slajd 67 - Bohater dociera na Prag\u0119-Slajd67-3"
+  - "Slajd 67 - Bohater dociera na Prag\u0119-Slajd67-4"
+  - "Slajd 67 - Bohater dociera na Prag\u0119-Slajd67-5"
+  - "Slajd 67 - Bohater dociera na Prag\u0119-Slajd67-6"
+  - "Slajd 67 - Bohater dociera na Prag\u0119-Slajd67-7"
+  - "Slajd 67 - Bohater dociera na Prag\u0119-Slajd67-8"
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []
