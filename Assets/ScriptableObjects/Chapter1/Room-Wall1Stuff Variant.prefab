@@ -141,6 +141,14 @@ PrefabInstance:
       propertyPath: interactions.Array.data[0]
       value: 
       objectReference: {fileID: 8384527572899872805}
+    - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
+      propertyPath: actionsOnFirstView.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
+      propertyPath: actionsOnFirstView.Array.data[0]
+      value: 
+      objectReference: {fileID: 5373473846530246438, guid: 2559858d9f9ddd141935bdaf7182d9cc, type: 3}
     - target: {fileID: 8244932256638507857, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
       propertyPath: m_RootOrder
       value: 0

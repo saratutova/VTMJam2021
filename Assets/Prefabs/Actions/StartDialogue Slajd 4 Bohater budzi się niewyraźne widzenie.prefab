@@ -46,6 +46,6 @@ MonoBehaviour:
   _isOneTime: 0
   _beforeAction: {fileID: 0}
   _afterAction: {fileID: 0}
-  _wasUsed: 1
+  _wasUsed: 0
   _dialogueName: "Slajd 4 Bohater budzi si\u0119 niewyra\u017Ane widzenie"
   _dialogueEnded: {fileID: 5373473846530246438, guid: 2ae100bbd621272498c26ef1fce605fb, type: 3}

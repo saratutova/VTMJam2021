@@ -11,7 +11,7 @@ public class GAInteraction : Interaction
         base.Interact();
         if (_gameAction != null)
         {
-            _gameAction.Action();
+            GameActionManager.Instance.PlayAction(_gameAction);
         }
     }
 }
