@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: 618a293b2baca7b4b9eb88a71cb0d14c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - "Slajd 33 - Wra\u017Cenia z picia kosza-menela na Goc\u0142awiu-Slajd33-0"
+  - "Slajd 33 - Wra\u017Cenia z picia kosza-menela na Goc\u0142awiu-Slajd33-1"
+  - "Slajd 33 - Wra\u017Cenia z picia kosza-menela na Goc\u0142awiu-Slajd33-2"
+  - "Slajd 33 - Wra\u017Cenia z picia kosza-menela na Goc\u0142awiu-Slajd33-3"
+  - "Slajd 33 - Wra\u017Cenia z picia kosza-menela na Goc\u0142awiu-Slajd33-4"
+  - "Slajd 33 - Wra\u017Cenia z picia kosza-menela na Goc\u0142awiu-Slajd33-5"
+  - "Slajd 33 - Wra\u017Cenia z picia kosza-menela na Goc\u0142awiu-Slajd33-6"
+  - "Slajd 33 - Wra\u017Cenia z picia kosza-menela na Goc\u0142awiu-Slajd33-7"
+  - "Slajd 33 - Wra\u017Cenia z picia kosza-menela na Goc\u0142awiu-Slajd33-8"
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

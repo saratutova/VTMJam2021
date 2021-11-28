@@ -242,7 +242,7 @@ MonoBehaviour:
   - program: {fileID: 2480198943629176163, guid: 44f0842bf2e7f5f4a805c4554a61cc73, type: 3}
     startNode: Slajd4
     background: {fileID: 21300000, guid: b65c3d5d6d373e048b273d04e3a079b4, type: 3}
-    character: {fileID: 0}
+    character: {fileID: 21300000, guid: b9f835d742ce7744c91632127620a578, type: 3}
   - program: {fileID: 2480198943629176163, guid: 276e65265e4c4454bbd8a233f9fa0aaf, type: 3}
     startNode: Slajd3Poczatekwyciemnienie
     background: {fileID: 21300000, guid: b65c3d5d6d373e048b273d04e3a079b4, type: 3}
@@ -370,7 +370,7 @@ MonoBehaviour:
   - program: {fileID: 2480198943629176163, guid: 8affc33cf5b708d49aac399a5bb7e8a5, type: 3}
     startNode: Slajd25
     background: {fileID: 0}
-    character: {fileID: 0}
+    character: {fileID: 21300000, guid: b9f835d742ce7744c91632127620a578, type: 3}
   - program: {fileID: 2480198943629176163, guid: e36aab2d784ea894cacf61126028cc12, type: 3}
     startNode: Slajd28
     background: {fileID: 0}

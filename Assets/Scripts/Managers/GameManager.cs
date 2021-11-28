@@ -11,8 +11,9 @@ public class GameManager : Manager<GameManager>
     [HideInInspector] public UnityEvent FocusChanged = new UnityEvent();
 
     public int Focus => _model.Focus;
-    public List<Item> Items => _model.Items;
-    public List<Memory> Memories => _model.Memories;
+    public List<Item> Items => _model.GetItems;
+    public List<Item> Memories => _model.GetMemories;
+    internal List<Item> GetItemList(EquipmentType currentType) => (currentType == EquipmentType.Item) ? Items : Memories;
 
     private void Start()
     {
@@ -52,13 +53,4 @@ public class GameManager : Manager<GameManager>
         _model.RemoveItem(item);
     }
 
-    public void AddMemory(Memory memory)
-    {
-        _model.AddMemory(memory);
-    }
-
-    public void RemoveMemory(Memory memory)
-    {
-        _model.RemoveMemory(memory);
-    }
 }

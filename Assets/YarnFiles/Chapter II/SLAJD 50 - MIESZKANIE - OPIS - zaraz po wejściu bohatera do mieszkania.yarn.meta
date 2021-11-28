@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: ea5e29c0a65520246a764f8b30654974
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - "SLAJD 50 - MIESZKANIE - OPIS - zaraz po wej\u015Bciu bohatera do mieszkania-Slajd50-0"
+  - "SLAJD 50 - MIESZKANIE - OPIS - zaraz po wej\u015Bciu bohatera do mieszkania-Slajd50-1"
+  - "SLAJD 50 - MIESZKANIE - OPIS - zaraz po wej\u015Bciu bohatera do mieszkania-Slajd50-2"
+  - "SLAJD 50 - MIESZKANIE - OPIS - zaraz po wej\u015Bciu bohatera do mieszkania-Slajd50-3"
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

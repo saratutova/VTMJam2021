@@ -11,6 +11,6 @@ public class FocusViewer : SceneUIView
     protected override void OnRefresh()
     {
         base.OnRefresh();
-        _displayImage.sprite = _sprites[_model.GetFocus];
+        _displayImage.sprite = _sprites[_model.Focus];
     }
 }

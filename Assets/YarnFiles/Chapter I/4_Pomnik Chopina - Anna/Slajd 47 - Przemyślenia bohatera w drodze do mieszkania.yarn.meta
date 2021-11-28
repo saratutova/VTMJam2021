@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 8dbceb5407a626242bb910b5665f42a8
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - "Slajd 47 - Przemy\u015Blenia bohatera w drodze do mieszkania-Slajd47-0"
+  - "Slajd 47 - Przemy\u015Blenia bohatera w drodze do mieszkania-Slajd47-1"
+  - "Slajd 47 - Przemy\u015Blenia bohatera w drodze do mieszkania-Slajd47-2"
+  - "Slajd 47 - Przemy\u015Blenia bohatera w drodze do mieszkania-Slajd47-3"
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []
