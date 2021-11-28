@@ -18,4 +18,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1a43a55f1557a524fa3c52cea2099109, type: 2}
   - {fileID: 11400000, guid: 64bdc43d7cccc224c81f6795aad7561f, type: 2}
   - {fileID: 11400000, guid: edb48664a463420449cb2039c456ba3c, type: 2}
-  firstEnter: {fileID: 0}
+  firstEnter: {fileID: 5212699258288810559, guid: e2d7cdc88e3cced47b76d07465c2027a, type: 3}

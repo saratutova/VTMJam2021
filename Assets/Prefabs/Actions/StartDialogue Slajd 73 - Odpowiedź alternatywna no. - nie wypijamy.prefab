@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2455801621935480763}
   - component: {fileID: 5373473846530246438}
   m_Layer: 0
-  m_Name: "StartDialogue Slajd 73 - Odpowied\u017A alternatywna no"
+  m_Name: "StartDialogue Slajd 73 - Odpowied\u017A alternatywna no. - nie wypijamy"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43,9 +43,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec552152b2e6f9e49ab8b992e2723266, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _isOneTime: 1
+  _isOneTime: 0
   _beforeAction: {fileID: 0}
   _afterAction: {fileID: 0}
+  _wasUsed: 0
   _dialogueName: "Slajd 73 - DIALOG G\u0141\xD3WNY - Wyciemnienie - mo\u017Cliwo\u015B\u0107
     rozwalenia \u015Bmietnika"
   _dialogueEnded: {fileID: 0}
