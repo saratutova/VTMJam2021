@@ -61,6 +61,7 @@ public class SceneController : MonoBehaviour
             {
                 stuff = Instantiate(_model.CurrentWall.stuff, _model.StuffPlace);
                 stuff.name = _model.CurrentWall.stuff.name;
+                stuffs.Add(stuff);
             }
             stuff.Init();
             _model.CurrentStuff = stuff;

@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4864988784941009665}
   - component: {fileID: 5661708725066019666}
   - component: {fileID: 9212448820700962461}
-  - component: {fileID: 5793867720605141507}
   - component: {fileID: 6301607536690073656}
   m_Layer: 0
   m_Name: krewgraffiti_pokoj3
@@ -112,21 +111,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.69, y: 11.37}
   m_EdgeRadius: 0
---- !u!114 &5793867720605141507
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5942153908619762167}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97a238744ed668d43b6d2c2302acbf98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  important: 0
-  clicked: 0
-  _gameAction: {fileID: 6301607536690073656}
 --- !u!114 &6301607536690073656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -144,6 +128,22 @@ MonoBehaviour:
   isDone: 0
   _spriteRenderer: {fileID: 5661708725066019666}
   _sprite: {fileID: 21300000, guid: e3a2055776ee9b94ea33b4c2ec34fac0, type: 3}
+--- !u!114 &6566808070504013775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 998413786329272330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95fd2806502801c4cb90ff13cb0e6ba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _beforeAction: {fileID: 0}
+  _afterAction: {fileID: 0}
+  isDone: 0
+  _action: {fileID: 5373473846530246438, guid: 07538439c330205499a7bc116e16746b, type: 3}
 --- !u!1001 &9201124762101435228
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -153,16 +153,24 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
       propertyPath: interactions.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
       propertyPath: interactions.Array.data[0]
       value: 
-      objectReference: {fileID: 5793867720605141507}
+      objectReference: {fileID: 0}
+    - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
+      propertyPath: actionsOnEveryView.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
       propertyPath: actionsOnFirstView.Array.size
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
+      propertyPath: actionsOnEveryView.Array.data[0]
+      value: 
+      objectReference: {fileID: 6566808070504013775}
     - target: {fileID: 8244932256638507857, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -213,6 +221,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
+--- !u!1 &998413786329272330 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8244932256638507862, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
+  m_PrefabInstance: {fileID: 9201124762101435228}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &998413786329272333 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8244932256638507857, guid: a92239f14153f8b4faab45af3eed303e, type: 3}

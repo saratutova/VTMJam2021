@@ -6,11 +6,13 @@ using UnityEngine;
 
 public class SceneStuff : MonoBehaviour
 {
+    public static bool wasWindowDialoge = false;
     [SerializeField] private List<Interaction> interactions = new List<Interaction>();
     [SerializeField] private List<GameAction> actionsOnFirstView = new List<GameAction>();
+    [SerializeField] private List<GameAction> actionsOnEveryView = new List<GameAction>();
 
-    public bool IsThereSometingImportant => interactions.Any(x => x.important && !x.clicked);
-    public bool IsThereSometingToClick => interactions.Any(x => !x.clicked);
+    public bool IsThereSometingImportant => interactions.Any(x => x.important && !x.clicked && x.canInteract);
+    public bool IsThereSometingToClick => interactions.Any(x => !x.clicked && x.canInteract);
 
     private bool visited = false;
 
@@ -24,6 +26,10 @@ public class SceneStuff : MonoBehaviour
             {
                 actionsOnFirstView.ForEach(x => GameActionManager.Instance.PlayAction(x));
             }
+        }
+        if (actionsOnEveryView != null)
+        {
+            actionsOnEveryView.ForEach(x => x.Action());
         }
     }
 
