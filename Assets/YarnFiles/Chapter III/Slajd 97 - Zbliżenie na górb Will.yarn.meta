@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 0a553fb608eaaba45a17fc3d85fe66de
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - "Slajd 97 - Zbli\u017Cenie na g\xF3rb Will-Slajd97-0"
+  - "Slajd 97 - Zbli\u017Cenie na g\xF3rb Will-Slajd97-1"
+  - "Slajd 97 - Zbli\u017Cenie na g\xF3rb Will-Slajd97-2"
+  - "Slajd 97 - Zbli\u017Cenie na g\xF3rb Will-Slajd97-3"
+  - "Slajd 97 - Zbli\u017Cenie na g\xF3rb Will-Slajd97-4"
+  - "Slajd 97 - Zbli\u017Cenie na g\xF3rb Will-Slajd97-5"
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

@@ -43,8 +43,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ec29dad9702d544eb666eea6876f253, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _isOneTime: 1
+  _isOneTime: 0
   _beforeAction: {fileID: 0}
-  _afterAction: {fileID: 0}
+  _afterAction: {fileID: 5373473846530246438, guid: ef9421c14cd4112499ee119d6ebd9df7, type: 3}
   _wasUsed: 0
   _audioName: "Zofi\xF3wka - chodzenie po korytarzach+theme -slajd"

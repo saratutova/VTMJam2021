@@ -243,13 +243,17 @@ MonoBehaviour:
     startNode: Slajd4
     background: {fileID: 21300000, guid: b65c3d5d6d373e048b273d04e3a079b4, type: 3}
     character: {fileID: 21300000, guid: b9f835d742ce7744c91632127620a578, type: 3}
+  - program: {fileID: 2480198943629176163, guid: 14e86fbf26b8769428ef3387954d8cdb, type: 3}
+    startNode: Common
+    background: {fileID: 0}
+    character: {fileID: 0}
   - program: {fileID: 2480198943629176163, guid: 276e65265e4c4454bbd8a233f9fa0aaf, type: 3}
     startNode: Slajd3Poczatekwyciemnienie
     background: {fileID: 21300000, guid: b65c3d5d6d373e048b273d04e3a079b4, type: 3}
     character: {fileID: 0}
   - program: {fileID: 2480198943629176163, guid: e5a580c3ca84def48bd6135fd915dd32, type: 3}
     startNode: Slajd4
-    background: {fileID: 0}
+    background: {fileID: 21300000, guid: f1ff0894781f7144da9c320dcc9e303d, type: 3}
     character: {fileID: 0}
   - program: {fileID: 2480198943629176163, guid: e5203c0989dd7cc42aa194b61d601f32, type: 3}
     startNode: lajd5
@@ -311,6 +315,10 @@ MonoBehaviour:
     startNode: Slajd22
     background: {fileID: 0}
     character: {fileID: 0}
+  - program: {fileID: 2480198943629176163, guid: 75ecc2965953f24478147d89cf404fad, type: 3}
+    startNode: Slajd23
+    background: {fileID: 0}
+    character: {fileID: 0}
   - program: {fileID: 2480198943629176163, guid: 58a391e379db6ef47a7c9c6ab84c1ed3, type: 3}
     startNode: Slajd24
     background: {fileID: 0}
@@ -319,6 +327,26 @@ MonoBehaviour:
     startNode: Slajd25
     background: {fileID: 0}
     character: {fileID: 21300000, guid: b9f835d742ce7744c91632127620a578, type: 3}
+  - program: {fileID: 2480198943629176163, guid: 274c1d8fca5847044b949e55b693aaa6, type: 3}
+    startNode: Slajd26Daga
+    background: {fileID: 0}
+    character: {fileID: 0}
+  - program: {fileID: 2480198943629176163, guid: 774fbd645b7c38346a4615f5e5abd6fe, type: 3}
+    startNode: Slajd26kot
+    background: {fileID: 0}
+    character: {fileID: 0}
+  - program: {fileID: 2480198943629176163, guid: 4e1934dff98d00d43a8aca2e7f2789cb, type: 3}
+    startNode: Slajd26krolik
+    background: {fileID: 0}
+    character: {fileID: 0}
+  - program: {fileID: 2480198943629176163, guid: 9203ddf070d0c794bb8386e1ac6f7803, type: 3}
+    startNode: Slajd26sowa
+    background: {fileID: 0}
+    character: {fileID: 0}
+  - program: {fileID: 2480198943629176163, guid: 8b0163cd7dee2804abb2b7125c873c28, type: 3}
+    startNode: Slajd26wiewiorka
+    background: {fileID: 0}
+    character: {fileID: 0}
   - program: {fileID: 2480198943629176163, guid: cdbf42c9bb660064aa9ef2b06131652c, type: 3}
     startNode: Slajd26
     background: {fileID: 0}
@@ -337,6 +365,10 @@ MonoBehaviour:
     character: {fileID: 0}
   - program: {fileID: 2480198943629176163, guid: a4193dd4222a39f44860a61326bf39a5, type: 3}
     startNode: Slajd30
+    background: {fileID: 0}
+    character: {fileID: 0}
+  - program: {fileID: 2480198943629176163, guid: 0dd4b2f8d8fd1d94b9e3dc12bec6b352, type: 3}
+    startNode: Slajd31
     background: {fileID: 0}
     character: {fileID: 0}
   - program: {fileID: 2480198943629176163, guid: 618a293b2baca7b4b9eb88a71cb0d14c, type: 3}
@@ -381,6 +413,10 @@ MonoBehaviour:
     character: {fileID: 0}
   - program: {fileID: 2480198943629176163, guid: 3f5d8e1a7a73e6842bf4cb7a4872be87, type: 3}
     startNode: Slajd50
+    background: {fileID: 0}
+    character: {fileID: 0}
+  - program: {fileID: 2480198943629176163, guid: b129983438c769841a4b51266012ab01, type: 3}
+    startNode: SLAJD52
     background: {fileID: 0}
     character: {fileID: 0}
   - program: {fileID: 2480198943629176163, guid: 0773569d60a95c645ae0c30aa989d5be, type: 3}
@@ -437,6 +473,22 @@ MonoBehaviour:
     character: {fileID: 0}
   - program: {fileID: 2480198943629176163, guid: b3bda7bb0e8be4a4c8807ac3fe8a19c1, type: 3}
     startNode: Slajd80
+    background: {fileID: 0}
+    character: {fileID: 0}
+  - program: {fileID: 2480198943629176163, guid: d33db178bd3daa74b9b290b01dd63c74, type: 3}
+    startNode: Slajd81
+    background: {fileID: 0}
+    character: {fileID: 0}
+  - program: {fileID: 2480198943629176163, guid: 5c1f791a798fd874895ff9f94b838f6c, type: 3}
+    startNode: Slajd812
+    background: {fileID: 0}
+    character: {fileID: 0}
+  - program: {fileID: 2480198943629176163, guid: 0a553fb608eaaba45a17fc3d85fe66de, type: 3}
+    startNode: Slajd97
+    background: {fileID: 0}
+    character: {fileID: 0}
+  - program: {fileID: 2480198943629176163, guid: a60f9eb47f8ad7d4dac7e2849b7dfda9, type: 3}
+    startNode: Slajd100
     background: {fileID: 0}
     character: {fileID: 0}
   DialogueCompleted:

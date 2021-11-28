@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 774fbd645b7c38346a4615f5e5abd6fe
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - "Slajd 26 - Daga - teksty do zwierz\u0105tek - Kot-Slajd26kot-0"
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

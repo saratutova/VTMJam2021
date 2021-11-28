@@ -43,6 +43,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec552152b2e6f9e49ab8b992e2723266, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _isOneTime: 0
   _beforeAction: {fileID: 0}
   _afterAction: {fileID: 0}
+  _wasUsed: 1
   _dialogueName: "Slajd 4 Bohater budzi si\u0119 niewyra\u017Ane widzenie"
+  _dialogueEnded: {fileID: 5373473846530246438, guid: 2ae100bbd621272498c26ef1fce605fb, type: 3}
