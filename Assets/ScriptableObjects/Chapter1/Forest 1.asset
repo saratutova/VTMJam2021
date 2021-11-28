@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5be3fa07d2a40da4b83682681aa5841a, type: 3}
-  m_Name: Forest-Wall
+  m_Script: {fileID: 11500000, guid: 51aca430d90536046ba4ef37be872a2e, type: 3}
+  m_Name: Forest 1
   m_EditorClassIdentifier: 
-  side: 0
-  background: {fileID: 21300000, guid: bb5220832f170cf41add563f7443e2b8, type: 3}
+  mainWall: {fileID: 11400000, guid: 510d87faaa6d7d04385820a00e7841b8, type: 2}
+  surroundings:
+  - {fileID: 11400000, guid: 510d87faaa6d7d04385820a00e7841b8, type: 2}
   firstEnter: {fileID: 0}
-  stuff: {fileID: 5474970119505375053, guid: 32b3f947e644138458a216698d3c0220, type: 3}

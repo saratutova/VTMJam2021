@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ca4f766abbc085640b780765bc7ddf38
+guid: 8cd88148b7426e7488df75dd07b7c467
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -10,10 +10,13 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
   baseLanguageID: 
   stringIDs:
-  - "SLAJD 66 - Odpowied\u017A no.1 - Wypijamy-Slajd661-0"
-  - "SLAJD 66 - Odpowied\u017A no.1 - Wypijamy-Slajd661-1"
+  - Slajd 89 - Chmielna - Bubble Tea-Slajd89-0
+  - Slajd 89 - Chmielna - Bubble Tea-Slajd89-1
+  - Slajd 89 - Chmielna - Bubble Tea-Slajd89-2
+  - Slajd 89 - Chmielna - Bubble Tea-Slajd89-3
+  - Slajd 89 - Chmielna - Bubble Tea-Slajd89-4
   compilationStatus: 1
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
-  baseLanguage: {fileID: 7128917941130120860, guid: ca4f766abbc085640b780765bc7ddf38, type: 3}
+  baseLanguage: {instanceID: 0}
   localizations: []

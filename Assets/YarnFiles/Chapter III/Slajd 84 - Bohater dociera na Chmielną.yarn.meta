@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e50dfdbe287578a47b7b987eabf84045
+guid: c2a755fa93e9d4540a07448bab683a79
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -9,10 +9,10 @@ ScriptedImporter:
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
   baseLanguageID: 
-  stringIDs:
-  - "Slajd43 - Wra\u017Cenia ze spijania pomnika-Slajd43-0"
-  compilationStatus: 1
-  isSuccesfullyCompiled: 1
-  compilationErrorMessage: 
-  baseLanguage: {fileID: 7128917941130120860, guid: e50dfdbe287578a47b7b987eabf84045, type: 3}
+  stringIDs: []
+  compilationStatus: 0
+  isSuccesfullyCompiled: 0
+  compilationErrorMessage: The node 'Slajd 84' contains illegal characters in its
+    title.
+  baseLanguage: {instanceID: 0}
   localizations: []
