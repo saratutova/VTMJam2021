@@ -1,0 +1,8 @@
+1 warstwa najbardziej na wierzchu to czarna 1st layer na 75% opacity (plik ma 75%opacity). 
+Zawsze jest na wierzchu, kolejne rzeczy pojawiajac sie pod ni¹ (t³umi oczojemn¹ czerwieñ)
+
+2 warstwa powinna zmieniac stopniowo opacity co 20%, czyli najpierw wchodzi równo z czarn¹ maj¹c 20% potem ma 40%, 60% i tak dalej az do 100%. (plik ma 100% opacity).
+
+Gdy 2 warstwa osiagnie 100% wchodzi pod spodem jeszcze 3 warstwa najpierw na 25% opacity, a potem na 50%opacity (plik ma 50% opacity).
+
+Potem trzeba po prostu znikn¹c wszytsko w odwortnej kolejnoœci.
