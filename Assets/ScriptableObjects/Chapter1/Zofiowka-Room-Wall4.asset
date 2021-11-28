@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5be3fa07d2a40da4b83682681aa5841a, type: 3}
-  m_Name: Bus stop otwock- Wall
+  m_Name: Zofiowka-Room-Wall4
   m_EditorClassIdentifier: 
-  side: 0
-  background: {fileID: 21300000, guid: 56a4c86318332e849aac80cd334b3cec, type: 3}
+  side: 2
+  background: {fileID: 21300000, guid: a1a6f7043ea2d994ab41f7a095650ded, type: 3}
   firstEnter: {fileID: 0}
-  stuff: {fileID: 4361076024834606463, guid: ce1e64000763df543a0a5dad86d1d72f, type: 3}
+  stuff: {fileID: 0}

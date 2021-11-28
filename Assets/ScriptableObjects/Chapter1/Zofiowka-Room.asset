@@ -12,21 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51aca430d90536046ba4ef37be872a2e, type: 3}
   m_Name: Zofiowka-Room
   m_EditorClassIdentifier: 
-  mainWall: {fileID: 11400000, guid: 8c26b22acaab0794a8af393b341a7df9, type: 2}
+  mainWall: {fileID: 11400000, guid: 64bdc43d7cccc224c81f6795aad7561f, type: 2}
   surroundings:
   - {fileID: 11400000, guid: 8c26b22acaab0794a8af393b341a7df9, type: 2}
-  OnFirstEnterEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2273910543661980463, guid: 8f6d18782379f804ab30d7fd6665ab11, type: 3}
-        m_TargetAssemblyTypeName: ChangeScenery, Assembly-CSharp
-        m_MethodName: Action
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+  - {fileID: 11400000, guid: 1a43a55f1557a524fa3c52cea2099109, type: 2}
+  - {fileID: 11400000, guid: 64bdc43d7cccc224c81f6795aad7561f, type: 2}
+  - {fileID: 11400000, guid: edb48664a463420449cb2039c456ba3c, type: 2}
+  firstEnter: {fileID: 0}
