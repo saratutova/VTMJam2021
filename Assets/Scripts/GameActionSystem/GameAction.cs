@@ -8,7 +8,7 @@ public abstract class GameAction : MonoBehaviour
     [SerializeField] private GameAction _beforeAction = default;
     [SerializeField] private GameAction _afterAction = default;
 
-    protected bool _wasUsed = false;
+    [SerializeField] protected bool _wasUsed = false;
 
     private void BeforeAction()
     {
