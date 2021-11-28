@@ -14,7 +14,7 @@ public abstract class Scenery : ScriptableObject
     {
         if (firstEnter != null)
         {
-            firstEnter.Action();
+            GameActionManager.Instance.PlayAction(firstEnter);
         }
     }
 
