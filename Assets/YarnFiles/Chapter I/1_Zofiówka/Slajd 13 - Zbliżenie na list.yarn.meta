@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: 57006752118f62047b11f883929f9516
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - "Slajd 13 - Zbli\u017Cenie na list-Slajd13-0"
+  - "Slajd 13 - Zbli\u017Cenie na list-Slajd13-1"
+  - "Slajd 13 - Zbli\u017Cenie na list-Slajd13-2"
+  - "Slajd 13 - Zbli\u017Cenie na list-Slajd13-3"
+  - "Slajd 13 - Zbli\u017Cenie na list-Slajd13-4"
+  - "Slajd 13 - Zbli\u017Cenie na list-Slajd13-5"
+  - "Slajd 13 - Zbli\u017Cenie na list-Slajd13-6"
+  - "Slajd 13 - Zbli\u017Cenie na list-Slajd13-7"
+  - "Slajd 13 - Zbli\u017Cenie na list-Slajd13-8"
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: d4461baf10bc0744f9b95e5a6a33e50c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Slajd 49 - korytarz przed mieszkaniem bohatera - przed rozwalenien drzwi-Slajd49-0
+  - Slajd 49 - korytarz przed mieszkaniem bohatera - przed rozwalenien drzwi-Slajd49-1
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

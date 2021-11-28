@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 2bcb23e0d038901418794e372d890578
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - "Slajd 36 - Zaciemnienie - kroki i przemy\u015Blenia bohatera - wej\u015Bcie
+    do \u0141azienek-Slajd36-0"
+  - "Slajd 36 - Zaciemnienie - kroki i przemy\u015Blenia bohatera - wej\u015Bcie
+    do \u0141azienek-Slajd36-1"
+  - "Slajd 36 - Zaciemnienie - kroki i przemy\u015Blenia bohatera - wej\u015Bcie
+    do \u0141azienek-Slajd36-2"
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

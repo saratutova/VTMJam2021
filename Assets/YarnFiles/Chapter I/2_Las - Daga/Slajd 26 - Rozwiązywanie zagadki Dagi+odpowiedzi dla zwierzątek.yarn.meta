@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: cdbf42c9bb660064aa9ef2b06131652c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - "Slajd 26 - Rozwi\u0105zywanie zagadki Dagi+odpowiedzi dla zwierz\u0105tek-Slajd26-0"
+  - "Slajd 26 - Rozwi\u0105zywanie zagadki Dagi+odpowiedzi dla zwierz\u0105tek-Slajd26-1"
+  - "Slajd 26 - Rozwi\u0105zywanie zagadki Dagi+odpowiedzi dla zwierz\u0105tek-Slajd26-2"
+  - "Slajd 26 - Rozwi\u0105zywanie zagadki Dagi+odpowiedzi dla zwierz\u0105tek-Slajd26-3"
+  - "Slajd 26 - Rozwi\u0105zywanie zagadki Dagi+odpowiedzi dla zwierz\u0105tek-Slajd26-4"
+  - "Slajd 26 - Rozwi\u0105zywanie zagadki Dagi+odpowiedzi dla zwierz\u0105tek-Slajd26-5"
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

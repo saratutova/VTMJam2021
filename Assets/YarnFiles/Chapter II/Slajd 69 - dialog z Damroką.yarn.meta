@@ -1,0 +1,43 @@
+fileFormatVersion: 2
+guid: 1278225c98e4abe40b1950268cf5b061
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - "Slajd 69 - dialog z Damrok\u0105-Slajd69-0"
+  - "Slajd 69 - dialog z Damrok\u0105-Slajd69-1"
+  - "Slajd 69 - dialog z Damrok\u0105-Slajd69-2"
+  - "Slajd 69 - dialog z Damrok\u0105-Slajd69-3"
+  - "Slajd 69 - dialog z Damrok\u0105-Slajd69-4"
+  - "Slajd 69 - dialog z Damrok\u0105-Slajd69-5"
+  - "Slajd 69 - dialog z Damrok\u0105-Slajd69-6"
+  - "Slajd 69 - dialog z Damrok\u0105-Slajd69-7"
+  - "Slajd 69 - dialog z Damrok\u0105-Slajd69-8"
+  - "Slajd 69 - dialog z Damrok\u0105-Slajd69-9"
+  - "Slajd 69 - dialog z Damrok\u0105-Slajd69-10"
+  - "Slajd 69 - dialog z Damrok\u0105-Slajd69-11"
+  - "Slajd 69 - dialog z Damrok\u0105-Slajd69-12"
+  - "Slajd 69 - dialog z Damrok\u0105-Slajd69-13"
+  - "Slajd 69 - dialog z Damrok\u0105-Slajd69-14"
+  - "Slajd 69 - dialog z Damrok\u0105-Slajd69-15"
+  - "Slajd 69 - dialog z Damrok\u0105-Slajd69-16"
+  - "Slajd 69 - dialog z Damrok\u0105-Slajd69-17"
+  - "Slajd 69 - dialog z Damrok\u0105-Slajd69-18"
+  - "Slajd 69 - dialog z Damrok\u0105-Slajd69-19"
+  - "Slajd 69 - dialog z Damrok\u0105-Slajd69-20"
+  - "Slajd 69 - dialog z Damrok\u0105-Slajd69-21"
+  - "Slajd 69 - dialog z Damrok\u0105-Slajd69-22"
+  - "Slajd 69 - dialog z Damrok\u0105-Slajd69-23"
+  - "Slajd 69 - dialog z Damrok\u0105-Slajd69-24"
+  - "Slajd 69 - dialog z Damrok\u0105-Slajd69-25"
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

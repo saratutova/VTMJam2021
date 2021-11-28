@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: a4193dd4222a39f44860a61326bf39a5
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - "Slajd 30 - bohater dociera na Goc\u0142aw - przed pojawieniem si\u0119 Alfreda-Slajd30-0"
+  - "Slajd 30 - bohater dociera na Goc\u0142aw - przed pojawieniem si\u0119 Alfreda-Slajd30-1"
+  - "Slajd 30 - bohater dociera na Goc\u0142aw - przed pojawieniem si\u0119 Alfreda-Slajd30-2"
+  - "Slajd 30 - bohater dociera na Goc\u0142aw - przed pojawieniem si\u0119 Alfreda-Slajd30-3"
+  - "Slajd 30 - bohater dociera na Goc\u0142aw - przed pojawieniem si\u0119 Alfreda-Slajd30-4"
+  - "Slajd 30 - bohater dociera na Goc\u0142aw - przed pojawieniem si\u0119 Alfreda-Slajd30-5"
+  - "Slajd 30 - bohater dociera na Goc\u0142aw - przed pojawieniem si\u0119 Alfreda-Slajd30-6"
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []
