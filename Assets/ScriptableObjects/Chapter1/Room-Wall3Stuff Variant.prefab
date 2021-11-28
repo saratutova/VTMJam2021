@@ -139,10 +139,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df090aabcb3bc04429e3e5d345c1428f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _isOneTime: 1
   _beforeAction: {fileID: 0}
   _afterAction: {fileID: 0}
-  _wasUsed: 0
+  isDone: 0
   _spriteRenderer: {fileID: 5661708725066019666}
   _sprite: {fileID: 21300000, guid: e3a2055776ee9b94ea33b4c2ec34fac0, type: 3}
 --- !u!1001 &9201124762101435228
@@ -160,6 +159,10 @@ PrefabInstance:
       propertyPath: interactions.Array.data[0]
       value: 
       objectReference: {fileID: 5793867720605141507}
+    - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
+      propertyPath: actionsOnFirstView.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8244932256638507857, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
       propertyPath: m_RootOrder
       value: 0

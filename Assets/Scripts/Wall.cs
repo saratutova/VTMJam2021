@@ -20,7 +20,7 @@ public class Wall : ScriptableObject
     {
         if (firstEnter != null)
         {
-            firstEnter.Action();
+            GameActionManager.Instance.PlayAction(firstEnter);
         }
     }
 }
