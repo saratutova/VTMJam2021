@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 04491dd4f18929e46a8250105409c6fe
+guid: 6450b551ac11050438f922fd17e9acd7
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
   baseLanguageID: 
   stringIDs:
-  - "SLAJD 66 - Odpowied\u017A no.2 - Nie pomagamy-Slajd662-0"
+  - "SLAJD 66 - Odpowied\u017A no.2 - Nie wypijamy-Slajd662-0"
   compilationStatus: 1
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
