@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: e36aab2d784ea894cacf61126028cc12
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Slajd 28 - Bohater jedzie autobusem z Otwocka do Warszawy-Slajd28-0
+  - Slajd 28 - Bohater jedzie autobusem z Otwocka do Warszawy-Slajd28-1
+  - Slajd 28 - Bohater jedzie autobusem z Otwocka do Warszawy-Slajd28-2
+  - Slajd 28 - Bohater jedzie autobusem z Otwocka do Warszawy-Slajd28-3
+  - Slajd 28 - Bohater jedzie autobusem z Otwocka do Warszawy-Slajd28-4
+  - Slajd 28 - Bohater jedzie autobusem z Otwocka do Warszawy-Slajd28-5
+  - Slajd 28 - Bohater jedzie autobusem z Otwocka do Warszawy-Slajd28-6
+  - Slajd 28 - Bohater jedzie autobusem z Otwocka do Warszawy-Slajd28-7
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

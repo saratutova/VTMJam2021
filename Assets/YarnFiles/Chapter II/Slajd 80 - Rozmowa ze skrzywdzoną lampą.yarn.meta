@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: b3bda7bb0e8be4a4c8807ac3fe8a19c1
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - "Slajd 80 - Rozmowa ze skrzywdzon\u0105 lamp\u0105-Slajd80-0"
+  - "Slajd 80 - Rozmowa ze skrzywdzon\u0105 lamp\u0105-Slajd80-1"
+  - "Slajd 80 - Rozmowa ze skrzywdzon\u0105 lamp\u0105-Slajd80-2"
+  - "Slajd 80 - Rozmowa ze skrzywdzon\u0105 lamp\u0105-Slajd80-3"
+  - "Slajd 80 - Rozmowa ze skrzywdzon\u0105 lamp\u0105-Slajd80-4"
+  - "Slajd 80 - Rozmowa ze skrzywdzon\u0105 lamp\u0105-Slajd80-5"
+  - "Slajd 80 - Rozmowa ze skrzywdzon\u0105 lamp\u0105-Slajd80-6"
+  - "Slajd 80 - Rozmowa ze skrzywdzon\u0105 lamp\u0105-Slajd80-7"
+  - "Slajd 80 - Rozmowa ze skrzywdzon\u0105 lamp\u0105-Slajd80-8"
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

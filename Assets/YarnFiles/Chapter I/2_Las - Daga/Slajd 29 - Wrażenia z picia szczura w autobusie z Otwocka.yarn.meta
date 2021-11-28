@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 3bc81c85e4e860f47b6aa7299c843618
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - "Slajd 29 - Wra\u017Cenia z picia szczura w autobusie z Otwocka-Slajd29-0"
+  - "Slajd 29 - Wra\u017Cenia z picia szczura w autobusie z Otwocka-Slajd29-1"
+  - "Slajd 29 - Wra\u017Cenia z picia szczura w autobusie z Otwocka-Slajd29-2"
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []
