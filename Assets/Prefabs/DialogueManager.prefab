@@ -249,7 +249,7 @@ MonoBehaviour:
     character: {fileID: 0}
   - program: {fileID: 2480198943629176163, guid: e5a580c3ca84def48bd6135fd915dd32, type: 3}
     startNode: Slajd4
-    background: {fileID: 0}
+    background: {fileID: 21300000, guid: f1ff0894781f7144da9c320dcc9e303d, type: 3}
     character: {fileID: 0}
   - program: {fileID: 2480198943629176163, guid: e5203c0989dd7cc42aa194b61d601f32, type: 3}
     startNode: lajd5
