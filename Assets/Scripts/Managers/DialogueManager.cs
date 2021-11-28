@@ -43,7 +43,7 @@ public class DialogueManager : Manager<DialogueManager>
 
     public void StartDialogue(string name)
     {
-        var program = _programs.FirstOrDefault(x => x.name.Equals(name));
+        var program = _programs.FirstOrDefault(x => x.program.name.Equals(name));
         if (program == default)
         {
             Debug.LogError($"Couldn't find program named: {name}");
@@ -65,7 +65,6 @@ public class DialogueManager : Manager<DialogueManager>
 [System.Serializable]
 public class DialogueData
 {
-    public string name;
     public YarnProgram program;
     public string startNode;
     public Sprite background;

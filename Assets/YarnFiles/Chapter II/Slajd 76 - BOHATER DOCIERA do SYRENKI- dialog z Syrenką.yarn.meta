@@ -1,0 +1,31 @@
+fileFormatVersion: 2
+guid: 6ee6297bcdce8ad44bac1b1cf86e1338
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - "Slajd 76 - BOHATER DOCIERA do SYRENKI- dialog z Syrenk\u0105-Slajd76-0"
+  - "Slajd 76 - BOHATER DOCIERA do SYRENKI- dialog z Syrenk\u0105-Slajd76-1"
+  - "Slajd 76 - BOHATER DOCIERA do SYRENKI- dialog z Syrenk\u0105-Slajd76-2"
+  - "Slajd 76 - BOHATER DOCIERA do SYRENKI- dialog z Syrenk\u0105-Slajd76-3"
+  - "Slajd 76 - BOHATER DOCIERA do SYRENKI- dialog z Syrenk\u0105-Slajd76-4"
+  - "Slajd 76 - BOHATER DOCIERA do SYRENKI- dialog z Syrenk\u0105-Slajd76-5"
+  - "Slajd 76 - BOHATER DOCIERA do SYRENKI- dialog z Syrenk\u0105-Slajd76-6"
+  - "Slajd 76 - BOHATER DOCIERA do SYRENKI- dialog z Syrenk\u0105-Slajd76-7"
+  - "Slajd 76 - BOHATER DOCIERA do SYRENKI- dialog z Syrenk\u0105-Slajd76-8"
+  - "Slajd 76 - BOHATER DOCIERA do SYRENKI- dialog z Syrenk\u0105-Slajd76-9"
+  - "Slajd 76 - BOHATER DOCIERA do SYRENKI- dialog z Syrenk\u0105-Slajd76-10"
+  - "Slajd 76 - BOHATER DOCIERA do SYRENKI- dialog z Syrenk\u0105-Slajd76-11"
+  - "Slajd 76 - BOHATER DOCIERA do SYRENKI- dialog z Syrenk\u0105-Slajd76-12"
+  - "Slajd 76 - BOHATER DOCIERA do SYRENKI- dialog z Syrenk\u0105-Slajd76-13"
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

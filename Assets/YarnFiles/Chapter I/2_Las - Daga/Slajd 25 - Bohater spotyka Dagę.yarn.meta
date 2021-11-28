@@ -1,0 +1,44 @@
+fileFormatVersion: 2
+guid: 8affc33cf5b708d49aac399a5bb7e8a5
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - "Slajd 25 - Bohater spotyka Dag\u0119-Slajd25-0"
+  - "Slajd 25 - Bohater spotyka Dag\u0119-Slajd25-1"
+  - "Slajd 25 - Bohater spotyka Dag\u0119-Slajd25-2"
+  - "Slajd 25 - Bohater spotyka Dag\u0119-Slajd25-3"
+  - "Slajd 25 - Bohater spotyka Dag\u0119-Slajd25-4"
+  - "Slajd 25 - Bohater spotyka Dag\u0119-Slajd25-5"
+  - "Slajd 25 - Bohater spotyka Dag\u0119-Slajd25-6"
+  - "Slajd 25 - Bohater spotyka Dag\u0119-Slajd25-7"
+  - "Slajd 25 - Bohater spotyka Dag\u0119-Slajd25-8"
+  - "Slajd 25 - Bohater spotyka Dag\u0119-Slajd25-9"
+  - "Slajd 25 - Bohater spotyka Dag\u0119-Slajd25-10"
+  - "Slajd 25 - Bohater spotyka Dag\u0119-Slajd25-11"
+  - "Slajd 25 - Bohater spotyka Dag\u0119-Slajd25-12"
+  - "Slajd 25 - Bohater spotyka Dag\u0119-Slajd25-13"
+  - "Slajd 25 - Bohater spotyka Dag\u0119-Slajd25-14"
+  - "Slajd 25 - Bohater spotyka Dag\u0119-Slajd25-15"
+  - "Slajd 25 - Bohater spotyka Dag\u0119-Slajd25-16"
+  - "Slajd 25 - Bohater spotyka Dag\u0119-Slajd25-17"
+  - "Slajd 25 - Bohater spotyka Dag\u0119-Slajd25-18"
+  - "Slajd 25 - Bohater spotyka Dag\u0119-Slajd25-19"
+  - "Slajd 25 - Bohater spotyka Dag\u0119-Slajd25-20"
+  - "Slajd 25 - Bohater spotyka Dag\u0119-Slajd25-21"
+  - "Slajd 25 - Bohater spotyka Dag\u0119-Slajd25-22"
+  - "Slajd 25 - Bohater spotyka Dag\u0119-Slajd25-23"
+  - "Slajd 25 - Bohater spotyka Dag\u0119-Slajd25-24"
+  - "Slajd 25 - Bohater spotyka Dag\u0119-Slajd25-25"
+  - "Slajd 25 - Bohater spotyka Dag\u0119-Slajd25-26"
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []
