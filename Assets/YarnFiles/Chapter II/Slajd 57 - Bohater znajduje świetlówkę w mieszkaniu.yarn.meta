@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 002b567063953974a94cbee6bf5ce450
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - "Slajd 57 - Bohater znajduje \u015Bwietl\xF3wk\u0119 w mieszkaniu-Slajd57-0"
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

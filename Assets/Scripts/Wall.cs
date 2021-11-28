@@ -12,4 +12,14 @@ public class Wall : ScriptableObject
 {
     public WallSide side;
     public Sprite background;
+
+    public GameAction firstEnter = default;
+
+    public void OnFirstEnter()
+    {
+        if (firstEnter != null)
+        {
+            firstEnter.Action();
+        }
+    }
 }
