@@ -1597,7 +1597,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: bb5220832f170cf41add563f7443e2b8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c63b1f49d334fb749bbfac99a573896c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1820,87 +1820,111 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _main: {fileID: 1056375175}
   _clips:
-  - clip: {fileID: 8300000, guid: f52dea5ec83c4bb4b9f614d1f784eeaa, type: 3}
+  - clip: {fileID: 8300000, guid: 55ab249f8c56868449ac74eb0c53dce1, type: 3}
+    isTheme: 1
+  - clip: {fileID: 8300000, guid: 4163b9c74385dac4ea65367901986e7d, type: 3}
+    isTheme: 1
+  - clip: {fileID: 8300000, guid: 141d56d50a524aa4fbc350c189d4c057, type: 3}
+    isTheme: 1
+  - clip: {fileID: 8300000, guid: a7fe80d139e21b04e89932cfb494a5ad, type: 3}
+    isTheme: 0
+  - clip: {fileID: 8300000, guid: 64e4a656379f12f438643c756483cc9f, type: 3}
+    isTheme: 1
+  - clip: {fileID: 8300000, guid: 67faa2e71a7930b40a302603082948e9, type: 3}
     isTheme: 1
   - clip: {fileID: 8300000, guid: 7af8d1f43c29bac41b1c57c3f64ff219, type: 3}
     isTheme: 1
+  - clip: {fileID: 8300000, guid: bea907537a8a5284c9c365facdb735e8, type: 3}
+    isTheme: 1
+  - clip: {fileID: 8300000, guid: e5edda1ea371df84c8bf44e284d0c62c, type: 3}
+    isTheme: 0
+  - clip: {fileID: 8300000, guid: 3031e6cdfce1bf7408a7e684cc01b31e, type: 3}
+    isTheme: 0
   - clip: {fileID: 8300000, guid: c33f5303b20dafc45be24c5869238fcc, type: 3}
     isTheme: 0
+  - clip: {fileID: 8300000, guid: b625674edee29414da9f1a4875fbe7a0, type: 3}
+    isTheme: 0
+  - clip: {fileID: 8300000, guid: 6a696f66841c9624ebf2a833a8a1d967, type: 3}
+    isTheme: 1
   - clip: {fileID: 8300000, guid: 32eb19ad41b33cb45bf6cd6b524feac1, type: 3}
+    isTheme: 0
+  - clip: {fileID: 8300000, guid: 96df3f24aaa6bae41b4a88509db562d0, type: 3}
     isTheme: 0
   - clip: {fileID: 8300000, guid: 8e76b4abf99731841a3676de73bc664c, type: 3}
     isTheme: 0
   - clip: {fileID: 8300000, guid: 4553a100c89a95647a426ee612ffbae7, type: 3}
     isTheme: 0
-  - clip: {fileID: 8300000, guid: 75ea76d2a3f2a294492a471ad002af7f, type: 3}
-    isTheme: 0
-  - clip: {fileID: 8300000, guid: 982b358304bc3924ca2ac66c5e790be5, type: 3}
-    isTheme: 0
-  - clip: {fileID: 8300000, guid: e7652ae70b5444b46b7232360cc53edd, type: 3}
-    isTheme: 0
-  - clip: {fileID: 8300000, guid: e44b294d47d751d4bb0b3353c45c9a2f, type: 3}
-    isTheme: 0
-  - clip: {fileID: 8300000, guid: 10a5685cf29b5044f962185811cd112d, type: 3}
-    isTheme: 0
-  - clip: {fileID: 8300000, guid: 4f26b7759e35fa0448691fba9954fec4, type: 3}
-    isTheme: 0
-  - clip: {fileID: 8300000, guid: deea8e673f4ee1f4db0603e1a0908f17, type: 3}
+  - clip: {fileID: 8300000, guid: c95af1c20ee452e46a66e6a6d7ce083c, type: 3}
     isTheme: 1
-  - clip: {fileID: 8300000, guid: 6a696f66841c9624ebf2a833a8a1d967, type: 3}
+  - clip: {fileID: 8300000, guid: ad3c7d4dd1dab42419858ffe37bf9d17, type: 3}
     isTheme: 1
-  - clip: {fileID: 8300000, guid: f792416bf14b399489d3212dc2d2188a, type: 3}
-    isTheme: 0
-  - clip: {fileID: 8300000, guid: 152d7983fb9d74147ab4ff37d110520b, type: 3}
-    isTheme: 0
+  - clip: {fileID: 8300000, guid: f5cb51685a0eb3449896292a7228652d, type: 3}
+    isTheme: 1
   - clip: {fileID: 8300000, guid: e0b74f26c34768b42ad46298951c0834, type: 3}
     isTheme: 0
   - clip: {fileID: 8300000, guid: b4f35e4f1d51de440bd46795ff6f9b00, type: 3}
     isTheme: 0
   - clip: {fileID: 8300000, guid: 1a880e13cf1d26b42b00c82fbe0299e6, type: 3}
     isTheme: 1
-  - clip: {fileID: 8300000, guid: 712838829f38ffe4da506606cd3ef682, type: 3}
+  - clip: {fileID: 8300000, guid: cf264e42d8c61e6499de2ef3bc55c639, type: 3}
+    isTheme: 1
+  - clip: {fileID: 8300000, guid: a20db50647a0e4a4897cc969072d4c0d, type: 3}
     isTheme: 0
-  - clip: {fileID: 8300000, guid: 55ab249f8c56868449ac74eb0c53dce1, type: 3}
-    isTheme: 1
-  - clip: {fileID: 8300000, guid: 67faa2e71a7930b40a302603082948e9, type: 3}
-    isTheme: 1
-  - clip: {fileID: 8300000, guid: c95af1c20ee452e46a66e6a6d7ce083c, type: 3}
-    isTheme: 1
-  - clip: {fileID: 8300000, guid: c9bd77585b4703a45abb7454a697f6d6, type: 3}
+  - clip: {fileID: 8300000, guid: 75ea76d2a3f2a294492a471ad002af7f, type: 3}
     isTheme: 0
-  - clip: {fileID: 8300000, guid: 96df3f24aaa6bae41b4a88509db562d0, type: 3}
+  - clip: {fileID: 8300000, guid: 982b358304bc3924ca2ac66c5e790be5, type: 3}
     isTheme: 0
   - clip: {fileID: 8300000, guid: 83f9a073306b684448a05c6e7c7c70bf, type: 3}
     isTheme: 0
-  - clip: {fileID: 8300000, guid: a7fe80d139e21b04e89932cfb494a5ad, type: 3}
-    isTheme: 0
-  - clip: {fileID: 8300000, guid: 3031e6cdfce1bf7408a7e684cc01b31e, type: 3}
+  - clip: {fileID: 8300000, guid: c9bd77585b4703a45abb7454a697f6d6, type: 3}
     isTheme: 0
   - clip: {fileID: 8300000, guid: 9df06ae30bca3c54b982a16747ec16c5, type: 3}
     isTheme: 0
+  - clip: {fileID: 8300000, guid: e7652ae70b5444b46b7232360cc53edd, type: 3}
+    isTheme: 0
+  - clip: {fileID: 8300000, guid: f2324c50fa5f2284c8de0266b4ded750, type: 3}
+    isTheme: 0
   - clip: {fileID: 8300000, guid: 6db83499d5a2bb447a9392cd18d9130b, type: 3}
+    isTheme: 0
+  - clip: {fileID: 8300000, guid: ab7f3c87918c21945a5c12635d02fc78, type: 3}
     isTheme: 0
   - clip: {fileID: 8300000, guid: 2f6aef09e8c68204cb0fa89034e2f271, type: 3}
     isTheme: 0
+  - clip: {fileID: 8300000, guid: c29fd5d43ae8f2b4093eac80410f602d, type: 3}
+    isTheme: 0
   - clip: {fileID: 8300000, guid: 4d3ed1696c92d5d45a9c0ce1bd1c104d, type: 3}
+    isTheme: 0
+  - clip: {fileID: 8300000, guid: 5226e8acba6f59143a5ff641a37280b5, type: 3}
+    isTheme: 0
+  - clip: {fileID: 8300000, guid: f5b1c52edbb49d14eb72ef0906f4a01c, type: 3}
+    isTheme: 0
+  - clip: {fileID: 8300000, guid: e44b294d47d751d4bb0b3353c45c9a2f, type: 3}
+    isTheme: 0
+  - clip: {fileID: 8300000, guid: 712838829f38ffe4da506606cd3ef682, type: 3}
+    isTheme: 0
+  - clip: {fileID: 8300000, guid: 6389328d8c614c44ba1b54201348a237, type: 3}
     isTheme: 0
   - clip: {fileID: 8300000, guid: 4f111b6b369f85743915856046b33de1, type: 3}
     isTheme: 0
+  - clip: {fileID: 8300000, guid: f792416bf14b399489d3212dc2d2188a, type: 3}
+    isTheme: 0
+  - clip: {fileID: 8300000, guid: 10a5685cf29b5044f962185811cd112d, type: 3}
+    isTheme: 0
   - clip: {fileID: 8300000, guid: 2bd8faa48f12c5a4a97283d7956e2573, type: 3}
+    isTheme: 0
+  - clip: {fileID: 8300000, guid: 4f26b7759e35fa0448691fba9954fec4, type: 3}
+    isTheme: 0
+  - clip: {fileID: 8300000, guid: 152d7983fb9d74147ab4ff37d110520b, type: 3}
     isTheme: 0
   - clip: {fileID: 8300000, guid: eb7df77255bca524f8bc24f052284c8e, type: 3}
     isTheme: 0
-  - clip: {fileID: 8300000, guid: 4163b9c74385dac4ea65367901986e7d, type: 3}
+  - clip: {fileID: 8300000, guid: f856c903855d3bc4ea02bc511ae2c040, type: 3}
+    isTheme: 0
+  - clip: {fileID: 8300000, guid: f52dea5ec83c4bb4b9f614d1f784eeaa, type: 3}
+    isTheme: 0
+  - clip: {fileID: 8300000, guid: deea8e673f4ee1f4db0603e1a0908f17, type: 3}
     isTheme: 1
-  - clip: {fileID: 8300000, guid: 141d56d50a524aa4fbc350c189d4c057, type: 3}
-    isTheme: 1
-  - clip: {fileID: 8300000, guid: 64e4a656379f12f438643c756483cc9f, type: 3}
-    isTheme: 1
-  - clip: {fileID: 8300000, guid: ab7f3c87918c21945a5c12635d02fc78, type: 3}
-    isTheme: 1
-  - clip: {fileID: 8300000, guid: cf264e42d8c61e6499de2ef3bc55c639, type: 3}
-    isTheme: 1
-  - clip: {fileID: 8300000, guid: 6389328d8c614c44ba1b54201348a237, type: 3}
+  - clip: {fileID: 8300000, guid: c7125961eb1af904992c71c27087953e, type: 3}
     isTheme: 0
 --- !u!82 &1056375175
 AudioSource:
@@ -2783,7 +2807,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1469952710
 Transform:
   m_ObjectHideFlags: 0
@@ -2854,8 +2878,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f0b2f0450cfb52d49844725f52199d15, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.38431373}
+  m_Sprite: {fileID: 21300000, guid: 05196246bcb5f654b8b7ae6830d8f699, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.57254905}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

@@ -9,6 +9,9 @@ public class AudioManager : Manager<AudioManager>
     [SerializeField] private AudioSource _main = default;
     [SerializeField] private List<Clip> _clips;
 
+    private AudioClip nextClip = default;
+    float currentVolume = 1;
+
     public void PlayClip (string clipName)
     {
         var clip = _clips.FirstOrDefault(x => x.clip.name.Equals(clipName));
@@ -19,16 +22,46 @@ public class AudioManager : Manager<AudioManager>
         }
         if (clip.isTheme)
         {
+            nextClip = clip.clip;
+
             if (_main.isPlaying)
             {
-                _main.Stop();
+                SetITween(0);
             }
-            _main.clip = clip.clip;
-            _main.Play();
+            else
+            {
+                OnITweenFinished();
+            }
         }
         else
         {
-            //
+            _main.PlayOneShot(clip.clip);
+        }
+    }
+
+    private void SetITween(float volume)
+    {
+        var hash = new Hashtable();
+        hash.Add("volume", volume);
+        hash.Add("time", 1f);
+        hash.Add("oncomplete", "OnITweenFinished");
+        hash.Add("oncompletetarget", gameObject);
+        iTween.AudioTo(gameObject, hash);
+    }
+
+    public void OnITweenFinished()
+    {
+        if (nextClip != default)
+        {
+            _main.Stop();
+            _main.clip = nextClip;
+            _main.Play();
+            SetITween(currentVolume);
+            nextClip = default;
+        }
+        else
+        {
+
         }
     }
 
