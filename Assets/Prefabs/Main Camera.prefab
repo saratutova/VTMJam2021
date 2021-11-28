@@ -104,6 +104,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   _curtain: {fileID: 7906041120045258350}
+  _camera: {fileID: 7906041119839465099}
 --- !u!1 &7906041119960701326
 GameObject:
   m_ObjectHideFlags: 0
