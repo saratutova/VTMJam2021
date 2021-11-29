@@ -31,7 +31,7 @@ public class CreditsManager : Manager<CreditsManager>
         var hash = new Hashtable();
         hash.Add("oncomplete", "OnITweenComplete");
         hash.Add("oncompletetarget", gameObject);
-        hash.Add("time", 25);
+        hash.Add("time", 40);
         hash.Add("amount", new Vector3(0, 70, 0));
         hash.Add("easetype", iTween.EaseType.linear);
 

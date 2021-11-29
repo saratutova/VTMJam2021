@@ -66,6 +66,8 @@ public class DialogueManager : Manager<DialogueManager>
     {
         _isRunning = false;
         _backgroundsGO.SetActive(false);
+        _dialogueRunner.Stop();
+        _dialogueRunner.Clear();
         _dialogueUI.DialogueComplete();
         DialogueCompleted.Invoke();
         DialogueCompleted.RemoveAllListeners();
