@@ -24,5 +24,6 @@ public class StartDialogue : GameAction
         {
             GameActionManager.Instance.PlayAction(_dialogueEnded);
         }
+        Done();
     }
 }

@@ -56,5 +56,6 @@ public class BranchOnPower : GameAction
                 withoutPotence.Action();
             }
         }
+        Done();
     }
 }

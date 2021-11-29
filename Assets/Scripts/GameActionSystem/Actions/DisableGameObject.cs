@@ -10,5 +10,6 @@ public class DisableGameObject : GameAction
     {
         base.DoAction();
         _object.SetActive(false);
+        Done();
     }
 }

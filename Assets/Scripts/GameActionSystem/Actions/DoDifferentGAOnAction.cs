@@ -20,6 +20,7 @@ public class DoDifferentGAOnAction : GameAction
         base.DoAction();
         if (index >= actions.Count)
         {
+            Done();
             return;
         }
         if (_withGAM)

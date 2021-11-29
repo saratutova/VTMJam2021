@@ -18,6 +18,7 @@ public class RoomShowCouter : GameAction
             {
                 GameActionManager.Instance.PlayAction(_onCounterReached);
             }
+            Done();
         }
     }
 }

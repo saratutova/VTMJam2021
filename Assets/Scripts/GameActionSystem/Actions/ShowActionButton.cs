@@ -11,5 +11,6 @@ public class ShowActionButton : GameAction
         base.DoAction();
         _canvas.worldCamera = FadeManager.Instance.Camera;
         _canvas.gameObject.SetActive(true);
+        Done();
     }
 }

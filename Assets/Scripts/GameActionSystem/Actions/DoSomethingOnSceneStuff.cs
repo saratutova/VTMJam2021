@@ -10,5 +10,6 @@ public class DoSomethingOnSceneStuff : GameAction
     {
         base.DoAction();
         ScreenManager.Instance.DoSomethingOnSceneStuff(stuffName);
+        Done();
     }
 }

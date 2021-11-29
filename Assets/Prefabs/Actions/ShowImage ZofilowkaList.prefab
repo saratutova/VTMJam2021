@@ -43,10 +43,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e11ab2135f2fa404cb4ced864a8c961a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _withGAM: 1
   _beforeAction: {fileID: 0}
   _afterAction: {fileID: 0}
   isDone: 0
   _sprite: {fileID: 21300000, guid: 178afd830595edd48b01f1b9205797a2, type: 3}
   _name: 3
   _actionOnButton: {fileID: 5373473846530246438, guid: ccef0927e13f25e418e34098aed98dc6, type: 3}
-  _actionOnClose: {fileID: 5373473846530246438, guid: e60b613edf8fdfc4b8edea4b1231473f, type: 3}
+  _actionOnClose: {fileID: 2829231031844550562, guid: 2d30c607a96fbdf4e970ac75c6f82c26, type: 3}

@@ -39,6 +39,7 @@ public class ShowSpriteWithAnimation : GameAction
             {
                 _onFinishedAction.Action();
             }
+            Done();
         }
     }
 }

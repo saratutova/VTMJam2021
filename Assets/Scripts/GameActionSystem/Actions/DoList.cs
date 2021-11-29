@@ -21,5 +21,6 @@ public class DoList : GameAction
                 _actions.ForEach(x => x.Action());
             }
         }
+        Done();
     }
 }

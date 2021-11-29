@@ -15,6 +15,7 @@ public class SetBool : GameAction
         {
             _used = true;
             GameManager.Instance.SetBool(_checkName, _value);
+            Done();
         }
     }
 }

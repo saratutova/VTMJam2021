@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<audacityproject projname="Początek Powązek, spotkanie z Adamem, wędrówka przez cmentarz_data" version="1.1.0" audacityversion="1.2.6" sel0="27.2080241070" sel1="27.2080241070" vpos="0" h="21.8363778085" zoom="168.6634789042" rate="48000.000000" >
+	<tags title="" artist="" album="" track="-1" year="" genre="-1" comments="" id3v2="1" />
+	<wavetrack name="Początek Powązek, spotkanie z Adamem, wędrówka przez cmentarz" channel="0" linked="1" offset="0.00000000" rate="48000.000000" gain="1.000000" pan="0.000000" >
+		<sequence maxsamples="262144" sampleformat="262159" numsamples="1305985" >
+			<waveblock start="0" >
+				<simpleblockfile filename='b00064.au' len='253607' min='-0.700261' max='0.600433' rms='0.196048'/>
+			</waveblock>
+			<waveblock start="253607" >
+				<pcmaliasblockfile summaryfile='b00002.auf' aliasfile='C:\Users\Architka1\Documents\GitHub\VTMJam2021\Assets\Music\Chapter III\Początek Powązek, spotkanie z Adamem, wędrówka przez cmentarz.wav' aliasstart='262144' aliaslen='262144' aliaschannel='0' min='-0.576507' max='0.560272' rms='0.173960'/>
+			</waveblock>
+			<waveblock start="515751" >
+				<pcmaliasblockfile summaryfile='b00004.auf' aliasfile='C:\Users\Architka1\Documents\GitHub\VTMJam2021\Assets\Music\Chapter III\Początek Powązek, spotkanie z Adamem, wędrówka przez cmentarz.wav' aliasstart='524288' aliaslen='262144' aliaschannel='0' min='-0.669189' max='0.650337' rms='0.185160'/>
+			</waveblock>
+			<waveblock start="777895" >
+				<pcmaliasblockfile summaryfile='b00006.auf' aliasfile='C:\Users\Architka1\Documents\GitHub\VTMJam2021\Assets\Music\Chapter III\Początek Powązek, spotkanie z Adamem, wędrówka przez cmentarz.wav' aliasstart='786432' aliaslen='262144' aliaschannel='0' min='-0.888741' max='0.734007' rms='0.229194'/>
+			</waveblock>
+			<waveblock start="1040039" >
+				<simpleblockfile filename='b00068.au' len='132973' min='-0.781181' max='0.706920' rms='0.192033'/>
+			</waveblock>
+			<waveblock start="1173012" >
+				<simpleblockfile filename='b00069.au' len='132973' min='-0.568370' max='0.600433' rms='0.118651'/>
+			</waveblock>
+		</sequence>
+		<envelope numpoints='4'>
+			<controlpoint t='26.502472175501' val='1.000000000000'/>
+			<controlpoint t='26.502477175501' val='1.000000000000'/>
+			<controlpoint t='27.050934168207' val='1.000000000000'/>
+			<controlpoint t='27.050939168207' val='1.000000000000'/>
+		</envelope>
+	</wavetrack>
+	<wavetrack name="Początek Powązek, spotkanie z Adamem, wędrówka przez cmentarz" channel="1" linked="0" offset="0.00000000" rate="48000.000000" gain="1.000000" pan="0.000000" >
+		<sequence maxsamples="262144" sampleformat="262159" numsamples="1305985" >
+			<waveblock start="0" >
+				<simpleblockfile filename='b00065.au' len='253607' min='-0.628406' max='0.668666' rms='0.190285'/>
+			</waveblock>
+			<waveblock start="253607" >
+				<pcmaliasblockfile summaryfile='b00003.auf' aliasfile='C:\Users\Architka1\Documents\GitHub\VTMJam2021\Assets\Music\Chapter III\Początek Powązek, spotkanie z Adamem, wędrówka przez cmentarz.wav' aliasstart='262144' aliaslen='262144' aliaschannel='1' min='-0.659276' max='0.623363' rms='0.189435'/>
+			</waveblock>
+			<waveblock start="515751" >
+				<pcmaliasblockfile summaryfile='b00005.auf' aliasfile='C:\Users\Architka1\Documents\GitHub\VTMJam2021\Assets\Music\Chapter III\Początek Powązek, spotkanie z Adamem, wędrówka przez cmentarz.wav' aliasstart='524288' aliaslen='262144' aliaschannel='1' min='-0.796384' max='0.588290' rms='0.210159'/>
+			</waveblock>
+			<waveblock start="777895" >
+				<pcmaliasblockfile summaryfile='b00007.auf' aliasfile='C:\Users\Architka1\Documents\GitHub\VTMJam2021\Assets\Music\Chapter III\Początek Powązek, spotkanie z Adamem, wędrówka przez cmentarz.wav' aliasstart='786432' aliaslen='262144' aliaschannel='1' min='-0.815775' max='0.928366' rms='0.244904'/>
+			</waveblock>
+			<waveblock start="1040039" >
+				<simpleblockfile filename='b00070.au' len='132973' min='-0.656699' max='0.756357' rms='0.190077'/>
+			</waveblock>
+			<waveblock start="1173012" >
+				<simpleblockfile filename='b00071.au' len='132973' min='-0.738120' max='0.712873' rms='0.122150'/>
+			</waveblock>
+		</sequence>
+		<envelope numpoints='4'>
+			<controlpoint t='26.502472175501' val='1.000000000000'/>
+			<controlpoint t='26.502477175501' val='1.000000000000'/>
+			<controlpoint t='27.050934168207' val='1.000000000000'/>
+			<controlpoint t='27.050939168207' val='1.000000000000'/>
+		</envelope>
+	</wavetrack>
+</audacityproject>

@@ -9,6 +9,10 @@ public class ChangeScenery : GameAction
     protected override void DoAction()
     {
         FadeManager.Instance.FadeBreak(FadeManager.breakTime);
-        FadeManager.Instance.HalfFadeEnded.AddListener(() => ScreenManager.Instance.SetScenery(_scenery));
+        FadeManager.Instance.HalfFadeEnded.AddListener(() => {
+            ScreenManager.Instance.SetScenery(_scenery);
+            Done();
+        });
+
     }
 }

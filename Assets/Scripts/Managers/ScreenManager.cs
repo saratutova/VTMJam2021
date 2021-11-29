@@ -29,11 +29,16 @@ public class ScreenManager : Manager<ScreenManager>
     {
         _controller.SetScenery(scenery);
         scenery.OnFirstEnter();
-        GameActionManager.Instance.RefreshActions();
+        //GameActionManager.Instance.RefreshActions();
     }
 
     public void DoSomethingOnSceneStuff(string stuffName)
     {
         _controller.DoSomethingOnSceneStuff(stuffName);
+    }
+
+    internal void RefreshSceneStuff()
+    {
+        _controller.RefreshSceneStuff();
     }
 }

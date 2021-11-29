@@ -31,7 +31,8 @@ public class SceneModel : MonoBehaviour
         }
     }
 
-    internal bool ShouldArrowBeVisible(ArrowSide side) => _currentScenery.IsSide(side, _currentWall.side) 
+    internal bool ShouldArrowBeVisible(ArrowSide side) => _currentScenery != null
+        && _currentScenery.IsSide(side, _currentWall.side) 
         && ShouldUIBeVisible
         && ScreenManager.Instance.ShouldArrowsBeVisible;
     internal bool ShouldUIBeVisible => !DialogueManager.Instance.IsDuringDialogue && !ZoomManager.Instance.isDuringZoom;
@@ -46,7 +47,7 @@ public class SceneModel : MonoBehaviour
         }
     }
 
-    public Sprite CurrentBackground => _currentWall.background;
+    public Sprite CurrentBackground => (_currentWall != null)? _currentWall.background : null;
 
     public StarState StartState => (CurrentStuff != null && CurrentStuff.IsThereSometingImportant)? StarState.Important 
         : (CurrentStuff.IsThereSometingToClick)? StarState.Something : StarState.Inactive;
