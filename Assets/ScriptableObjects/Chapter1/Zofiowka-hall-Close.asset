@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5be3fa07d2a40da4b83682681aa5841a, type: 3}
-  m_Name: Zofiowka-yard-Wall
+  m_Script: {fileID: 11500000, guid: 51aca430d90536046ba4ef37be872a2e, type: 3}
+  m_Name: Zofiowka-hall-Close
   m_EditorClassIdentifier: 
-  side: 0
-  background: {fileID: 21300000, guid: b3c08c721c2de9a4cac51bd28e8cb429, type: 3}
+  mainWall: {fileID: 11400000, guid: 52782580b181c674394a6fa474c57928, type: 2}
+  surroundings: []
   firstEnter: {fileID: 0}
-  stuff: {fileID: 2424173670797220805, guid: 195ef26aa253cba48a271f7b60555a76, type: 3}

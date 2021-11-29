@@ -1769,7 +1769,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ada1809de7a0e2a4a8c26cd2e99bf0f7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 083d86cecc866af41aae0600514085f6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3297,7 +3297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c320bbec392f0d844a4c1f23eabc452c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _startScenery: {fileID: 11400000, guid: c102dca7e28d5224a89a8bbdf1b68070, type: 2}
+  _startScenery: {fileID: 11400000, guid: ae3c8d3e69e2e48409c0184c1c14a32b, type: 2}
   _checks:
   - name: wasWindowDialoge
     value: 0
@@ -3305,6 +3305,8 @@ MonoBehaviour:
     value: 0
   - name: wasZofiowkaLetterRead
     value: 0
+  _focus: 0
+  _items: []
 --- !u!1 &1534739797
 GameObject:
   m_ObjectHideFlags: 0
@@ -3837,9 +3839,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: f689c426a84bf0a4583f6b66ad18d6e0, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
