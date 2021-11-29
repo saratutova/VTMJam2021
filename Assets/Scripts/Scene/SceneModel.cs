@@ -22,9 +22,9 @@ public class SceneModel : MonoBehaviour
         switch (power)
         {
             case Power.Auspex:
-                return Focus >= 1;
+                return Focus >= 1 && !IsUsingAuspex;
             case Power.Potence:
-                return Focus >= 1;
+                return Focus >= 1 && !IsUsingPotence;
             default:
                 return false;
         }
@@ -51,4 +51,6 @@ public class SceneModel : MonoBehaviour
         : (CurrentStuff.IsThereSometingToClick)? StarState.Something : StarState.Inactive;
 
     public SceneStuff CurrentStuff { get => _currentStuff; set => _currentStuff = value; }
+    public bool IsUsingPotence { get; internal set; }
+    public bool IsUsingAuspex { get; internal set; }
 }

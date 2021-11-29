@@ -6,6 +6,9 @@ public class ScreenManager : Manager<ScreenManager>
 {
     [SerializeField] private SceneController _controller;
 
+    public bool IsUsingPotence => _controller.IsUsingPotence;
+    public bool IsUsingAuspex => _controller.IsUsingAuspex;
+
     public bool ShouldArrowsBeVisible
     {
         get => _shouldArrowsBeVisible;

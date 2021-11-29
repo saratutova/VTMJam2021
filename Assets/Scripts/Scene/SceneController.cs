@@ -12,6 +12,25 @@ public class SceneController : MonoBehaviour
 
     private List<SceneStuff> stuffs = new List<SceneStuff>();
 
+    public bool IsUsingPotence => _model.IsUsingPotence;
+
+    internal void PowerButtonClicked(Power power)
+    {
+        if (power == Power.Auspex)
+        {
+            _model.IsUsingAuspex = true;
+        }
+        else
+        {
+            _model.IsUsingPotence = true;
+        }
+        _model.CurrentStuff.Init();
+        GameManager.Instance.ChangeFocus(-1);
+        Refresh.Invoke();
+    }
+
+    public bool IsUsingAuspex => _model.IsUsingAuspex;
+
     internal void ForceRefresh()
     {
         Refresh.Invoke();
@@ -46,8 +65,15 @@ public class SceneController : MonoBehaviour
     {
         _model.CurrentScenery = scenery;
         _model.CurrentWall = scenery.mainWall;
+        ResetScene();
         SetStuff();
         Refresh.Invoke();
+    }
+
+    private void ResetScene()
+    {
+        _model.IsUsingAuspex = false;
+        _model.IsUsingPotence = false;
     }
 
     internal void ArrowClicked(ArrowSide side)

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1882988114252388569}
   - component: {fileID: 8034270504654230716}
   - component: {fileID: 8384527572899872805}
+  - component: {fileID: 9179145955660136738}
   m_Layer: 0
   m_Name: auspexglow_pokoj1
   m_TagString: Untagged
@@ -123,10 +124,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97a238744ed668d43b6d2c2302acbf98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  important: 0
+  onAuspexUsed: {fileID: 9179145955660136738}
+  onPotenceUsed: {fileID: 0}
+  important: 1
   clicked: 0
   canInteract: 0
   _gameAction: {fileID: 8497912613792392053, guid: 3d6f4d343c30332408e1417c3430c8f0, type: 3}
+  _withGAM: 1
+--- !u!114 &9179145955660136738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5773055269116446213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df090aabcb3bc04429e3e5d345c1428f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _beforeAction: {fileID: 0}
+  _afterAction: {fileID: 0}
+  isDone: 0
+  _spriteRenderer: {fileID: 1882988114252388569}
+  _sprite: {fileID: 21300000, guid: 941bbb2468e338a4892053d4452099ec, type: 3}
 --- !u!114 &1157153075749878867
 MonoBehaviour:
   m_ObjectHideFlags: 0

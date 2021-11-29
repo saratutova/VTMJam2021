@@ -5,6 +5,7 @@ using UnityEngine;
 public abstract class GameAction : MonoBehaviour
 {
     //[SerializeField] private bool _isOneTime = true;
+    [SerializeField] protected bool _withGAM = true;
     [SerializeField] private GameAction _beforeAction = default;
     [SerializeField] private GameAction _afterAction = default;
     public bool isDone = false;
@@ -15,7 +16,14 @@ public abstract class GameAction : MonoBehaviour
     {
         if (_beforeAction != null)
         {
-            GameActionManager.Instance.PlayAction(_beforeAction);
+            if (_withGAM)
+            {
+                GameActionManager.Instance.PlayAction(_beforeAction); 
+            }
+            else
+            {
+                _beforeAction.Action();
+            }
         }
     }
 
@@ -40,7 +48,14 @@ public abstract class GameAction : MonoBehaviour
     {
         if (_afterAction != null)
         {
-            GameActionManager.Instance.PlayAction(_afterAction);
+            if (_withGAM)
+            {
+                GameActionManager.Instance.PlayAction(_afterAction); 
+            }
+            else
+            {
+                _afterAction.Action();
+            }
         }
         if (gameObject.activeSelf)
         {

@@ -10,7 +10,7 @@ public class GAList
 
 public class DoDifferentGAOnAction : GameAction
 {
-    [SerializeField] private bool _withGAM = true;
+    //[SerializeField] private bool _withGAM = true;
     [SerializeField] private List<GAList> actions = new List<GAList>();
 
     private int index = 0;
