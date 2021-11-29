@@ -5,13 +5,21 @@ using UnityEngine;
 public class GAMultipleInteraction : Interaction
 {
     [SerializeField] private List<GameAction> _gameActions = default;
+    [SerializeField] private bool _withGAMUse = true;
 
     protected override void Interact()
     {
         base.Interact();
         if (_gameActions != null)
         {
-            _gameActions.ForEach(x => GameActionManager.Instance.PlayAction(x));
+            if (_withGAMUse)
+            {
+                _gameActions.ForEach(x => GameActionManager.Instance.PlayAction(x)); 
+            }
+            else
+            {
+                _gameActions.ForEach(x => x.Action());
+            }
         }
     }
 }

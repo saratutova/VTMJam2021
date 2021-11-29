@@ -779,6 +779,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 678997669}
     m_Modifications:
+    - target: {fileID: 139801636850046946, guid: cf34b0a41e849194d8419d9ae93a01aa, type: 3}
+      propertyPath: m_TargetGraphic
+      value: 
+      objectReference: {fileID: 1729124043}
     - target: {fileID: 708551538044044246, guid: cf34b0a41e849194d8419d9ae93a01aa, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.1024
@@ -3525,7 +3529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c320bbec392f0d844a4c1f23eabc452c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _startScenery: {fileID: 11400000, guid: c102dca7e28d5224a89a8bbdf1b68070, type: 2}
+  _startScenery: {fileID: 11400000, guid: 317fc5a453fdc3a479d59bc2b9baf08f, type: 2}
   _checks:
   - name: wasWindowDialoge
     value: 0

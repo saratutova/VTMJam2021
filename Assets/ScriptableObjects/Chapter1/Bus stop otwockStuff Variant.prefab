@@ -455,6 +455,7 @@ MonoBehaviour:
   canInteract: 1
   _gameActions:
   - {fileID: 3710712128876918947}
+  _withGAMUse: 0
 --- !u!114 &3710712128876918947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -487,7 +488,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7cd05f186d1e6046b19815f03e5c746, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _withGAM: 1
+  _withGAM: 0
   _beforeAction: {fileID: 0}
   _afterAction: {fileID: 0}
   isDone: 0
@@ -580,6 +581,8 @@ GameObject:
   - component: {fileID: 191744323335783022}
   - component: {fileID: 1330198259649429451}
   - component: {fileID: 4577060956556345109}
+  - component: {fileID: 8825508463298626768}
+  - component: {fileID: 4988640515293063213}
   m_Layer: 0
   m_Name: Puzzle
   m_TagString: Untagged
@@ -628,10 +631,62 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5b353a2f3a655b4a9d87a943d305990, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _withGAM: 1
+  _withGAM: 0
+  _beforeAction: {fileID: 8825508463298626768}
+  _afterAction: {fileID: 0}
+  isDone: 0
+--- !u!114 &8825508463298626768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5921963048655337103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 435a3b8355e40074ab6a07b8e84901fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _withGAM: 0
+  _beforeAction: {fileID: 4988640515293063213}
+  _afterAction: {fileID: 0}
+  isDone: 0
+  _interaction: {fileID: 3013031041813596855}
+  value: 0
+--- !u!114 &4988640515293063213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5921963048655337103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e469616b15ecb7a48bdecc9ed4e13ded, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _withGAM: 0
   _beforeAction: {fileID: 0}
   _afterAction: {fileID: 0}
   isDone: 0
+  stuffName: DiableStop
+--- !u!114 &3938522707851215327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3109779385170850364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e672002579752f842989060d41ffcadd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _withGAM: 0
+  _beforeAction: {fileID: 0}
+  _afterAction: {fileID: 0}
+  isDone: 0
+  _object: {fileID: 5039959783470774319}
 --- !u!1001 &272601255253873763
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -642,6 +697,10 @@ PrefabInstance:
     - target: {fileID: 765233796103278961, guid: b71d3f373712d9a489c0814523e68f05, type: 3}
       propertyPath: m_Name
       value: "PlayAudio Pr\xF3ba u\u017Cycia z\u0142ego przedmiotu w zagadce"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4075678017206251113, guid: b71d3f373712d9a489c0814523e68f05, type: 3}
+      propertyPath: _withGAM
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4076516455845093744, guid: b71d3f373712d9a489c0814523e68f05, type: 3}
       propertyPath: m_RootOrder
@@ -795,6 +854,22 @@ PrefabInstance:
       propertyPath: actionsOnFirstView.Array.data[0]
       value: 
       objectReference: {fileID: 5373473846530246438, guid: 70f4ab08c9e957e4292f6deb28e689ba, type: 3}
+    - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
+      propertyPath: actionsOnDoSomethingActions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
+      propertyPath: actionsOnDoSomethingActions.Array.data[0].name
+      value: DiableStop
+      objectReference: {fileID: 0}
+    - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
+      propertyPath: actionsOnDoSomethingActions.Array.data[0].actionsOnDoSomething.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
+      propertyPath: actionsOnDoSomethingActions.Array.data[0].actionsOnDoSomething.Array.data[0]
+      value: 
+      objectReference: {fileID: 3938522707851215327}
     - target: {fileID: 8244932256638507857, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -850,6 +925,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8244932256638507857, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
   m_PrefabInstance: {fileID: 6432202309897939306}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3109779385170850364 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8244932256638507862, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
+  m_PrefabInstance: {fileID: 6432202309897939306}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8102498675752428968
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -860,6 +940,10 @@ PrefabInstance:
     - target: {fileID: 765233796103278961, guid: da4ec4e3736b84c4696084a3ba12c43e, type: 3}
       propertyPath: m_Name
       value: "PlayAudio U\u017Cycie w\u0142a\u015Bciwego przedmiotu w zagadce"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4075678017206251113, guid: da4ec4e3736b84c4696084a3ba12c43e, type: 3}
+      propertyPath: _withGAM
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4076516455845093744, guid: da4ec4e3736b84c4696084a3ba12c43e, type: 3}
       propertyPath: m_RootOrder

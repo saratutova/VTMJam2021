@@ -370,7 +370,7 @@ MonoBehaviour:
   - program: {fileID: 2480198943629176163, guid: 0dd4b2f8d8fd1d94b9e3dc12bec6b352, type: 3}
     startNode: Slajd31
     background: {fileID: 0}
-    character: {fileID: 0}
+    character: {fileID: 21300000, guid: 252ed743b953d0940a73ef75149fe038, type: 3}
   - program: {fileID: 2480198943629176163, guid: 618a293b2baca7b4b9eb88a71cb0d14c, type: 3}
     startNode: Slajd33
     background: {fileID: 0}
@@ -394,7 +394,7 @@ MonoBehaviour:
   - program: {fileID: 2480198943629176163, guid: 4b7b4c1deb740ff4f9a8696ea2546733, type: 3}
     startNode: Slajd39
     background: {fileID: 0}
-    character: {fileID: 0}
+    character: {fileID: 21300000, guid: b2db6b77e1ca90345a12e4e02aa954de, type: 3}
   - program: {fileID: 2480198943629176163, guid: 224d931a6dc7bb44498400323b1ca6d6, type: 3}
     startNode: Slajd41
     background: {fileID: 0}
@@ -446,7 +446,7 @@ MonoBehaviour:
   - program: {fileID: 2480198943629176163, guid: 1278225c98e4abe40b1950268cf5b061, type: 3}
     startNode: Slajd69
     background: {fileID: 0}
-    character: {fileID: 0}
+    character: {fileID: 21300000, guid: 532aafe78e2d76742a0248577821d457, type: 3}
   - program: {fileID: 2480198943629176163, guid: 7bb3ef9a5ae1d474ba37fa2b3d61351a, type: 3}
     startNode: Slajd72
     background: {fileID: 0}
