@@ -12,7 +12,7 @@ public class ShowImage : GameAction
     protected override void DoAction()
     {
         base.DoAction();
-        if (_actionOnButton != null)
+        if (_actionOnButton != default)
         {
             ZoomManager.Instance.ShowZoom(_sprite, StaticStrings.GetString(_name), _actionOnButton);
         }

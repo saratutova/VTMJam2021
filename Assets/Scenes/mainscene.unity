@@ -3533,6 +3533,8 @@ MonoBehaviour:
     value: 0
   - name: wasZofiowkaLetterRead
     value: 0
+  - name: WasTalingToAlftred
+    value: 0
   _focus: 0
   _items: []
 --- !u!1 &1534739797
@@ -3658,6 +3660,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 678997669}
     m_Modifications:
+    - target: {fileID: 139801636850046946, guid: cf34b0a41e849194d8419d9ae93a01aa, type: 3}
+      propertyPath: m_TargetGraphic
+      value: 
+      objectReference: {fileID: 613976819}
     - target: {fileID: 708551538044044246, guid: cf34b0a41e849194d8419d9ae93a01aa, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.1024
