@@ -12,7 +12,7 @@ public class GameActionManager : Manager<GameActionManager>
         var newAction = Instantiate(action, transform);
         newAction.Action();
         actions.Add(newAction);
-        RefreshActions();
+        //RefreshActions();
     }
 
     private void RefreshActions()

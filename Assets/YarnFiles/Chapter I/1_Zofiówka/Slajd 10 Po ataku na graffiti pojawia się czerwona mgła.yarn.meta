@@ -11,13 +11,8 @@ ScriptedImporter:
   baseLanguageID: 
   stringIDs:
   - "Slajd 10 Po ataku na graffiti pojawia si\u0119 czerwona mg\u0142a-Slajd10-0"
-  - "Slajd 10 Po ataku na graffiti pojawia si\u0119 czerwona mg\u0142a-Slajd10-1"
-  - "Slajd 10 Po ataku na graffiti pojawia si\u0119 czerwona mg\u0142a-Slajd10-2"
-  - "Slajd 10 Po ataku na graffiti pojawia si\u0119 czerwona mg\u0142a-Slajd10-3"
-  - "Slajd 10 Po ataku na graffiti pojawia si\u0119 czerwona mg\u0142a-Slajd10-4"
-  - "Slajd 10 Po ataku na graffiti pojawia si\u0119 czerwona mg\u0142a-Slajd10-5"
   compilationStatus: 1
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
-  baseLanguage: {instanceID: 0}
+  baseLanguage: {fileID: 7128917941130120860, guid: 1877cc33dca37ed4b9471a9f713ea5c2, type: 3}
   localizations: []
