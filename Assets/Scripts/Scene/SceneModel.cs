@@ -58,11 +58,11 @@ public class SceneModel : MonoBehaviour
 
     internal void ItemClicked(Item item)
     {
-        if (_currentItemSelected == default)
+        if (_currentItemSelected == default || _currentItemSelected != item)
         {
             _currentItemSelected = item;
         }
-        else
+        else if (_currentItemSelected == item)
         {
             _currentItemSelected = default;
         }

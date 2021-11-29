@@ -76,6 +76,7 @@ public class EquipmentView : SceneUIView
             default:
                 break;
         }
+        _controller.ForceRefresh();
     }
     
     internal void OnItemRightClicked(int index)
