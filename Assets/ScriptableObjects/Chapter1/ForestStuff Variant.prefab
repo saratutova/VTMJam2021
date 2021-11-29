@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1884939789658414178}
   - component: {fileID: 5408165216298854749}
   - component: {fileID: 1395087535581356925}
-  - component: {fileID: 8791572057389639976}
+  - component: {fileID: 2945235930354745983}
   m_Layer: 0
   m_Name: Forest_cat_nonactive
   m_TagString: Untagged
@@ -111,7 +111,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.14, y: 2.32}
   m_EdgeRadius: 0
---- !u!114 &8791572057389639976
+--- !u!114 &2945235930354745983
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -120,12 +120,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 2266906689563573870}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97a238744ed668d43b6d2c2302acbf98, type: 3}
+  m_Script: {fileID: 11500000, guid: dea495cbe6b6fc74a991c9fb590e2f06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onAuspexUsed: {fileID: 0}
+  onPotenceUsed: {fileID: 0}
   important: 0
   clicked: 0
-  _gameAction: {fileID: 4075678017206251113, guid: af87db9e199f8904aa01c8953f258255, type: 3}
+  canInteract: 1
+  _gameActions:
+  - {fileID: 5373473846530246438, guid: bf9c30ef664fd9242a0d2820f7a7d695, type: 3}
+  - {fileID: 4075678017206251113, guid: 48d01900c228cea429c564753d721aee, type: 3}
 --- !u!1 &2855271044163084194
 GameObject:
   m_ObjectHideFlags: 0
@@ -137,7 +142,7 @@ GameObject:
   - component: {fileID: 7227719716988003006}
   - component: {fileID: 234438787911994000}
   - component: {fileID: 8605660320243549174}
-  - component: {fileID: 7577487614228575913}
+  - component: {fileID: 2210290300809965057}
   m_Layer: 0
   m_Name: Forest_squirrel_nonactive
   m_TagString: Untagged
@@ -237,7 +242,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.15, y: 1.44}
   m_EdgeRadius: 0
---- !u!114 &7577487614228575913
+--- !u!114 &2210290300809965057
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -246,11 +251,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 2855271044163084194}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3877a3068304934691b7aec110b45cf, type: 3}
+  m_Script: {fileID: 11500000, guid: dea495cbe6b6fc74a991c9fb590e2f06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  important: 0
+  onAuspexUsed: {fileID: 0}
+  onPotenceUsed: {fileID: 0}
+  important: 1
   clicked: 0
+  canInteract: 1
+  _gameActions:
+  - {fileID: 5373473846530246438, guid: bff47a5edf74ff64191cd2020cf9b5cd, type: 3}
+  - {fileID: 4075678017206251113, guid: b6af23dec5db54445887621271140df3, type: 3}
 --- !u!1 &2926692380650979411
 GameObject:
   m_ObjectHideFlags: 0
@@ -262,7 +273,7 @@ GameObject:
   - component: {fileID: 3926725762609498952}
   - component: {fileID: 538131964300330318}
   - component: {fileID: 6636355852519435836}
-  - component: {fileID: 1292007026989308685}
+  - component: {fileID: 5146383255163158068}
   m_Layer: 0
   m_Name: Forest_hare_nonactive
   m_TagString: Untagged
@@ -362,7 +373,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.29, y: 1.5}
   m_EdgeRadius: 0
---- !u!114 &1292007026989308685
+--- !u!114 &5146383255163158068
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -371,11 +382,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 2926692380650979411}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3877a3068304934691b7aec110b45cf, type: 3}
+  m_Script: {fileID: 11500000, guid: dea495cbe6b6fc74a991c9fb590e2f06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onAuspexUsed: {fileID: 0}
+  onPotenceUsed: {fileID: 0}
   important: 0
   clicked: 0
+  canInteract: 1
+  _gameActions:
+  - {fileID: 5373473846530246438, guid: 6204161c39a7640419a04c24e5d896cb, type: 3}
+  - {fileID: 4075678017206251113, guid: 82d08215d1c3aae408a8ee4f85395fc9, type: 3}
 --- !u!1001 &2748038333297244482
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -390,15 +407,23 @@ PrefabInstance:
     - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
       propertyPath: interactions.Array.data[0]
       value: 
-      objectReference: {fileID: 8791572057389639976}
+      objectReference: {fileID: 2945235930354745983}
     - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
       propertyPath: interactions.Array.data[1]
       value: 
-      objectReference: {fileID: 1292007026989308685}
+      objectReference: {fileID: 5146383255163158068}
     - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
       propertyPath: interactions.Array.data[2]
       value: 
-      objectReference: {fileID: 7577487614228575913}
+      objectReference: {fileID: 2210290300809965057}
+    - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
+      propertyPath: actionsOnFirstView.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
+      propertyPath: actionsOnFirstView.Array.data[0]
+      value: 
+      objectReference: {fileID: 5373473846530246438, guid: 6b5eab4bc7cc95c49a8f4c063bad3ec2, type: 3}
     - target: {fileID: 8244932256638507857, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -445,7 +470,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8244932256638507862, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
       propertyPath: m_Name
-      value: ForestStuff
+      value: ForestStuff Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
