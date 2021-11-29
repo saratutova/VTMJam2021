@@ -14,3 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Graffiti
   type: 1
+  inEquipment: {fileID: 21300000, guid: 589bb2abbf23a4144ababb1f07733318, type: 3}
+  zoomPic: {fileID: 21300000, guid: 5efa8b9424b63904cbffc7c25784ee3c, type: 3}

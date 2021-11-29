@@ -13,5 +13,5 @@ public class Item : ScriptableObject
     public string itemName;
     public EquipmentType type;
     public Sprite inEquipment;
-    public Sprite bigPic;
+    public Sprite zoomPic;
 }
