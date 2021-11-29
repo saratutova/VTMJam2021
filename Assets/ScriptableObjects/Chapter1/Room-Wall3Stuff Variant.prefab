@@ -246,28 +246,32 @@ PrefabInstance:
       objectReference: {fileID: 6301607536690073656}
     - target: {fileID: 4640641588230676017, guid: 4fdc25fdd3f4e0f4dbe2a54859dd3f26, type: 3}
       propertyPath: _onButtonClickedActions.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4640641588230676017, guid: 4fdc25fdd3f4e0f4dbe2a54859dd3f26, type: 3}
       propertyPath: _onButtonClickedActions.Array.data[0]
       value: 
-      objectReference: {fileID: 6301607536690073656}
+      objectReference: {fileID: 4075678017206251113, guid: cd62470bde804e947aa73b2786ee1013, type: 3}
     - target: {fileID: 4640641588230676017, guid: 4fdc25fdd3f4e0f4dbe2a54859dd3f26, type: 3}
       propertyPath: _onButtonClickedActions.Array.data[1]
       value: 
-      objectReference: {fileID: 4075678017206251113, guid: cd62470bde804e947aa73b2786ee1013, type: 3}
+      objectReference: {fileID: 8829789130902021572, guid: eaae3839c8bc6774c8e0569e85422af6, type: 3}
     - target: {fileID: 4640641588230676017, guid: 4fdc25fdd3f4e0f4dbe2a54859dd3f26, type: 3}
       propertyPath: _onButtonClickedActions.Array.data[2]
       value: 
-      objectReference: {fileID: 8829789130902021572, guid: eaae3839c8bc6774c8e0569e85422af6, type: 3}
+      objectReference: {fileID: 4075678017206251113, guid: 4523bf9a8734692498be26f542926319, type: 3}
     - target: {fileID: 4640641588230676017, guid: 4fdc25fdd3f4e0f4dbe2a54859dd3f26, type: 3}
       propertyPath: _onButtonClickedActions.Array.data[3]
       value: 
-      objectReference: {fileID: 4075678017206251113, guid: 4523bf9a8734692498be26f542926319, type: 3}
+      objectReference: {fileID: 5952122775388038469, guid: 1ebd88bea42fe52458354bf6cf11288f, type: 3}
     - target: {fileID: 4640641588230676017, guid: 4fdc25fdd3f4e0f4dbe2a54859dd3f26, type: 3}
       propertyPath: _onButtonClickedActions.Array.data[4]
       value: 
-      objectReference: {fileID: 968912331337210611}
+      objectReference: {fileID: 5373473846530246438, guid: e40610ffecfd9324c82ada5519ca6699, type: 3}
+    - target: {fileID: 4640641588230676017, guid: 4fdc25fdd3f4e0f4dbe2a54859dd3f26, type: 3}
+      propertyPath: _onButtonClickedActions.Array.data[5]
+      value: 
+      objectReference: {fileID: 6301607536690073656}
     - target: {fileID: 6640951238298053050, guid: 4fdc25fdd3f4e0f4dbe2a54859dd3f26, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -345,6 +349,42 @@ PrefabInstance:
       objectReference: {fileID: 6566808070504013775}
     - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
       propertyPath: actionsOnDoSomething.Array.data[0]
+      value: 
+      objectReference: {fileID: 7933033760992177504}
+    - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
+      propertyPath: actionsOnDoSomethingActions.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
+      propertyPath: actionsOnDoSomethingActions.Array.data[0].name
+      value: Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
+      propertyPath: actionsOnDoSomethingActions.Array.data[1].name
+      value: ChangeGraffiti
+      objectReference: {fileID: 0}
+    - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
+      propertyPath: actionsOnDoSomethingActions.Array.data[0].actionsOnDoSomething.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
+      propertyPath: actionsOnDoSomethingActions.Array.data[1].actionsOnDoSomething.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
+      propertyPath: actionsOnDoSomethingActions.Array.data[0].actionsOnDoSomething.Array.data[0]
+      value: 
+      objectReference: {fileID: 7933033760992177504}
+    - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
+      propertyPath: actionsOnDoSomethingActions.Array.data[0].actionsOnDoSomething.Array.data[1]
+      value: 
+      objectReference: {fileID: 7933033760992177504}
+    - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
+      propertyPath: actionsOnDoSomethingActions.Array.data[1].actionsOnDoSomething.Array.data[0]
+      value: 
+      objectReference: {fileID: 6301607536690073656}
+    - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
+      propertyPath: actionsOnDoSomethingActions.Array.data[1].actionsOnDoSomething.Array.data[1]
       value: 
       objectReference: {fileID: 7933033760992177504}
     - target: {fileID: 8244932256638507857, guid: a92239f14153f8b4faab45af3eed303e, type: 3}

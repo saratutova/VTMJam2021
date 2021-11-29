@@ -4,13 +4,20 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
+[System.Serializable]
+public class StuffDoSomething
+{
+    public string name;
+    public List<GameAction> actionsOnDoSomething = new List<GameAction>();
+}
+
 public class SceneStuff : MonoBehaviour
 {
     public static bool wasWindowDialoge = false;
     [SerializeField] private List<Interaction> interactions = new List<Interaction>();
     [SerializeField] private List<GameAction> actionsOnFirstView = new List<GameAction>();
     [SerializeField] private List<GameAction> actionsOnEveryView = new List<GameAction>();
-    [SerializeField] private List<GameAction> actionsOnDoSomething = new List<GameAction>();
+    [SerializeField] private List<StuffDoSomething> actionsOnDoSomethingActions = new List<StuffDoSomething>();
 
     public bool IsThereSometingImportant => interactions.Any(x => x.important && !x.clicked && x.canInteract);
     public bool IsThereSometingToClick => interactions.Any(x => !x.clicked && x.canInteract);
@@ -39,11 +46,15 @@ public class SceneStuff : MonoBehaviour
         gameObject.SetActive(false);
     }
 
-    public void DoSomething()
+    public void DoSomething(string stuffName)
     {
-        if (actionsOnDoSomething != null)
+        var stuff = actionsOnDoSomethingActions.FirstOrDefault(x => x.name.Equals(stuffName));
+        if (stuff == default)
         {
-            actionsOnDoSomething.ForEach(x => x.Action());
+            Debug.Log($"THERE IS NO STUFF TO DO: {stuffName}");
+            return;
         }
+        
+        stuff.actionsOnDoSomething.ForEach(x => x.Action());
     }
 }

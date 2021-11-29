@@ -12,8 +12,8 @@ public class ScreenManager : Manager<ScreenManager>
         scenery.OnFirstEnter();
     }
 
-    public void DoSomethingOnSceneStuff()
+    public void DoSomethingOnSceneStuff(string stuffName)
     {
-        _controller.DoSomethingOnSceneStuff();
+        _controller.DoSomethingOnSceneStuff(stuffName);
     }
 }

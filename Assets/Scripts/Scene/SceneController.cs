@@ -19,7 +19,7 @@ public class SceneController : MonoBehaviour
         GameManager.Instance.FocusChanged.AddListener(() => Refresh.Invoke());
     }
 
-    internal void DoSomethingOnSceneStuff() => _model.CurrentStuff.DoSomething();
+    internal void DoSomethingOnSceneStuff(string stuffName) => _model.CurrentStuff.DoSomething(stuffName);
 
     internal void SettingButtonClicked(SettingsType type)
     {

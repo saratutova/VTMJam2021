@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2455801621935480763}
   - component: {fileID: 5373473846530246438}
+  - component: {fileID: 4260797670000715218}
   m_Layer: 0
   m_Name: "StartDialogue Slajd 10 Po ataku na graffiti pojawia si\u0119 czerwona
     mg\u0142a"
@@ -44,9 +45,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec552152b2e6f9e49ab8b992e2723266, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _isOneTime: 0
   _beforeAction: {fileID: 0}
   _afterAction: {fileID: 0}
-  _wasUsed: 0
+  isDone: 0
   _dialogueName: "Slajd 10 Po ataku na graffiti pojawia si\u0119 czerwona mg\u0142a"
-  _dialogueEnded: {fileID: 0}
+  _dialogueEnded: {fileID: 4260797670000715218}
+--- !u!114 &4260797670000715218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 514532344489316004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e469616b15ecb7a48bdecc9ed4e13ded, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _beforeAction: {fileID: 0}
+  _afterAction: {fileID: 5373473846530246438, guid: 50edc2e054e5c754ea514452a61293b5, type: 3}
+  isDone: 0
+  stuffName: ChangeGraffiti

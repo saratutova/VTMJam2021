@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2455801621935480763}
   - component: {fileID: 5373473846530246438}
+  - component: {fileID: 5963620407738948455}
   m_Layer: 0
   m_Name: "StartDialogue Slajd 9 - powr\xF3t do rzutu na graffiti"
   m_TagString: Untagged
@@ -47,4 +48,20 @@ MonoBehaviour:
   _afterAction: {fileID: 0}
   isDone: 0
   _dialogueName: "Slajd 9 - powr\xF3t do rzutu na graffiti"
-  _dialogueEnded: {fileID: 5680190045582859753, guid: b33edd055b5c58446bf8235c231b213a, type: 3}
+  _dialogueEnded: {fileID: 5963620407738948455}
+--- !u!114 &5963620407738948455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 514532344489316004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e469616b15ecb7a48bdecc9ed4e13ded, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _beforeAction: {fileID: 0}
+  _afterAction: {fileID: 0}
+  isDone: 0
+  stuffName: Button
