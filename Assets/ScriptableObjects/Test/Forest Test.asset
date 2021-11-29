@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 51aca430d90536046ba4ef37be872a2e, type: 3}
-  m_Name: Forest 1
+  m_Name: Forest Test
   m_EditorClassIdentifier: 
   mainWall: {fileID: 11400000, guid: 510d87faaa6d7d04385820a00e7841b8, type: 2}
   surroundings:
   - {fileID: 11400000, guid: 510d87faaa6d7d04385820a00e7841b8, type: 2}
-  firstEnter: {fileID: 4075678017206251113, guid: 138ed8341a37d0a4eb14102f86efb01e, type: 3}
+  firstEnter: {fileID: 0}

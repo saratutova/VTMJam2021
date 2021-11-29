@@ -26,6 +26,7 @@ public class ShowImage : GameAction
             {
                 GameActionManager.Instance.PlayAction(_actionOnClose);
             }
+            Done();
         });
     }
 }

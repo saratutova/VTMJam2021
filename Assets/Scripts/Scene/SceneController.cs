@@ -24,7 +24,7 @@ public class SceneController : MonoBehaviour
         {
             _model.IsUsingPotence = true;
         }
-        _model.CurrentStuff.Init();
+        RefreshSceneStuff();
         GameManager.Instance.ChangeFocus(-1);
         Refresh.Invoke();
     }
@@ -45,6 +45,11 @@ public class SceneController : MonoBehaviour
         ZoomManager.Instance.ZoomStarted.AddListener(() => Refresh.Invoke());
         ZoomManager.Instance.ZoomEnded.AddListener(() => Refresh.Invoke());
         GameManager.Instance.FocusChanged.AddListener(() => Refresh.Invoke());
+    }
+
+    internal void RefreshSceneStuff()
+    {
+        _model.CurrentStuff.Init();
     }
 
     internal void DoSomethingOnSceneStuff(string stuffName) => _model.CurrentStuff.DoSomething(stuffName);
@@ -100,8 +105,8 @@ public class SceneController : MonoBehaviour
                 stuff.name = _model.CurrentWall.stuff.name;
                 stuffs.Add(stuff);
             }
-            stuff.Init();
             _model.CurrentStuff = stuff;
+            stuff.Init();
         }
         else
         {

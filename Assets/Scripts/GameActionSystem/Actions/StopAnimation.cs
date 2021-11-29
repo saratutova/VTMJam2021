@@ -12,5 +12,6 @@ public class StopAnimation : GameAction
         base.DoAction();
         iTween.Stop(_spriteRenderer.gameObject);
         _spriteRenderer.color = _endColor;
+        Done();
     }
 }

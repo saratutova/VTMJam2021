@@ -36,4 +36,9 @@ public class ScreenManager : Manager<ScreenManager>
     {
         _controller.DoSomethingOnSceneStuff(stuffName);
     }
+
+    internal void RefreshSceneStuff()
+    {
+        _controller.RefreshSceneStuff();
+    }
 }

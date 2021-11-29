@@ -14,5 +14,6 @@ public class MoveRotateObj : GameAction
 
         _spriteObj.position = _position;
         _spriteObj.rotation = Quaternion.Euler(_rotation);
+        Done();
     }
 }

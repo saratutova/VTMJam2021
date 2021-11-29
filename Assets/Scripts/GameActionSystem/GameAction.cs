@@ -57,19 +57,10 @@ public abstract class GameAction : MonoBehaviour
                 _afterAction.Action();
             }
         }
-        if (gameObject.activeSelf)
-        {
-            StartCoroutine(AfterAction()); 
-        }
-        else
-        {
-            isDone = true;
-        }
     }
 
-    IEnumerator AfterAction()
+    protected void Done()
     {
-        yield return new WaitForSeconds(1f);
         isDone = true;
     }
 }

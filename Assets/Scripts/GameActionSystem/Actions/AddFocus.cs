@@ -10,6 +10,7 @@ public class AddFocus : GameAction
     {
         base.DoAction();
         GameManager.Instance.ChangeFocus(value);
+        Done();
     }
 
 }

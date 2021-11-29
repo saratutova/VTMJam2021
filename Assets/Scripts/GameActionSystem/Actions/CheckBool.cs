@@ -27,6 +27,7 @@ public class CheckBool : GameAction
                     _action.Action();
                 }
             }
+            Done();
         }
     }
 }

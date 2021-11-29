@@ -10,6 +10,6 @@ public class ChangeArrowVisiblility : GameAction
     {
         base.DoAction();
         ScreenManager.Instance.ShouldArrowsBeVisible = value;
-
+        Done();
     }
 }
