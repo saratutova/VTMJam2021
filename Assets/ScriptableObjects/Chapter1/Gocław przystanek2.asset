@@ -16,4 +16,4 @@ MonoBehaviour:
   surroundings:
   - {fileID: 11400000, guid: a957e8734b8cc5149b43ba79c23a7dab, type: 2}
   - {fileID: 11400000, guid: 6f8baddc25177f24983e9954b2c06fd0, type: 2}
-  firstEnter: {fileID: 5373473846530246438, guid: 400df27a411f4d64f87d0ef51ca7ec6d, type: 3}
+  firstEnter: {fileID: 0}

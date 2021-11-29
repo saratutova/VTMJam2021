@@ -15,8 +15,9 @@ ScriptedImporter:
   - "Slajd 21 Bohater widzi graffiti na korytarzu ZBLI\u017BENIE-Slajd21-2"
   - "Slajd 21 Bohater widzi graffiti na korytarzu ZBLI\u017BENIE-Slajd21-3"
   - "Slajd 21 Bohater widzi graffiti na korytarzu ZBLI\u017BENIE-Slajd21-4"
+  - "Slajd 21 Bohater widzi graffiti na korytarzu ZBLI\u017BENIE-Slajd21-5"
   compilationStatus: 1
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
-  baseLanguage: {instanceID: 0}
+  baseLanguage: {fileID: 7128917941130120860, guid: bf0a23307fe6dbd49bf074be67e4aa4e, type: 3}
   localizations: []
