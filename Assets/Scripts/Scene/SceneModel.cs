@@ -22,15 +22,17 @@ public class SceneModel : MonoBehaviour
         switch (power)
         {
             case Power.Auspex:
-                return Focus >= 1;
+                return Focus >= 1 && !IsUsingAuspex;
             case Power.Potence:
-                return Focus >= 1;
+                return Focus >= 1 && !IsUsingPotence;
             default:
                 return false;
         }
     }
 
-    internal bool ShouldArrowBeVisible(ArrowSide side) => _currentScenery.IsSide(side, _currentWall.side) && ShouldUIBeVisible;
+    internal bool ShouldArrowBeVisible(ArrowSide side) => _currentScenery.IsSide(side, _currentWall.side) 
+        && ShouldUIBeVisible
+        && ScreenManager.Instance.ShouldArrowsBeVisible;
     internal bool ShouldUIBeVisible => !DialogueManager.Instance.IsDuringDialogue && !ZoomManager.Instance.isDuringZoom;
 
     public Wall CurrentWall
@@ -49,4 +51,6 @@ public class SceneModel : MonoBehaviour
         : (CurrentStuff.IsThereSometingToClick)? StarState.Something : StarState.Inactive;
 
     public SceneStuff CurrentStuff { get => _currentStuff; set => _currentStuff = value; }
+    public bool IsUsingPotence { get; internal set; }
+    public bool IsUsingAuspex { get; internal set; }
 }

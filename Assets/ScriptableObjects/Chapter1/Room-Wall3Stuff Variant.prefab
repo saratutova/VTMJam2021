@@ -150,7 +150,9 @@ MonoBehaviour:
   _afterAction: {fileID: 0}
   isDone: 0
   _action: {fileID: 5373473846530246438, guid: 07538439c330205499a7bc116e16746b, type: 3}
+  _valueToCompare: 1
   _checkName: wasWindowDialoge
+  _withGAM: 1
 --- !u!114 &7933033760992177504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,7 +166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _beforeAction: {fileID: 0}
-  _afterAction: {fileID: 0}
+  _afterAction: {fileID: 8543981077957864291, guid: 2d6923ceac238884c8bfc52348e8b009, type: 3}
   isDone: 0
   _canvas: {fileID: 5912448360226588211}
 --- !u!1001 &9076382464403089968

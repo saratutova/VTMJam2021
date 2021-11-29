@@ -5,7 +5,7 @@ using UnityEngine;
 public class DoList : GameAction
 {
     [SerializeField] private List<GameAction> _actions = new List<GameAction>();
-    [SerializeField] private bool _withGAM = true;
+    //[SerializeField] private bool _withGAM = true;
 
     protected override void DoAction()
     {

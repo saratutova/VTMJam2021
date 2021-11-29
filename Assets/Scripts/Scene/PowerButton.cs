@@ -5,7 +5,7 @@ using UnityEngine;
 
 public enum Power
 {
-    Auspex, Potence
+    Auspex, Potence, None
 }
 
 public class PowerButton : SceneButton
@@ -20,6 +20,6 @@ public class PowerButton : SceneButton
 
     protected override void Clicked()
     {
-        throw new NotImplementedException();
+        _controller.PowerButtonClicked(power);
     }
 }

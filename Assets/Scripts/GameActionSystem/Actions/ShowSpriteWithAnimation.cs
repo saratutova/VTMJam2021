@@ -11,7 +11,7 @@ public class ShowSpriteWithAnimation : GameAction
     [SerializeField] private iTween.EaseType _easetype = default;
     [SerializeField] private iTween.LoopType _looptype = default;
     [SerializeField] private GameAction _onFinishedAction = default;
-    [SerializeField] private bool _withGAM = true;
+    //[SerializeField] private bool _withGAM = true;
 
     protected override void DoAction()
     {

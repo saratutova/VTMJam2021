@@ -95,10 +95,12 @@ GameObject:
   - component: {fileID: 2656186955840962345}
   - component: {fileID: 3914905766211383278}
   - component: {fileID: 5270984263629225424}
+  - component: {fileID: 8074648334875829628}
   - component: {fileID: 8421690085850478582}
   - component: {fileID: 1797410260108667974}
   - component: {fileID: 5722594817714083830}
   - component: {fileID: 5929606219929841187}
+  - component: {fileID: 8521025048173989521}
   m_Layer: 0
   m_Name: drzwi1
   m_TagString: Untagged
@@ -210,11 +212,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97a238744ed668d43b6d2c2302acbf98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  important: 0
+  onAuspexUsed: {fileID: 0}
+  onPotenceUsed: {fileID: 0}
+  important: 1
   clicked: 0
   canInteract: 0
-  _gameAction: {fileID: 8421690085850478582}
+  _gameAction: {fileID: 8074648334875829628}
   _withGAM: 0
+--- !u!114 &8074648334875829628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3624305062879474374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ccccfab6b88e89419157863d11d0ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _withGAM: 0
+  _beforeAction: {fileID: 0}
+  _afterAction: {fileID: 0}
+  isDone: 0
+  onAuspexUsed: {fileID: 0}
+  onPotenceUsed: {fileID: 8521025048173989521}
+  withoutAuspex: {fileID: 0}
+  withoutPotence: {fileID: 8421690085850478582}
 --- !u!114 &8421690085850478582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -227,6 +251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2842f1aba6c368a48a1450a063a5daff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _withGAM: 0
   _beforeAction: {fileID: 0}
   _afterAction: {fileID: 0}
   isDone: 0
@@ -251,6 +276,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df090aabcb3bc04429e3e5d345c1428f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _withGAM: 1
   _beforeAction: {fileID: 0}
   _afterAction: {fileID: 0}
   isDone: 0
@@ -268,6 +294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df090aabcb3bc04429e3e5d345c1428f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _withGAM: 1
   _beforeAction: {fileID: 0}
   _afterAction: {fileID: 0}
   isDone: 0
@@ -285,8 +312,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df090aabcb3bc04429e3e5d345c1428f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _withGAM: 0
   _beforeAction: {fileID: 0}
   _afterAction: {fileID: 0}
+  isDone: 0
+  _spriteRenderer: {fileID: 2656186955840962345}
+  _sprite: {fileID: 21300000, guid: ddd285cdedcdf134499fce04765c4e09, type: 3}
+--- !u!114 &8521025048173989521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3624305062879474374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df090aabcb3bc04429e3e5d345c1428f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _withGAM: 1
+  _beforeAction: {fileID: 0}
+  _afterAction: {fileID: 2684201368943951083}
   isDone: 0
   _spriteRenderer: {fileID: 2656186955840962345}
   _sprite: {fileID: 21300000, guid: ddd285cdedcdf134499fce04765c4e09, type: 3}
@@ -302,6 +348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 435a3b8355e40074ab6a07b8e84901fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _withGAM: 1
   _beforeAction: {fileID: 0}
   _afterAction: {fileID: 0}
   isDone: 0
@@ -319,6 +366,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c8c0916cba69894a8b43d143df75aba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _withGAM: 0
   _beforeAction: {fileID: 0}
   _afterAction: {fileID: 0}
   isDone: 0
@@ -329,7 +377,6 @@ MonoBehaviour:
   _easetype: 31
   _looptype: 2
   _onFinishedAction: {fileID: 0}
-  _withGAM: 0
 --- !u!114 &3572921014947384953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -342,6 +389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e446a4677f32f54e96f26cf3251cd17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _withGAM: 0
   _beforeAction: {fileID: 0}
   _afterAction: {fileID: 0}
   isDone: 0
@@ -349,7 +397,6 @@ MonoBehaviour:
   - {fileID: 8755025763101698623}
   - {fileID: 2325575243755270409}
   - {fileID: 1767280936113374896}
-  _withGAM: 0
 --- !u!114 &6465542467733383311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -362,13 +409,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dd4999b6095171438d74229943fcce0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _withGAM: 0
   _beforeAction: {fileID: 0}
   _afterAction: {fileID: 0}
   isDone: 0
   _action: {fileID: 3572921014947384953}
   _valueToCompare: 1
   _checkName: wasZofiowkaLetterRead
-  _withGAM: 0
 --- !u!114 &8755025763101698623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -381,6 +428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c8c0916cba69894a8b43d143df75aba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _withGAM: 0
   _beforeAction: {fileID: 0}
   _afterAction: {fileID: 0}
   isDone: 0
@@ -391,7 +439,6 @@ MonoBehaviour:
   _easetype: 31
   _looptype: 2
   _onFinishedAction: {fileID: 0}
-  _withGAM: 0
 --- !u!1 &4275749956928026452
 GameObject:
   m_ObjectHideFlags: 0
@@ -572,13 +619,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dd4999b6095171438d74229943fcce0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _withGAM: 0
   _beforeAction: {fileID: 0}
   _afterAction: {fileID: 0}
   isDone: 0
   _action: {fileID: 2441689714414052936}
   _valueToCompare: 1
   _checkName: wasAttackGraffiti
-  _withGAM: 0
 --- !u!114 &2441689714414052936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -591,6 +638,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df090aabcb3bc04429e3e5d345c1428f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _withGAM: 1
   _beforeAction: {fileID: 0}
   _afterAction: {fileID: 0}
   isDone: 0
@@ -603,6 +651,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
+      propertyPath: interactions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
+      propertyPath: interactions.Array.data[0]
+      value: 
+      objectReference: {fileID: 5270984263629225424}
     - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
       propertyPath: actionsOnEveryView.Array.size
       value: 2

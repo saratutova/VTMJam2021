@@ -7,7 +7,7 @@ public class CheckBool : GameAction
     [SerializeField] private GameAction _action = default;
     [SerializeField] private bool _valueToCompare = true;
     [SerializeField] private string _checkName = default;
-    [SerializeField] private bool _withGAM = true;
+    //[SerializeField] private bool _withGAM = true;
     private bool _used = false;
 
     protected override void DoAction()
