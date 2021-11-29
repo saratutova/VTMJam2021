@@ -54,7 +54,7 @@ public abstract class GameAction : MonoBehaviour
 
     IEnumerator AfterAction()
     {
-        yield return new WaitForSeconds(60f);
+        yield return new WaitForSeconds(1f);
         isDone = true;
     }
 }

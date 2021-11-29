@@ -31,7 +31,7 @@ public class SceneModel : MonoBehaviour
     }
 
     internal bool ShouldArrowBeVisible(ArrowSide side) => _currentScenery.IsSide(side, _currentWall.side) && ShouldUIBeVisible;
-    internal bool ShouldUIBeVisible => !DialogueManager.Instance.IsDuringDialogue;
+    internal bool ShouldUIBeVisible => !DialogueManager.Instance.IsDuringDialogue && !ZoomManager.Instance.isDuringZoom;
 
     public Wall CurrentWall
     {

@@ -16,6 +16,8 @@ public class SceneController : MonoBehaviour
     {
         DialogueManager.Instance.DialogueStarted.AddListener(() => Refresh.Invoke());
         DialogueManager.Instance.DialogueEnded.AddListener(() => Refresh.Invoke());
+        ZoomManager.Instance.ZoomStarted.AddListener(() => Refresh.Invoke());
+        ZoomManager.Instance.ZoomEnded.AddListener(() => Refresh.Invoke());
         GameManager.Instance.FocusChanged.AddListener(() => Refresh.Invoke());
     }
 

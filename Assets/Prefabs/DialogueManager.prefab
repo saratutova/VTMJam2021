@@ -297,7 +297,7 @@ MonoBehaviour:
     character: {fileID: 0}
   - program: {fileID: 2480198943629176163, guid: 87633969953b4fe42b033bce2b1f050d, type: 3}
     startNode: Slajd15
-    background: {fileID: 0}
+    background: {fileID: 21300000, guid: b65c3d5d6d373e048b273d04e3a079b4, type: 3}
     character: {fileID: 0}
   - program: {fileID: 2480198943629176163, guid: 438b5450608cd0c4ba11f36119a6540b, type: 3}
     startNode: Slajd17
@@ -495,6 +495,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   DialogueStarted:
+    m_PersistentCalls:
+      m_Calls: []
+  DialogueEnded:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1 &378661977128927451
