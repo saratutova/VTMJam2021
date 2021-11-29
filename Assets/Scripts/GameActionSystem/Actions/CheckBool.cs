@@ -2,16 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayDialogueAfterWindowDialogue : GameAction
+public class CheckBool : GameAction
 {
-    private bool _playedDialogue = false;
     [SerializeField] private GameAction _action = default;
+    [SerializeField] private string _checkName = default;
+    private bool _used = false;
 
     protected override void DoAction()
     {
         base.DoAction();
-        if (!_playedDialogue && SceneStuff.wasWindowDialoge)
+        if (!_used && GameManager.Instance.CheckBoolValue(_checkName))
         {
+            _used = true;
             if (_action != null)
             {
                 GameActionManager.Instance.PlayAction(_action);

@@ -2999,6 +2999,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _startScenery: {fileID: 11400000, guid: c102dca7e28d5224a89a8bbdf1b68070, type: 2}
+  _checks:
+  - name: wasWindowDialoge
+    value: 0
+  - name: wasAttackGraffiti
+    value: 0
 --- !u!1 &1534739797
 GameObject:
   m_ObjectHideFlags: 0
@@ -3447,6 +3452,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueManager
       objectReference: {fileID: 0}
+    - target: {fileID: 378661976926811498, guid: dda27d1b6dac2e548b541851bbe43122, type: 3}
+      propertyPath: _programs.Array.data[9].background
+      value: 
+      objectReference: {fileID: 21300000, guid: 089965314c832a5468f221cd2302d181, type: 3}
     - target: {fileID: 378661976926811499, guid: dda27d1b6dac2e548b541851bbe43122, type: 3}
       propertyPath: m_RootOrder
       value: 4

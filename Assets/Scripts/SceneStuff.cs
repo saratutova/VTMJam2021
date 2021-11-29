@@ -14,6 +14,7 @@ public class StuffDoSomething
 public class SceneStuff : MonoBehaviour
 {
     public static bool wasWindowDialoge = false;
+    public static bool wasAttackGraffiti = false;
     [SerializeField] private List<Interaction> interactions = new List<Interaction>();
     [SerializeField] private List<GameAction> actionsOnFirstView = new List<GameAction>();
     [SerializeField] private List<GameAction> actionsOnEveryView = new List<GameAction>();

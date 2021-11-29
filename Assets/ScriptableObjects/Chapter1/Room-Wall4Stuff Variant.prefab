@@ -1,5 +1,22 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1253660822707548380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 998413786329272330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eb88f90ac12c0f448833e759761a0fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _beforeAction: {fileID: 5373473846530246438, guid: 0596c4eea31dc5b42b7f068085e25fac, type: 3}
+  _afterAction: {fileID: 0}
+  isDone: 0
+  _checkName: wasWindowDialoge
+  _value: 1
 --- !u!114 &3677321298075494429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15,23 +32,8 @@ MonoBehaviour:
   _beforeAction: {fileID: 0}
   _afterAction: {fileID: 0}
   isDone: 0
-  _onCounterReached: {fileID: 6822258620712540574}
+  _onCounterReached: {fileID: 1253660822707548380}
   max: 3
---- !u!114 &6822258620712540574
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 998413786329272330}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e4f6881a2466c748b4d5986f8a8e17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _beforeAction: {fileID: 5373473846530246438, guid: 0596c4eea31dc5b42b7f068085e25fac, type: 3}
-  _afterAction: {fileID: 0}
-  isDone: 0
 --- !u!1001 &9201124762101435228
 PrefabInstance:
   m_ObjectHideFlags: 0
