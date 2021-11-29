@@ -5,24 +5,21 @@ using UnityEngine;
 
 public class GameActionManager : Manager<GameActionManager>
 {
-    private List<GameAction> actions = new List<GameAction>();
+    //private List<GameAction> actions = new List<GameAction>();
 
     public void PlayAction(GameAction action)
     {
         var newAction = Instantiate(action, transform);
         newAction.Action();
-        actions.Add(newAction);
+        //actions.Add(newAction);
         //RefreshActions();
     }
 
-    private void RefreshActions()
+    public void RefreshActions()
     {
-        for (int i = actions.Count - 1; i >= 0; i--)
+        for (int i = transform.childCount - 1; i >= 0; i--)
         {
-            if (actions[i].isDone)
-            {
-                Destroy(actions[i].gameObject);
-            }
+            Destroy(transform.GetChild(i).gameObject);
         }
     }
 }

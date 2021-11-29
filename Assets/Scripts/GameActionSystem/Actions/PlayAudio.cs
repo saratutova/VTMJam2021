@@ -9,5 +9,6 @@ public class PlayAudio : GameAction
     {
         base.DoAction();
         AudioManager.Instance.PlayClip(_audioName);
+        Done();
     }
 }

@@ -14,3 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   side: 0
   background: {fileID: 21300000, guid: b3c08c721c2de9a4cac51bd28e8cb429, type: 3}
+  firstEnter: {fileID: 0}
+  stuff: {fileID: 2424173670797220805, guid: 195ef26aa253cba48a271f7b60555a76, type: 3}

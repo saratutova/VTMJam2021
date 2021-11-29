@@ -10,5 +10,6 @@ public class AddItem : GameAction
     {
         base.DoAction();
         GameManager.Instance.AddItem(_item);
+        Done();
     }
 }

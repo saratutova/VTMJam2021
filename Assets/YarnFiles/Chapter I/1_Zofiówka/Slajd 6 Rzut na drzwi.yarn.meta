@@ -9,10 +9,11 @@ ScriptedImporter:
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
   baseLanguageID: 
-  stringIDs: []
-  compilationStatus: 0
-  isSuccesfullyCompiled: 0
+  stringIDs:
+  - Slajd 6 Rzut na drzwi-Slajd6-0
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
   compilationErrorMessage: The node 'Slajd 6 rzut na drzwi' contains illegal characters
     in its title.
-  baseLanguage: {instanceID: 0}
+  baseLanguage: {fileID: 7128917941130120860, guid: 9761033752d129f44bf9a1f453f13e07, type: 3}
   localizations: []

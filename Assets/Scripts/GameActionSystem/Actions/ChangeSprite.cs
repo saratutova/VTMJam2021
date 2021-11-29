@@ -11,5 +11,6 @@ public class ChangeSprite : GameAction
     {
         base.DoAction();
         _spriteRenderer.sprite = _sprite;
+        Done();
     }
 }

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1882988114252388569}
   - component: {fileID: 8034270504654230716}
   - component: {fileID: 8384527572899872805}
+  - component: {fileID: 9179145955660136738}
   m_Layer: 0
   m_Name: auspexglow_pokoj1
   m_TagString: Untagged
@@ -123,10 +124,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97a238744ed668d43b6d2c2302acbf98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  important: 0
+  onAuspexUsed: {fileID: 9179145955660136738}
+  onPotenceUsed: {fileID: 0}
+  important: 1
   clicked: 0
   canInteract: 0
-  _gameAction: {fileID: 0}
+  _gameAction: {fileID: 8497912613792392053, guid: 3d6f4d343c30332408e1417c3430c8f0, type: 3}
+  _withGAM: 1
+--- !u!114 &9179145955660136738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5773055269116446213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df090aabcb3bc04429e3e5d345c1428f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _withGAM: 1
+  _beforeAction: {fileID: 0}
+  _afterAction: {fileID: 0}
+  isDone: 0
+  _spriteRenderer: {fileID: 1882988114252388569}
+  _sprite: {fileID: 21300000, guid: 941bbb2468e338a4892053d4452099ec, type: 3}
 --- !u!114 &1157153075749878867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -139,12 +161,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dd4999b6095171438d74229943fcce0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _withGAM: 0
   _beforeAction: {fileID: 0}
   _afterAction: {fileID: 0}
   isDone: 0
   _action: {fileID: 3815271880163626606}
+  _valueToCompare: 1
   _checkName: wasAttackGraffiti
-  _withGAM: 0
 --- !u!114 &3815271880163626606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -157,11 +180,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 435a3b8355e40074ab6a07b8e84901fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _withGAM: 1
   _beforeAction: {fileID: 0}
   _afterAction: {fileID: 0}
   isDone: 0
   _interaction: {fileID: 8384527572899872805}
   value: 1
+--- !u!114 &8644796525467923879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2785945185934098266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dd4999b6095171438d74229943fcce0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _withGAM: 1
+  _beforeAction: {fileID: 0}
+  _afterAction: {fileID: 0}
+  isDone: 0
+  _action: {fileID: 5373473846530246438, guid: e60b613edf8fdfc4b8edea4b1231473f, type: 3}
+  _valueToCompare: 1
+  _checkName: wasZofiowkaLetterRead
 --- !u!1001 &6107523582652752908
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -179,7 +222,7 @@ PrefabInstance:
       objectReference: {fileID: 8384527572899872805}
     - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
       propertyPath: actionsOnEveryView.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
       propertyPath: actionsOnFirstView.Array.size
@@ -190,9 +233,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1157153075749878867}
     - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
+      propertyPath: actionsOnEveryView.Array.data[1]
+      value: 
+      objectReference: {fileID: 8644796525467923879}
+    - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
       propertyPath: actionsOnFirstView.Array.data[0]
       value: 
       objectReference: {fileID: 5373473846530246438, guid: 2559858d9f9ddd141935bdaf7182d9cc, type: 3}
+    - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
+      propertyPath: actionsOnFirstView.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8244932256638507857, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
       propertyPath: m_RootOrder
       value: 0

@@ -10,8 +10,10 @@ public enum EquipmentType
 [CreateAssetMenu(fileName = "Item", menuName = "SO/New Item", order = 3)]
 public class Item : ScriptableObject
 {
-    public string itemName;
+    public bool isUsable = true;
+    public string ItemName => name;
     public EquipmentType type;
     public Sprite inEquipment;
-    public Sprite bigPic;
+    public Sprite inEquipmentSelected;
+    public Sprite zoomPic;
 }

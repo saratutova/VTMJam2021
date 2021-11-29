@@ -43,9 +43,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec552152b2e6f9e49ab8b992e2723266, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _isOneTime: 0
+  _withGAM: 1
   _beforeAction: {fileID: 0}
-  _afterAction: {fileID: 0}
-  _wasUsed: 0
+  _afterAction: {fileID: 5952122775388038469, guid: 44f185070de32c146b27cabaa73704da, type: 3}
+  isDone: 0
   _dialogueName: "Slajd 26 - Daga - teksty do zwierz\u0105tek - Daga po zagadce"
-  _dialogueEnded: {fileID: 0}
+  _dialogueEnded: {fileID: 2273910543661980463, guid: 917c31c08e219c0418d0505697525190, type: 3}

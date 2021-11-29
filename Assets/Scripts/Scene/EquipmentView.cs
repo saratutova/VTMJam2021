@@ -15,6 +15,7 @@ public class EquipmentView : SceneUIView
     [SerializeField] private EquipmentItem _item = default;
 
     private EquipmentType _currentType = EquipmentType.Item;
+    private List<Item> _currentList = new List<Item>();
 
     protected override void Start()
     {
@@ -45,11 +46,15 @@ public class EquipmentView : SceneUIView
                 Destroy(_listPlace.GetChild(i).gameObject);
             }
         }
-        var list = GameManager.Instance.GetItemList(_currentType);
-        for (int i = 0; i < list.Count; i++)
+        _currentList = GameManager.Instance.GetItemList(_currentType);
+        for (int i = 0; i < _currentList.Count; i++)
         {
             var newItem = Instantiate(_item, _listPlace);
-            newItem.Init(list[i]);
+            newItem.Init(_currentList[i].inEquipment, i, this);
+            if (_currentList[i] == _model.CurrentItemSelected)
+            {
+                newItem.ChangeImage(_currentList[i].inEquipmentSelected);
+            }
         }
     }
 
@@ -59,5 +64,26 @@ public class EquipmentView : SceneUIView
         SetList();
     }
 
-
+    internal void OnItemLeftClicked(int index)
+    {
+        switch (_currentType)
+        {
+            case EquipmentType.Item:
+                if (_currentList[index].isUsable)
+                {
+                    _model.ItemClicked(_currentList[index]); 
+                }
+                break;
+            case EquipmentType.Memory:
+                break;
+            default:
+                break;
+        }
+        _controller.ForceRefresh();
+    }
+    
+    internal void OnItemRightClicked(int index)
+    {
+        ZoomManager.Instance.ShowZoom(_currentList[index].zoomPic);
+    }
 }

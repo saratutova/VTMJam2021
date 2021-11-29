@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51aca430d90536046ba4ef37be872a2e, type: 3}
   m_Name: Zofiowka-hall
   m_EditorClassIdentifier: 
-  mainWall: {fileID: 0}
+  mainWall: {fileID: 11400000, guid: 97b8122eac8e9504aba1753f246f6ce0, type: 2}
   surroundings: []
   firstEnter: {fileID: 0}

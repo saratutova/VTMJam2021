@@ -21,6 +21,7 @@ public class ShowMessage : GameAction
                 {
                     _massageEnded.ForEach(x => GameActionManager.Instance.PlayAction(x));
                 }
+                Done();
             });
         }
         );

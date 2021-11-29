@@ -32,7 +32,7 @@ RectTransform:
   m_Father: {fileID: 378661975897121037}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.16125926}
+  m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.96243757, y: 0.87581486}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
@@ -277,7 +277,7 @@ MonoBehaviour:
     character: {fileID: 0}
   - program: {fileID: 2480198943629176163, guid: 1877cc33dca37ed4b9471a9f713ea5c2, type: 3}
     startNode: Slajd10
-    background: {fileID: 0}
+    background: {fileID: 21300000, guid: 089965314c832a5468f221cd2302d181, type: 3}
     character: {fileID: 0}
   - program: {fileID: 2480198943629176163, guid: 336501e02a0ae3040941cfda732f4b04, type: 3}
     startNode: Slajd11
@@ -297,7 +297,7 @@ MonoBehaviour:
     character: {fileID: 0}
   - program: {fileID: 2480198943629176163, guid: 87633969953b4fe42b033bce2b1f050d, type: 3}
     startNode: Slajd15
-    background: {fileID: 0}
+    background: {fileID: 21300000, guid: b65c3d5d6d373e048b273d04e3a079b4, type: 3}
     character: {fileID: 0}
   - program: {fileID: 2480198943629176163, guid: 438b5450608cd0c4ba11f36119a6540b, type: 3}
     startNode: Slajd17
@@ -330,23 +330,23 @@ MonoBehaviour:
   - program: {fileID: 2480198943629176163, guid: 274c1d8fca5847044b949e55b693aaa6, type: 3}
     startNode: Slajd26Daga
     background: {fileID: 0}
-    character: {fileID: 0}
+    character: {fileID: 21300000, guid: b9f835d742ce7744c91632127620a578, type: 3}
   - program: {fileID: 2480198943629176163, guid: 774fbd645b7c38346a4615f5e5abd6fe, type: 3}
     startNode: Slajd26kot
     background: {fileID: 0}
-    character: {fileID: 0}
+    character: {fileID: 21300000, guid: b9f835d742ce7744c91632127620a578, type: 3}
   - program: {fileID: 2480198943629176163, guid: 4e1934dff98d00d43a8aca2e7f2789cb, type: 3}
     startNode: Slajd26krolik
     background: {fileID: 0}
-    character: {fileID: 0}
+    character: {fileID: 21300000, guid: b9f835d742ce7744c91632127620a578, type: 3}
   - program: {fileID: 2480198943629176163, guid: 9203ddf070d0c794bb8386e1ac6f7803, type: 3}
     startNode: Slajd26sowa
     background: {fileID: 0}
-    character: {fileID: 0}
+    character: {fileID: 21300000, guid: b9f835d742ce7744c91632127620a578, type: 3}
   - program: {fileID: 2480198943629176163, guid: 8b0163cd7dee2804abb2b7125c873c28, type: 3}
     startNode: Slajd26wiewiorka
     background: {fileID: 0}
-    character: {fileID: 0}
+    character: {fileID: 21300000, guid: b9f835d742ce7744c91632127620a578, type: 3}
   - program: {fileID: 2480198943629176163, guid: cdbf42c9bb660064aa9ef2b06131652c, type: 3}
     startNode: Slajd26
     background: {fileID: 0}
@@ -495,6 +495,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   DialogueStarted:
+    m_PersistentCalls:
+      m_Calls: []
+  DialogueEnded:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1 &378661977128927451

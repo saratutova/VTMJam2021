@@ -15,8 +15,8 @@ public class GameManagerModel : MonoBehaviour
 {
     [SerializeField] private Scenery _startScenery;
     [SerializeField] private List<Checks> _checks = new List<Checks>();
-    private int _focus = 0;
-    private List<Item> _items = new List<Item>();
+    [SerializeField] private int _focus = 0;
+    [SerializeField] private List<Item> _items = new List<Item>();
 
     public int Focus { get => _focus; set => _focus = value; }
     public Scenery StartScenery => _startScenery;

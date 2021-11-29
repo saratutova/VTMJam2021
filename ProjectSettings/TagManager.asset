@@ -44,6 +44,9 @@ TagManager:
   - name: GameUI
     uniqueID: 2815740363
     locked: 0
+  - name: Zoom
+    uniqueID: 3301595203
+    locked: 0
   - name: Dialogue
     uniqueID: 3876221253
     locked: 0

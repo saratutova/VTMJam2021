@@ -63,5 +63,6 @@ public class GameManager : Manager<GameManager>
     public void SetBool(string checkName, bool value)
     {
         _model.SetCheck(checkName, value);
+        ScreenManager.Instance.RefreshSceneStuff();
     }
 }

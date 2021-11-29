@@ -43,9 +43,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec552152b2e6f9e49ab8b992e2723266, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _isOneTime: 0
+  _withGAM: 1
   _beforeAction: {fileID: 0}
   _afterAction: {fileID: 0}
-  _wasUsed: 0
+  isDone: 0
   _dialogueName: Slajd 15 Wyciemnienie - atak paniki
   _dialogueEnded: {fileID: 0}

@@ -11,5 +11,6 @@ public class ChangeInteractable : GameAction
     {
         base.DoAction();
         _interaction.canInteract = value;
+        Done();
     }
 }

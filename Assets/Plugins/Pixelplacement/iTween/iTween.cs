@@ -545,9 +545,13 @@ public class iTween : MonoBehaviour
 		if (!args.Contains("easetype")) {
 			args.Add("easetype",EaseType.linear);
 		}
-		
+
 		//set tempColor and base fromColor:
-		if(target.GetComponent<Renderer>()){
+		if (target.GetComponent<SpriteRenderer>())
+		{
+			tempColor = fromColor = target.GetComponent<SpriteRenderer>().color;
+		}
+		else if(target.GetComponent<Renderer>()){
 			tempColor=fromColor=target.GetComponent<Renderer>().material.color;
 		}else if(target.GetComponent<Light>()){
 			tempColor=fromColor=target.GetComponent<Light>().color;
@@ -556,6 +560,7 @@ public class iTween : MonoBehaviour
         {
 			tempColor=fromColor=target.GetComponent<Image>().color;
         }
+         
 		
 		//set augmented fromColor:
 		if(args.Contains("color")){
@@ -583,9 +588,13 @@ public class iTween : MonoBehaviour
 			fromColor.a=(float)args["alpha"];
 			args.Remove("alpha");
 		}
-		
+
 		//apply fromColor:
-		if(target.GetComponent<Renderer>()){
+		if (target.GetComponent<SpriteRenderer>())
+		{
+			target.GetComponent<SpriteRenderer>().color = fromColor;
+		}
+		else if (target.GetComponent<Renderer>()){
 			target.GetComponent<Renderer>().material.color=fromColor;
 		}else if(target.GetComponent<Light>()){
 			target.GetComponent<Light>().color=fromColor;
@@ -594,7 +603,7 @@ public class iTween : MonoBehaviour
 		{
 			target.GetComponent<Image>().color=fromColor;
         }
-		
+
 		//set new color arg:
 		args["color"]=tempColor;
 		
@@ -3172,9 +3181,14 @@ public class iTween : MonoBehaviour
 	void GenerateColorToTargets(){
 		//values holder [0] from, [1] to, [2] calculated value from ease equation:
 		//colors = new Color[3];
-		
+
 		//from and init to values:
-		if(GetComponent<Renderer>()){
+		if (GetComponent<SpriteRenderer>())
+		{
+			colors = new Color[1, 3];
+			colors[0, 0] = colors[0, 1] = GetComponent<SpriteRenderer>().color;
+		}
+		else if (GetComponent<Renderer>()){
 			colors = new Color[GetComponent<Renderer>().materials.Length,3];
 			for (int i = 0; i < GetComponent<Renderer>().materials.Length; i++) {
 				colors[i,0]=GetComponent<Renderer>().materials[i].GetColor(namedcolorvalue.ToString());
@@ -3190,6 +3204,7 @@ public class iTween : MonoBehaviour
 			colors = new Color[1, 3];
 			colors[0, 0] = colors[0, 1] = GetComponent<Image>().color;
 		}
+		
 		else
 		{
 			colors = new Color[1,3]; //empty placeholder incase the GO is perhaps an empty holder or something similar
@@ -3949,9 +3964,13 @@ public class iTween : MonoBehaviour
 		colors[2].b = ease(colors[0].b,colors[1].b,percentage);
 		colors[2].a = ease(colors[0].a,colors[1].a,percentage);
 		*/
-		
+
 		//apply:
-		if(GetComponent<Renderer>()){
+		if (GetComponent<SpriteRenderer>())
+		{
+			GetComponent<SpriteRenderer>().color = colors[0, 2];
+		}
+		else if (GetComponent<Renderer>()){
 			//renderer.material.color=colors[2];
 			for (int i = 0; i < colors.GetLength(0); i++) {
 				GetComponent<Renderer>().materials[i].SetColor(namedcolorvalue.ToString(),colors[i,2]);

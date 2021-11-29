@@ -13,8 +13,6 @@ public class StuffDoSomething
 
 public class SceneStuff : MonoBehaviour
 {
-    public static bool wasWindowDialoge = false;
-    public static bool wasAttackGraffiti = false;
     [SerializeField] private List<Interaction> interactions = new List<Interaction>();
     [SerializeField] private List<GameAction> actionsOnFirstView = new List<GameAction>();
     [SerializeField] private List<GameAction> actionsOnEveryView = new List<GameAction>();
@@ -24,6 +22,8 @@ public class SceneStuff : MonoBehaviour
     public bool IsThereSometingToClick => interactions.Any(x => !x.clicked && x.canInteract);
 
     private bool visited = false;
+    private bool wasShownAfterPontence = false;
+    private bool wasShownAfterAuspex = false;
 
     public void Init()
     {
@@ -39,6 +39,27 @@ public class SceneStuff : MonoBehaviour
         if (actionsOnEveryView != null)
         {
             actionsOnEveryView.ForEach(x => x.Action());
+        }
+        if (ScreenManager.Instance.IsUsingPotence && !wasShownAfterPontence)
+        {
+            wasShownAfterPontence = true;
+            interactions.ForEach(x => {
+                if (x.onPotenceUsed != null)
+                {
+                    x.onPotenceUsed.Action();
+                }
+            });
+        }
+        
+        if (ScreenManager.Instance.IsUsingAuspex && !wasShownAfterAuspex)
+        {
+            wasShownAfterAuspex = true;
+            interactions.ForEach(x => {
+                if (x.onAuspexUsed != null)
+                {
+                    x.onAuspexUsed.Action();
+                }
+            });
         }
     }
 
