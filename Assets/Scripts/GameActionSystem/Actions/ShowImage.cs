@@ -12,13 +12,13 @@ public class ShowImage : GameAction
     protected override void DoAction()
     {
         base.DoAction();
-        if (_actionOnButton != null)
+        if (_actionOnButton != default)
         {
-            ZoomManager.Instance.ShowZoom(_sprite, StaticStrings.GetString(_name), _actionOnButton);
+            ZoomManager.Instance.ShowZoom(_sprite, StaticStrings.GetString(_name), _actionOnButton, _withGAM);
         }
         else
         {
-            ZoomManager.Instance.ShowZoom(_sprite);
+            ZoomManager.Instance.ShowZoom(_sprite, _withGAM);
         }
         ZoomManager.Instance.ZoomCompleted.AddListener(() =>
         {

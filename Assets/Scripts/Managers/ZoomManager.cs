@@ -18,6 +18,8 @@ public class ZoomManager : Manager<ZoomManager>
     [SerializeField] private TMPro.TMP_Text _otherText = default;
 
     private GameAction _action;
+    private bool _isOtherButtonUsed = false;
+    private bool _withGAM = false;
 
     private void Start()
     {
@@ -31,7 +33,14 @@ public class ZoomManager : Manager<ZoomManager>
     {
         if (_action != null)
         {
-            GameActionManager.Instance.PlayAction(_action);
+            if (_withGAM)
+            {
+                GameActionManager.Instance.PlayAction(_action); 
+            }
+            else
+            {
+                _action.Action();
+            }
         }
     }
 
@@ -39,18 +48,21 @@ public class ZoomManager : Manager<ZoomManager>
     {
         isDuringZoom = false;
         _all.SetActive(false);
+        _action = default;
         ZoomCompleted.Invoke();
         ZoomCompleted.RemoveAllListeners();
         ZoomEnded.Invoke();
     }
 
-    public void ShowZoom(Sprite sprite)
+    public void ShowZoom(Sprite sprite, bool withGAM)
     {
+        _withGAM = withGAM;
         isDuringZoom = true;
         ZoomStarted.Invoke();
         _all.SetActive(true);
         _image.sprite = sprite;
         _otherButton.gameObject.SetActive(false);
+        _isOtherButtonUsed = false;
     }
 
     public void CloseZoom()
@@ -58,17 +70,18 @@ public class ZoomManager : Manager<ZoomManager>
         ExitZoom();
     }
 
-    public void ShowZoom(Sprite sprite, string buttonName, GameAction action)
+    public void ShowZoom(Sprite sprite, string buttonName, GameAction action, bool withGAM)
     {
-        ShowZoom(sprite);
+        ShowZoom(sprite, withGAM);
         _action = action;
         _otherText.text = buttonName;
         _otherButton.gameObject.SetActive(true);
+        _isOtherButtonUsed = true;
     }
 
     private void SetButtons(bool value)
     {
-        _otherButton.gameObject.SetActive(value);
+        _otherButton.gameObject.SetActive(value && _isOtherButtonUsed);
         _exitButton.gameObject.SetActive(value);
     }
 }

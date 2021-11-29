@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2455801621935480763}
   - component: {fileID: 5373473846530246438}
   m_Layer: 0
-  m_Name: StartDialogue Slajd 31 - Rozmowa z Alfredem
+  m_Name: "StartDialogue Slajd 33-2 - Wra\u017Cenia z picia \u015Bmietnika"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47,5 +47,5 @@ MonoBehaviour:
   _beforeAction: {fileID: 0}
   _afterAction: {fileID: 0}
   isDone: 0
-  _dialogueName: Slajd 31 - Rozmowa z Alfredem
-  _dialogueEnded: {fileID: 5952122775388038469, guid: 68ea50294211ee148bfdbb18d0c6f97f, type: 3}
+  _dialogueName: "Slajd 33-2 - Wra\u017Cenia z picia \u015Bmietnika"
+  _dialogueEnded: {fileID: 0}
