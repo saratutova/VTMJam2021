@@ -18,6 +18,7 @@ public class ZoomManager : Manager<ZoomManager>
     [SerializeField] private TMPro.TMP_Text _otherText = default;
 
     private GameAction _action;
+    private bool _isOtherButtonUsed = false;
 
     private void Start()
     {
@@ -39,6 +40,7 @@ public class ZoomManager : Manager<ZoomManager>
     {
         isDuringZoom = false;
         _all.SetActive(false);
+        _action = default;
         ZoomCompleted.Invoke();
         ZoomCompleted.RemoveAllListeners();
         ZoomEnded.Invoke();
@@ -51,6 +53,7 @@ public class ZoomManager : Manager<ZoomManager>
         _all.SetActive(true);
         _image.sprite = sprite;
         _otherButton.gameObject.SetActive(false);
+        _isOtherButtonUsed = false;
     }
 
     public void CloseZoom()
@@ -64,11 +67,12 @@ public class ZoomManager : Manager<ZoomManager>
         _action = action;
         _otherText.text = buttonName;
         _otherButton.gameObject.SetActive(true);
+        _isOtherButtonUsed = true;
     }
 
     private void SetButtons(bool value)
     {
-        _otherButton.gameObject.SetActive(value);
+        _otherButton.gameObject.SetActive(value && _isOtherButtonUsed);
         _exitButton.gameObject.SetActive(value);
     }
 }

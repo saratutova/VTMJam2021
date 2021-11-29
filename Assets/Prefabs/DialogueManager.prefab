@@ -375,6 +375,10 @@ MonoBehaviour:
     startNode: Slajd33
     background: {fileID: 0}
     character: {fileID: 0}
+  - program: {fileID: 2480198943629176163, guid: 6115c19e8f3fe1c449f97adfa67d643b, type: 3}
+    startNode: Slajd332
+    background: {fileID: 0}
+    character: {fileID: 0}
   - program: {fileID: 2480198943629176163, guid: 404b9e0179737674eb7da9f77a0e32e3, type: 3}
     startNode: Slajd35
     background: {fileID: 0}

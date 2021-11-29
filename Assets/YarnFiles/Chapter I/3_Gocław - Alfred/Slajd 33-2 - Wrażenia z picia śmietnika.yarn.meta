@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 6115c19e8f3fe1c449f97adfa67d643b
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - "Slajd 33-2 - Wra\u017Cenia z picia \u015Bmietnika-Slajd332-0"
+  - "Slajd 33-2 - Wra\u017Cenia z picia \u015Bmietnika-Slajd332-1"
+  - "Slajd 33-2 - Wra\u017Cenia z picia \u015Bmietnika-Slajd332-2"
+  - "Slajd 33-2 - Wra\u017Cenia z picia \u015Bmietnika-Slajd332-3"
+  - "Slajd 33-2 - Wra\u017Cenia z picia \u015Bmietnika-Slajd332-4"
+  - "Slajd 33-2 - Wra\u017Cenia z picia \u015Bmietnika-Slajd332-5"
+  - "Slajd 33-2 - Wra\u017Cenia z picia \u015Bmietnika-Slajd332-6"
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []
