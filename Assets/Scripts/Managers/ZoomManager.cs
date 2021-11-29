@@ -23,6 +23,8 @@ public class ZoomManager : Manager<ZoomManager>
     {
         _exitButton.onClick.AddListener(ExitZoom);
         _otherButton.onClick.AddListener(OtherClicked);
+        DialogueManager.Instance.DialogueStarted.AddListener(() => SetButtons(false));
+        DialogueManager.Instance.DialogueEnded.AddListener(() => SetButtons(true));
     }
 
     private void OtherClicked()
@@ -57,5 +59,11 @@ public class ZoomManager : Manager<ZoomManager>
         _action = action;
         _otherText.text = buttonName;
         _otherButton.gameObject.SetActive(true);
+    }
+
+    private void SetButtons(bool value)
+    {
+        _otherButton.gameObject.SetActive(value);
+        _exitButton.gameObject.SetActive(value);
     }
 }
