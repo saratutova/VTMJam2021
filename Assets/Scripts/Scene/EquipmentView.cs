@@ -51,6 +51,10 @@ public class EquipmentView : SceneUIView
         {
             var newItem = Instantiate(_item, _listPlace);
             newItem.Init(_currentList[i].inEquipment, i, this);
+            if (_currentList[i] == _model.CurrentItemSelected)
+            {
+                newItem.ChangeImage(_currentList[i].inEquipmentSelected);
+            }
         }
     }
 
@@ -60,17 +64,22 @@ public class EquipmentView : SceneUIView
         SetList();
     }
 
-    internal void OnItemClicked(int index)
+    internal void OnItemLeftClicked(int index)
     {
         switch (_currentType)
         {
             case EquipmentType.Item:
+                _model.ItemClicked(_currentList[index]);
                 break;
             case EquipmentType.Memory:
-                ZoomManager.Instance.ShowZoom(_currentList[index].zoomPic);
                 break;
             default:
                 break;
         }
+    }
+    
+    internal void OnItemRightClicked(int index)
+    {
+        ZoomManager.Instance.ShowZoom(_currentList[index].zoomPic);
     }
 }

@@ -2,30 +2,47 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class EquipmentItem : MonoBehaviour
+public class EquipmentItem : MonoBehaviour, IPointerClickHandler
 {
     [SerializeField] private Image _image;
-    [SerializeField] private Button _button = default;
 
     private int _index;
     private EquipmentView _view;
 
-    private void Start()
+    private void OnLeftClick()
     {
-        _button.onClick.AddListener(OnClick);
+        _view.OnItemLeftClicked(_index);
     }
-
-    private void OnClick()
+    
+    private void OnRightClick()
     {
-        _view.OnItemClicked(_index);
+        _view.OnItemRightClicked(_index);
     }
 
     internal void Init(Sprite itemSprite, int index, EquipmentView view)
     {
-        _image.sprite = itemSprite;
+        ChangeImage(itemSprite);
         _index = index;
         _view = view;
+    }
+
+    public void ChangeImage(Sprite itemSprite)
+    {
+        _image.sprite = itemSprite;
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        if (eventData.button == PointerEventData.InputButton.Left)
+        {
+            OnLeftClick();
+        }
+        else if (eventData.button == PointerEventData.InputButton.Right) 
+        {
+            OnRightClick();
+        }
     }
 }

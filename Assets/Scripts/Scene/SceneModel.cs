@@ -10,6 +10,7 @@ public class SceneModel : MonoBehaviour
 
     private Scenery _currentScenery;
     private Wall _currentWall;
+    private Item _currentItemSelected = default;
 
     internal int Focus => GameManager.Instance.Focus;
     public Transform StuffPlace => _stuff;
@@ -53,4 +54,17 @@ public class SceneModel : MonoBehaviour
     public SceneStuff CurrentStuff { get => _currentStuff; set => _currentStuff = value; }
     public bool IsUsingPotence { get; internal set; }
     public bool IsUsingAuspex { get; internal set; }
+    public Item CurrentItemSelected => _currentItemSelected;
+
+    internal void ItemClicked(Item item)
+    {
+        if (_currentItemSelected == default)
+        {
+            _currentItemSelected = item;
+        }
+        else
+        {
+            _currentItemSelected = default;
+        }
+    }
 }
