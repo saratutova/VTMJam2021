@@ -42,7 +42,14 @@ public abstract class GameAction : MonoBehaviour
         {
             GameActionManager.Instance.PlayAction(_afterAction);
         }
-        StartCoroutine(AfterAction());
+        if (gameObject.activeSelf)
+        {
+            StartCoroutine(AfterAction()); 
+        }
+        else
+        {
+            isDone = true;
+        }
     }
 
     IEnumerator AfterAction()

@@ -11,6 +11,9 @@ public class GameManager : Manager<GameManager>
     [HideInInspector] public UnityEvent FocusChanged = new UnityEvent();
 
     public int Focus => _model.Focus;
+
+    
+
     public List<Item> Items => _model.GetItems;
     public List<Item> Memories => _model.GetMemories;
     internal List<Item> GetItemList(EquipmentType currentType) => (currentType == EquipmentType.Item) ? Items : Memories;
@@ -52,5 +55,13 @@ public class GameManager : Manager<GameManager>
     {
         _model.RemoveItem(item);
     }
+    public bool CheckBoolValue(string checkName)
+    {
+        return _model.Check(checkName);
+    }
 
+    public void SetBool(string checkName, bool value)
+    {
+        _model.SetCheck(checkName, value);
+    }
 }

@@ -117,7 +117,24 @@ MonoBehaviour:
   _afterAction: {fileID: 0}
   isDone: 0
   _object: {fileID: 1872556049348031748}
---- !u!114 &6566808070504013775
+--- !u!114 &4479095647908485309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1872556049348031748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eb88f90ac12c0f448833e759761a0fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _beforeAction: {fileID: 0}
+  _afterAction: {fileID: 0}
+  isDone: 0
+  _checkName: wasAttackGraffiti
+  _value: 1
+--- !u!114 &3680686950184841572
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -126,13 +143,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 998413786329272330}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95fd2806502801c4cb90ff13cb0e6ba6, type: 3}
+  m_Script: {fileID: 11500000, guid: 8dd4999b6095171438d74229943fcce0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _beforeAction: {fileID: 0}
   _afterAction: {fileID: 0}
   isDone: 0
   _action: {fileID: 5373473846530246438, guid: 07538439c330205499a7bc116e16746b, type: 3}
+  _checkName: wasWindowDialoge
 --- !u!114 &7933033760992177504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -246,7 +264,7 @@ PrefabInstance:
       objectReference: {fileID: 6301607536690073656}
     - target: {fileID: 4640641588230676017, guid: 4fdc25fdd3f4e0f4dbe2a54859dd3f26, type: 3}
       propertyPath: _onButtonClickedActions.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4640641588230676017, guid: 4fdc25fdd3f4e0f4dbe2a54859dd3f26, type: 3}
       propertyPath: _onButtonClickedActions.Array.data[0]
@@ -271,7 +289,7 @@ PrefabInstance:
     - target: {fileID: 4640641588230676017, guid: 4fdc25fdd3f4e0f4dbe2a54859dd3f26, type: 3}
       propertyPath: _onButtonClickedActions.Array.data[5]
       value: 
-      objectReference: {fileID: 6301607536690073656}
+      objectReference: {fileID: 4479095647908485309}
     - target: {fileID: 6640951238298053050, guid: 4fdc25fdd3f4e0f4dbe2a54859dd3f26, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -346,7 +364,7 @@ PrefabInstance:
     - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
       propertyPath: actionsOnEveryView.Array.data[0]
       value: 
-      objectReference: {fileID: 6566808070504013775}
+      objectReference: {fileID: 3680686950184841572}
     - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
       propertyPath: actionsOnDoSomething.Array.data[0]
       value: 
