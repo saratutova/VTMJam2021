@@ -5,13 +5,21 @@ using UnityEngine;
 public class GAInteraction : Interaction
 {
     [SerializeField] private GameAction _gameAction = default;
+    [SerializeField] private bool _withGAM = true;
 
     protected override void Interact()
     {
         base.Interact();
         if (_gameAction != null)
         {
-            GameActionManager.Instance.PlayAction(_gameAction);
+            if (_withGAM)
+            {
+                GameActionManager.Instance.PlayAction(_gameAction); 
+            }
+            else
+            {
+                _gameAction.Action();
+            }
         }
     }
 }

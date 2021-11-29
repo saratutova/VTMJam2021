@@ -15,7 +15,7 @@ public class GameActionManager : Manager<GameActionManager>
         //RefreshActions();
     }
 
-    private void RefreshActions()
+    public void RefreshActions()
     {
         for (int i = actions.Count - 1; i >= 0; i--)
         {

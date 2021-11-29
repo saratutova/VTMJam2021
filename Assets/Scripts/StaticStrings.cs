@@ -1,6 +1,6 @@
 public enum StringType
 {
-    Chapter1, Chapter2, Chapter3
+    Chapter1, Chapter2, Chapter3, Read
 }
 
 public static class StaticStrings
@@ -8,6 +8,7 @@ public static class StaticStrings
     private static string chapter1 = "Chapter 1";
     private static string chapter2 = "Chapter 2";
     private static string chapter3 = "Chapter 3";
+    private static string read = "Read";
 
     public static string GetString(StringType type)
     {
@@ -19,6 +20,8 @@ public static class StaticStrings
                 return chapter2;
             case StringType.Chapter3:
                 return chapter3;
+            case StringType.Read:
+                return read;
             default:
                 return "NONE";
         }

@@ -5,6 +5,7 @@ using UnityEngine;
 public class CheckBool : GameAction
 {
     [SerializeField] private GameAction _action = default;
+    [SerializeField] private bool _valueToCompare = true;
     [SerializeField] private string _checkName = default;
     [SerializeField] private bool _withGAM = true;
     private bool _used = false;
@@ -12,7 +13,7 @@ public class CheckBool : GameAction
     protected override void DoAction()
     {
         base.DoAction();
-        if (!_used && GameManager.Instance.CheckBoolValue(_checkName))
+        if (!_used && GameManager.Instance.CheckBoolValue(_checkName) == _valueToCompare)
         {
             _used = true;
             if (_action != null)
