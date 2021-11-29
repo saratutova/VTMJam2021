@@ -9,7 +9,7 @@ public static class StaticStrings
     private static string chapter2 = "Chapter 2";
     private static string chapter3 = "Chapter 3";
     private static string read = "Read";
-    private static string use = "Read";
+    private static string use = "Use";
 
     public static string GetString(StringType type)
     {

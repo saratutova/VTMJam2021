@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 786a90a8d62d21a4381e39b13a445519, type: 3}
   m_Name: Map
   m_EditorClassIdentifier: 
-  isUsable: 1
+  isUsable: 0
   type: 0
-  inEquipment: {fileID: 0}
-  inEquipmentSelected: {fileID: 0}
-  zoomPic: {fileID: 0}
+  inEquipment: {fileID: 21300000, guid: 9e7d89df2abaf2444b473edb5b7120fa, type: 3}
+  inEquipmentSelected: {fileID: 21300000, guid: 94e9278b45a25ff42b19f2a3acca1e8d, type: 3}
+  zoomPic: {fileID: 21300000, guid: c9cca41a472606b45969f38814323094, type: 3}

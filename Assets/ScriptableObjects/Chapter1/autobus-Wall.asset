@@ -15,4 +15,4 @@ MonoBehaviour:
   side: 0
   background: {fileID: 21300000, guid: d3a26f9e17e8a7c43a5d034c84a52fe8, type: 3}
   firstEnter: {fileID: 0}
-  stuff: {fileID: 0}
+  stuff: {fileID: 6376453431824184196, guid: 7bc35a4fee655d245b0b800a51d0dba9, type: 3}
