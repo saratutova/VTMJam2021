@@ -6,6 +6,17 @@ public class ScreenManager : Manager<ScreenManager>
 {
     [SerializeField] private SceneController _controller;
 
+    public bool ShouldArrowsBeVisible
+    {
+        get => _shouldArrowsBeVisible;
+        set
+        {
+            _shouldArrowsBeVisible = value;
+            _controller.ForceRefresh();
+        }
+    }
+    private bool _shouldArrowsBeVisible = true;
+
     public void SetScenery(Scenery scenery)
     {
         _controller.SetScenery(scenery);

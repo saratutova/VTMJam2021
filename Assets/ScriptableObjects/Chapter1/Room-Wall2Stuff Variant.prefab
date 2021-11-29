@@ -230,6 +230,7 @@ MonoBehaviour:
   _beforeAction: {fileID: 0}
   _afterAction: {fileID: 0}
   isDone: 0
+  _withGAM: 0
   actions:
   - actions:
     - {fileID: 1797410260108667974}

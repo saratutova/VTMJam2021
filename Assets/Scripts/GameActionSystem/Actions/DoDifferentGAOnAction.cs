@@ -10,6 +10,7 @@ public class GAList
 
 public class DoDifferentGAOnAction : GameAction
 {
+    [SerializeField] private bool _withGAM = true;
     [SerializeField] private List<GAList> actions = new List<GAList>();
 
     private int index = 0;
@@ -21,7 +22,14 @@ public class DoDifferentGAOnAction : GameAction
         {
             return;
         }
-        actions[index].actions.ForEach(x => GameActionManager.Instance.PlayAction(x));
+        if (_withGAM)
+        {
+            actions[index].actions.ForEach(x => GameActionManager.Instance.PlayAction(x)); 
+        }
+        else
+        {
+            actions[index].actions.ForEach(x => x.Action()); 
+        }
         index++;
     }
 }

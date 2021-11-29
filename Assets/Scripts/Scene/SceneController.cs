@@ -12,6 +12,11 @@ public class SceneController : MonoBehaviour
 
     private List<SceneStuff> stuffs = new List<SceneStuff>();
 
+    internal void ForceRefresh()
+    {
+        Refresh.Invoke();
+    }
+
     private void Start()
     {
         DialogueManager.Instance.DialogueStarted.AddListener(() => Refresh.Invoke());
