@@ -11,6 +11,7 @@ public abstract class SceneView : MonoBehaviour
     protected virtual void Start()
     {
         _controller.Refresh.AddListener(OnRefresh);
+        OnRefresh();
     }
 
     protected virtual void OnRefresh()
