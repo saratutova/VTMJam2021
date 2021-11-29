@@ -198,7 +198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dd4999b6095171438d74229943fcce0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _withGAM: 0
+  _withGAM: 1
   _beforeAction: {fileID: 0}
   _afterAction: {fileID: 0}
   isDone: 0

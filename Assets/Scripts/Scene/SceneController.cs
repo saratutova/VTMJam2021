@@ -113,5 +113,6 @@ public class SceneController : MonoBehaviour
             Debug.Log($"THERE WAS NO STUFF: {_model.CurrentWall.name}");
             _model.CurrentStuff = null;
         }
+        Refresh.Invoke();
     }
 }
