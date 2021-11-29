@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,6 +9,10 @@ public class ScreenManager : Manager<ScreenManager>
 
     public bool IsUsingPotence => _controller.IsUsingPotence;
     public bool IsUsingAuspex => _controller.IsUsingAuspex;
+
+    internal SceneController GetSceneController() => _controller;
+
+    internal SceneModel GetSceneModel() => _controller.Model;
 
     public bool ShouldArrowsBeVisible
     {

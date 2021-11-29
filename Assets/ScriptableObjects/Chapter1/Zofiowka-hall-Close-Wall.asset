@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5be3fa07d2a40da4b83682681aa5841a, type: 3}
-  m_Name: Zofiowka-yard-Wall
+  m_Name: Zofiowka-hall-Close-Wall
   m_EditorClassIdentifier: 
   side: 0
-  background: {fileID: 21300000, guid: b3c08c721c2de9a4cac51bd28e8cb429, type: 3}
+  background: {fileID: 21300000, guid: 083d86cecc866af41aae0600514085f6, type: 3}
   firstEnter: {fileID: 0}
-  stuff: {fileID: 2424173670797220805, guid: 195ef26aa253cba48a271f7b60555a76, type: 3}
+  stuff: {fileID: 8814025153581043219, guid: f7fc3ce96c35ac041a35c094e19d6adc, type: 3}

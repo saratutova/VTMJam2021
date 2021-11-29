@@ -31,6 +31,8 @@ public class SceneController : MonoBehaviour
 
     public bool IsUsingAuspex => _model.IsUsingAuspex;
 
+    public SceneModel Model => _model;
+
     internal void ForceRefresh()
     {
         Refresh.Invoke();

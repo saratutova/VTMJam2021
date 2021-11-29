@@ -69,7 +69,10 @@ public class EquipmentView : SceneUIView
         switch (_currentType)
         {
             case EquipmentType.Item:
-                _model.ItemClicked(_currentList[index]);
+                if (_currentList[index].isUsable)
+                {
+                    _model.ItemClicked(_currentList[index]); 
+                }
                 break;
             case EquipmentType.Memory:
                 break;
