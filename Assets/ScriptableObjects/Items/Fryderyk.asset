@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Fryderyk
   m_EditorClassIdentifier: 
   isUsable: 1
-  type: 0
+  type: 1
   inEquipment: {fileID: 21300000, guid: 1148b900012047a45875f522443188dc, type: 3}
   inEquipmentSelected: {fileID: 21300000, guid: 4264636cc58d8bf4e9b8677bd32e132a, type: 3}
   zoomPic: {fileID: 21300000, guid: 1003cbc7ff34f814a926c5bbbeed92fb, type: 3}
+  useAction: {fileID: 0}
