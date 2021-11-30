@@ -2066,7 +2066,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0b626bae1af38134fb8f3cf401a3de3a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bed163a826c6e2e4fae0c50606868760, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3605,7 +3605,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c320bbec392f0d844a4c1f23eabc452c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _startScenery: {fileID: 11400000, guid: aee558b4c2e2ead4b86ffe39388bda43, type: 2}
+  _startScenery: {fileID: 11400000, guid: c102dca7e28d5224a89a8bbdf1b68070, type: 2}
   _checks:
   - name: wasWindowDialoge
     value: 0

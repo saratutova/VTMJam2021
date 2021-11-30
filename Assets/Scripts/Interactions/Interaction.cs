@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(BoxCollider2D))]
-public class Interaction : MonoBehaviour
+public abstract class Interaction : MonoBehaviour
 {
     [SerializeField] protected bool _withGAMUse = true;
     public GameAction onAuspexUsed = default;
