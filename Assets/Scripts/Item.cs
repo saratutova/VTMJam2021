@@ -16,4 +16,5 @@ public class Item : ScriptableObject
     public Sprite inEquipment;
     public Sprite inEquipmentSelected;
     public Sprite zoomPic;
+    public GameAction useAction = default;
 }
