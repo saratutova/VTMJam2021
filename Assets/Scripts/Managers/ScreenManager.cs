@@ -12,6 +12,11 @@ public class ScreenManager : Manager<ScreenManager>
 
     internal SceneController GetSceneController() => _controller;
 
+    internal bool IsItemRight(Item item)
+    {
+        return _controller.IsThisItemCurrentlySelected(item);
+    }
+
     internal SceneModel GetSceneModel() => _controller.Model;
 
     public bool ShouldArrowsBeVisible
@@ -23,6 +28,7 @@ public class ScreenManager : Manager<ScreenManager>
             _controller.ForceRefresh();
         }
     }
+
     private bool _shouldArrowsBeVisible = true;
 
     public void SetScenery(Scenery scenery)
