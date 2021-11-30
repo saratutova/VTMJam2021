@@ -5,7 +5,6 @@ using UnityEngine;
 public class GAMultipleInteraction : Interaction
 {
     [SerializeField] private List<GameAction> _gameActions = default;
-    [SerializeField] private bool _withGAMUse = true;
 
     protected override void Interact()
     {

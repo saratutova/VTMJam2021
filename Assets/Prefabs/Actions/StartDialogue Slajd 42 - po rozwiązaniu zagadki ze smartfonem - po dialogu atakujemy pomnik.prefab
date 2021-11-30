@@ -50,4 +50,4 @@ MonoBehaviour:
   isDone: 0
   _dialogueName: "Slajd 42 - po rozwi\u0105zaniu zagadki ze smartfonem - po dialogu
     atakujemy pomnik"
-  _dialogueEnded: {fileID: 2273910543661980463, guid: 2ea6d11cd61a7f24ab6cba05b894c5b6, type: 3}
+  _dialogueEnded: {fileID: 5680190045582859753, guid: 8c090b5057db73741b75a6f6c0aec376, type: 3}
