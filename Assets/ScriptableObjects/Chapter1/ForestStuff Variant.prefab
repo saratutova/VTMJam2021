@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5408165216298854749}
   - component: {fileID: 1395087535581356925}
   - component: {fileID: 2945235930354745983}
+  - component: {fileID: 8182540162237293917}
   m_Layer: 0
   m_Name: Forest_cat_nonactive
   m_TagString: Untagged
@@ -123,7 +124,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dea495cbe6b6fc74a991c9fb590e2f06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onAuspexUsed: {fileID: 0}
+  _withGAMUse: 1
+  onAuspexUsed: {fileID: 8182540162237293917}
   onPotenceUsed: {fileID: 0}
   important: 0
   clicked: 0
@@ -131,7 +133,24 @@ MonoBehaviour:
   _gameActions:
   - {fileID: 5373473846530246438, guid: bf9c30ef664fd9242a0d2820f7a7d695, type: 3}
   - {fileID: 4075678017206251113, guid: 48d01900c228cea429c564753d721aee, type: 3}
-  _withGAMUse: 1
+--- !u!114 &8182540162237293917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2266906689563573870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df090aabcb3bc04429e3e5d345c1428f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _withGAM: 1
+  _beforeAction: {fileID: 0}
+  _afterAction: {fileID: 0}
+  isDone: 0
+  _spriteRenderer: {fileID: 5408165216298854749}
+  _sprite: {fileID: 21300000, guid: fad7ab64d25dbb04bbf7f4dba5180c07, type: 3}
 --- !u!1 &2855271044163084194
 GameObject:
   m_ObjectHideFlags: 0
@@ -144,6 +163,7 @@ GameObject:
   - component: {fileID: 234438787911994000}
   - component: {fileID: 8605660320243549174}
   - component: {fileID: 2210290300809965057}
+  - component: {fileID: 7400788609508498433}
   m_Layer: 0
   m_Name: Forest_squirrel_nonactive
   m_TagString: Untagged
@@ -255,6 +275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dea495cbe6b6fc74a991c9fb590e2f06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _withGAMUse: 1
   onAuspexUsed: {fileID: 0}
   onPotenceUsed: {fileID: 0}
   important: 1
@@ -263,7 +284,24 @@ MonoBehaviour:
   _gameActions:
   - {fileID: 5373473846530246438, guid: bff47a5edf74ff64191cd2020cf9b5cd, type: 3}
   - {fileID: 4075678017206251113, guid: b6af23dec5db54445887621271140df3, type: 3}
-  _withGAMUse: 1
+--- !u!114 &7400788609508498433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2855271044163084194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df090aabcb3bc04429e3e5d345c1428f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _withGAM: 1
+  _beforeAction: {fileID: 0}
+  _afterAction: {fileID: 0}
+  isDone: 0
+  _spriteRenderer: {fileID: 234438787911994000}
+  _sprite: {fileID: 21300000, guid: 3dfce3e947b69a946a2bb1409bc3e788, type: 3}
 --- !u!1 &2926692380650979411
 GameObject:
   m_ObjectHideFlags: 0
@@ -276,6 +314,7 @@ GameObject:
   - component: {fileID: 538131964300330318}
   - component: {fileID: 6636355852519435836}
   - component: {fileID: 5146383255163158068}
+  - component: {fileID: 1230443713964928876}
   m_Layer: 0
   m_Name: Forest_hare_nonactive
   m_TagString: Untagged
@@ -387,7 +426,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dea495cbe6b6fc74a991c9fb590e2f06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onAuspexUsed: {fileID: 0}
+  _withGAMUse: 1
+  onAuspexUsed: {fileID: 1230443713964928876}
   onPotenceUsed: {fileID: 0}
   important: 0
   clicked: 0
@@ -395,7 +435,24 @@ MonoBehaviour:
   _gameActions:
   - {fileID: 5373473846530246438, guid: 6204161c39a7640419a04c24e5d896cb, type: 3}
   - {fileID: 4075678017206251113, guid: 82d08215d1c3aae408a8ee4f85395fc9, type: 3}
-  _withGAMUse: 1
+--- !u!114 &1230443713964928876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2926692380650979411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df090aabcb3bc04429e3e5d345c1428f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _withGAM: 1
+  _beforeAction: {fileID: 0}
+  _afterAction: {fileID: 0}
+  isDone: 0
+  _spriteRenderer: {fileID: 538131964300330318}
+  _sprite: {fileID: 21300000, guid: 6890a1bbff292ff46a0bdd9b7731a0fc, type: 3}
 --- !u!1001 &2748038333297244482
 PrefabInstance:
   m_ObjectHideFlags: 0
