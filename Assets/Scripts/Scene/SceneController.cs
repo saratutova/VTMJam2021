@@ -29,6 +29,11 @@ public class SceneController : MonoBehaviour
         Refresh.Invoke();
     }
 
+    internal bool IsThisItemCurrentlySelected(Item item)
+    {
+        return item == _model.CurrentItemSelected;
+    }
+
     public bool IsUsingAuspex => _model.IsUsingAuspex;
 
     public SceneModel Model => _model;

@@ -128,7 +128,6 @@ MonoBehaviour:
   onPotenceUsed: {fileID: 0}
   important: 0
   clicked: 0
-  canInteract: 1
   _gameAction: {fileID: 0}
   _withGAM: 1
 --- !u!114 &8280334824955557430
@@ -276,7 +275,6 @@ MonoBehaviour:
   onPotenceUsed: {fileID: 0}
   important: 0
   clicked: 0
-  canInteract: 1
   _gameAction: {fileID: 0}
   _withGAM: 1
 --- !u!114 &3969502687391934057
@@ -622,6 +620,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5373473846530246438, guid: 70fab176e7a442144b6b284a23a72702, type: 3}
+      propertyPath: _afterAction
+      value: 
+      objectReference: {fileID: 8829789130902021572, guid: eaae3839c8bc6774c8e0569e85422af6, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70fab176e7a442144b6b284a23a72702, type: 3}
 --- !u!114 &3207643617729570064 stripped
