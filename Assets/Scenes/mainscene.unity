@@ -3605,7 +3605,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c320bbec392f0d844a4c1f23eabc452c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _startScenery: {fileID: 11400000, guid: aee558b4c2e2ead4b86ffe39388bda43, type: 2}
+  _startScenery: {fileID: 11400000, guid: c102dca7e28d5224a89a8bbdf1b68070, type: 2}
   _checks:
   - name: wasWindowDialoge
     value: 0
@@ -3615,7 +3615,7 @@ MonoBehaviour:
     value: 0
   - name: WasTalingToAlftred
     value: 0
-  _focus: 5
+  _focus: 0
   _items: []
 --- !u!1 &1534739797
 GameObject:
