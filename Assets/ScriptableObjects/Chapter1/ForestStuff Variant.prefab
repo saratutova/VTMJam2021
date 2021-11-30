@@ -131,6 +131,7 @@ MonoBehaviour:
   _gameActions:
   - {fileID: 5373473846530246438, guid: bf9c30ef664fd9242a0d2820f7a7d695, type: 3}
   - {fileID: 4075678017206251113, guid: 48d01900c228cea429c564753d721aee, type: 3}
+  _withGAMUse: 1
 --- !u!1 &2855271044163084194
 GameObject:
   m_ObjectHideFlags: 0
@@ -262,6 +263,7 @@ MonoBehaviour:
   _gameActions:
   - {fileID: 5373473846530246438, guid: bff47a5edf74ff64191cd2020cf9b5cd, type: 3}
   - {fileID: 4075678017206251113, guid: b6af23dec5db54445887621271140df3, type: 3}
+  _withGAMUse: 1
 --- !u!1 &2926692380650979411
 GameObject:
   m_ObjectHideFlags: 0
@@ -393,6 +395,7 @@ MonoBehaviour:
   _gameActions:
   - {fileID: 5373473846530246438, guid: 6204161c39a7640419a04c24e5d896cb, type: 3}
   - {fileID: 4075678017206251113, guid: 82d08215d1c3aae408a8ee4f85395fc9, type: 3}
+  _withGAMUse: 1
 --- !u!1001 &2748038333297244482
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -417,13 +420,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2210290300809965057}
     - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
+      propertyPath: interactions.Array.data[3]
+      value: 
+      objectReference: {fileID: 2210290300809965057}
+    - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
       propertyPath: actionsOnFirstView.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
       propertyPath: actionsOnFirstView.Array.data[0]
       value: 
       objectReference: {fileID: 5373473846530246438, guid: 6b5eab4bc7cc95c49a8f4c063bad3ec2, type: 3}
+    - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
+      propertyPath: actionsOnFirstView.Array.data[1]
+      value: 
+      objectReference: {fileID: 4075678017206251113, guid: 138ed8341a37d0a4eb14102f86efb01e, type: 3}
     - target: {fileID: 8244932256638507857, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
       propertyPath: m_RootOrder
       value: 0
