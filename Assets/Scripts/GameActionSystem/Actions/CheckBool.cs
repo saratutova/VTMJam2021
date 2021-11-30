@@ -5,6 +5,7 @@ using UnityEngine;
 public class CheckBool : GameAction
 {
     [SerializeField] private GameAction _action = default;
+    [SerializeField] private GameAction _actionOnFalse = default;
     [SerializeField] private bool _valueToCompare = true;
     [SerializeField] private string _checkName = default;
     //[SerializeField] private bool _withGAM = true;
@@ -28,6 +29,20 @@ public class CheckBool : GameAction
                 }
             }
             Done();
+        }
+        else
+        {
+            if (_actionOnFalse != null)
+            {
+                if (_withGAM)
+                {
+                    GameActionManager.Instance.PlayAction(_actionOnFalse);
+                }
+                else
+                {
+                    _actionOnFalse.Action();
+                }
+            }
         }
     }
 }
