@@ -5,7 +5,7 @@ using UnityEngine;
 public abstract class GameAction : MonoBehaviour
 {
     //[SerializeField] private bool _isOneTime = true;
-    [SerializeField] protected bool _withGAM = true;
+    [SerializeField] protected bool _withGAM = false;
     [SerializeField] private GameAction _beforeAction = default;
     [SerializeField] private GameAction _afterAction = default;
     public bool isDone = false;

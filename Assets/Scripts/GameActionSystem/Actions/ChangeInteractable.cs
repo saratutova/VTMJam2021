@@ -10,7 +10,7 @@ public class ChangeInteractable : GameAction
     protected override void DoAction()
     {
         base.DoAction();
-        _interaction.canInteract = value;
+        _interaction.CanInteract = value;
         Done();
     }
 }

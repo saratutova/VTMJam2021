@@ -18,8 +18,8 @@ public class SceneStuff : MonoBehaviour
     [SerializeField] private List<GameAction> actionsOnEveryView = new List<GameAction>();
     [SerializeField] private List<StuffDoSomething> actionsOnDoSomethingActions = new List<StuffDoSomething>();
 
-    public bool IsThereSometingImportant => interactions.Any(x => x.important && !x.clicked && x.canInteract);
-    public bool IsThereSometingToClick => interactions.Any(x => !x.clicked && x.canInteract);
+    public bool IsThereSometingImportant => interactions.Any(x => x.important && !x.clicked && x.CanInteract);
+    public bool IsThereSometingToClick => interactions.Any(x => !x.clicked && x.CanInteract);
 
     private bool visited = false;
     private bool wasShownAfterPontence = false;

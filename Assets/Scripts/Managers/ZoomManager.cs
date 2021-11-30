@@ -69,6 +69,7 @@ public class ZoomManager : Manager<ZoomManager>
         _image.sprite = sprite;
         _otherButton.gameObject.SetActive(false);
         _isOtherButtonUsed = false;
+        _exitButton.gameObject.SetActive(canExit);
     }
 
     public void CloseZoom()
