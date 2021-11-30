@@ -44,10 +44,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec552152b2e6f9e49ab8b992e2723266, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _isOneTime: 0
+  _withGAM: 1
   _beforeAction: {fileID: 0}
-  _afterAction: {fileID: 0}
-  _wasUsed: 0
+  _afterAction: {fileID: 4075678017206251113, guid: 9266519850b749e4aa7d5cce3532c277, type: 3}
+  isDone: 0
   _dialogueName: "Slajd 36 - Zaciemnienie - kroki i przemy\u015Blenia bohatera -
     wej\u015Bcie do \u0141azienek"
-  _dialogueEnded: {fileID: 0}
+  _dialogueEnded: {fileID: 2273910543661980463, guid: 3125987a69e54724ca318fc61cf85602, type: 3}

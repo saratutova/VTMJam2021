@@ -385,7 +385,7 @@ MonoBehaviour:
     character: {fileID: 0}
   - program: {fileID: 2480198943629176163, guid: 2bcb23e0d038901418794e372d890578, type: 3}
     startNode: Slajd36
-    background: {fileID: 0}
+    background: {fileID: 21300000, guid: b65c3d5d6d373e048b273d04e3a079b4, type: 3}
     character: {fileID: 0}
   - program: {fileID: 2480198943629176163, guid: 7af2ddfc3db6fe044aae018b3c470ee6, type: 3}
     startNode: Slajd37

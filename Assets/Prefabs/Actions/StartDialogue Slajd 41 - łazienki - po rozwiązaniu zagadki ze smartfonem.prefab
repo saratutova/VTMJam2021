@@ -44,9 +44,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec552152b2e6f9e49ab8b992e2723266, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _isOneTime: 0
-  _beforeAction: {fileID: 0}
+  _withGAM: 1
+  _beforeAction: {fileID: 4075678017206251113, guid: 00533b6c87cc86246855b991a11d8bee, type: 3}
   _afterAction: {fileID: 0}
-  _wasUsed: 0
+  isDone: 0
   _dialogueName: "Slajd 41 - \u0142azienki - po rozwi\u0105zaniu zagadki ze smartfonem"
-  _dialogueEnded: {fileID: 0}
+  _dialogueEnded: {fileID: 1285823498836413427, guid: 1fa455287f6b3a84bb9740e7715ea952, type: 3}

@@ -15,5 +15,4 @@ MonoBehaviour:
   mainWall: {fileID: 11400000, guid: e5702b6d282d25b4fa03a14ef817ec41, type: 2}
   surroundings:
   - {fileID: 11400000, guid: e5702b6d282d25b4fa03a14ef817ec41, type: 2}
-  - {fileID: 11400000, guid: 944086b24ae34524daf126e1f1869fc6, type: 2}
   firstEnter: {fileID: 0}

@@ -49,11 +49,15 @@ public class GameManager : Manager<GameManager>
     public void AddItem(Item item)
     {
         _model.AddItem(item);
+        var controller = ScreenManager.Instance.GetSceneController();
+        controller.ForceRefresh();
     }
 
     public void RemoveItem(Item item)
     {
         _model.RemoveItem(item);
+        var controller = ScreenManager.Instance.GetSceneController();
+        controller.ForceRefresh();
     }
     public bool CheckBoolValue(string checkName)
     {

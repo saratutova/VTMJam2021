@@ -84,6 +84,6 @@ public class EquipmentView : SceneUIView
     
     internal void OnItemRightClicked(int index)
     {
-        ZoomManager.Instance.ShowZoom(_currentList[index].zoomPic, false);
+        ZoomManager.Instance.ShowZoom(_currentList[index].zoomPic, false, true);
     }
 }

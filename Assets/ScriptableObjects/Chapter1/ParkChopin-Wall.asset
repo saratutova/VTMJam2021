@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: ParkChopin-Wall
   m_EditorClassIdentifier: 
   side: 0
-  background: {fileID: 0}
+  background: {fileID: 21300000, guid: 9899c0d47b66c6449b9231eb5253157d, type: 3}
   firstEnter: {fileID: 0}
-  stuff: {fileID: 9067507155854794371, guid: 5ac255fa9d6c6b948a20d22727cb32ba, type: 3}
+  stuff: {fileID: 2812264411484726327, guid: 0d1e3b45be0c64e4b9e2c01687577f08, type: 3}
