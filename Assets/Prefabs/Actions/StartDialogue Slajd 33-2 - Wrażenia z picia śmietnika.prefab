@@ -48,4 +48,4 @@ MonoBehaviour:
   _afterAction: {fileID: 0}
   isDone: 0
   _dialogueName: "Slajd 33-2 - Wra\u017Cenia z picia \u015Bmietnika"
-  _dialogueEnded: {fileID: 0}
+  _dialogueEnded: {fileID: 5373473846530246438, guid: 30f0d0a3e7e265f4793cbb89447695cf, type: 3}

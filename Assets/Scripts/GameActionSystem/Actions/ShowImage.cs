@@ -8,17 +8,18 @@ public class ShowImage : GameAction
     [SerializeField] private StringType _name = default;
     [SerializeField] private GameAction _actionOnButton = default;
     [SerializeField] private GameAction _actionOnClose = default;
+    [SerializeField] private bool canExit = true;
 
     protected override void DoAction()
     {
         base.DoAction();
         if (_actionOnButton != default)
         {
-            ZoomManager.Instance.ShowZoom(_sprite, StaticStrings.GetString(_name), _actionOnButton, _withGAM);
+            ZoomManager.Instance.ShowZoom(_sprite, StaticStrings.GetString(_name), _actionOnButton, _withGAM, canExit);
         }
         else
         {
-            ZoomManager.Instance.ShowZoom(_sprite, _withGAM);
+            ZoomManager.Instance.ShowZoom(_sprite, _withGAM, canExit);
         }
         ZoomManager.Instance.ZoomCompleted.AddListener(() =>
         {

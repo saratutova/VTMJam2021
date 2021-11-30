@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class InGameButton : MonoBehaviour
 {
+    [SerializeField] private bool _withGAMUse = true;
     [SerializeField] private List<GameAction> _onButtonClickedActions = default;
     [SerializeField] private Button _button = default;
 
@@ -18,7 +19,14 @@ public class InGameButton : MonoBehaviour
     {
         if (_onButtonClickedActions != null)
         {
-            _onButtonClickedActions.ForEach(x => GameActionManager.Instance.PlayAction(x));
+            if (_withGAMUse)
+            {
+                _onButtonClickedActions.ForEach(x => GameActionManager.Instance.PlayAction(x)); 
+            }
+            else
+            {
+                _onButtonClickedActions.ForEach(x => x.Action());
+            }
         }
     }
 }

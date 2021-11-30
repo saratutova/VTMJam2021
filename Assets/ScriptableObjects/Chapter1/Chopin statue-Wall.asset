@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Chopin statue-Wall
   m_EditorClassIdentifier: 
   side: 2
-  background: {fileID: 0}
+  background: {fileID: 21300000, guid: c63b1f49d334fb749bbfac99a573896c, type: 3}
   firstEnter: {fileID: 0}
-  stuff: {fileID: 0}
+  stuff: {fileID: 9067507155854794371, guid: 5ac255fa9d6c6b948a20d22727cb32ba, type: 3}

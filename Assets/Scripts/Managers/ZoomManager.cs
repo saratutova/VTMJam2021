@@ -20,6 +20,7 @@ public class ZoomManager : Manager<ZoomManager>
     private GameAction _action;
     private bool _isOtherButtonUsed = false;
     private bool _withGAM = false;
+    private bool canExit = true;
 
     private void Start()
     {
@@ -42,20 +43,25 @@ public class ZoomManager : Manager<ZoomManager>
                 _action.Action();
             }
         }
+        canExit = true;
     }
 
     private void ExitZoom()
     {
-        isDuringZoom = false;
-        _all.SetActive(false);
-        _action = default;
-        ZoomCompleted.Invoke();
-        ZoomCompleted.RemoveAllListeners();
-        ZoomEnded.Invoke();
+        if (canExit)
+        {
+            isDuringZoom = false;
+            _all.SetActive(false);
+            _action = default;
+            ZoomCompleted.Invoke();
+            ZoomCompleted.RemoveAllListeners();
+            ZoomEnded.Invoke(); 
+        }
     }
 
-    public void ShowZoom(Sprite sprite, bool withGAM)
+    public void ShowZoom(Sprite sprite, bool withGAM, bool canExit)
     {
+        this.canExit = canExit;
         _withGAM = withGAM;
         isDuringZoom = true;
         ZoomStarted.Invoke();
@@ -70,9 +76,9 @@ public class ZoomManager : Manager<ZoomManager>
         ExitZoom();
     }
 
-    public void ShowZoom(Sprite sprite, string buttonName, GameAction action, bool withGAM)
+    public void ShowZoom(Sprite sprite, string buttonName, GameAction action, bool withGAM, bool canExit)
     {
-        ShowZoom(sprite, withGAM);
+        ShowZoom(sprite, withGAM, canExit);
         _action = action;
         _otherText.text = buttonName;
         _otherButton.gameObject.SetActive(true);
