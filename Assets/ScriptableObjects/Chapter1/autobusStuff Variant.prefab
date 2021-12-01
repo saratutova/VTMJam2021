@@ -93,7 +93,6 @@ MonoBehaviour:
   onPotenceUsed: {fileID: 0}
   important: 1
   clicked: 0
-  canInteract: 0
   _gameActions:
   - {fileID: 3095342069929507572}
 --- !u!114 &6710558376334854966
@@ -251,6 +250,78 @@ MonoBehaviour:
   _afterAction: {fileID: 0}
   isDone: 0
   _object: {fileID: 1746046708273627224}
+--- !u!1001 &3834518798491033221
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5751156969641526464}
+    m_Modifications:
+    - target: {fileID: 698448220444840614, guid: 0f29a89c035d019448581aa635b2fb9e, type: 3}
+      propertyPath: m_Name
+      value: InteractableFalse
+      objectReference: {fileID: 0}
+    - target: {fileID: 3681020845408429945, guid: 0f29a89c035d019448581aa635b2fb9e, type: 3}
+      propertyPath: _interaction
+      value: 
+      objectReference: {fileID: 8260989752925997133}
+    - target: {fileID: 3928051621368535978, guid: 0f29a89c035d019448581aa635b2fb9e, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928051621368535978, guid: 0f29a89c035d019448581aa635b2fb9e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.1354442
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928051621368535978, guid: 0f29a89c035d019448581aa635b2fb9e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.2581596
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928051621368535978, guid: 0f29a89c035d019448581aa635b2fb9e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.02627862
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928051621368535978, guid: 0f29a89c035d019448581aa635b2fb9e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928051621368535978, guid: 0f29a89c035d019448581aa635b2fb9e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928051621368535978, guid: 0f29a89c035d019448581aa635b2fb9e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928051621368535978, guid: 0f29a89c035d019448581aa635b2fb9e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928051621368535978, guid: 0f29a89c035d019448581aa635b2fb9e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928051621368535978, guid: 0f29a89c035d019448581aa635b2fb9e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928051621368535978, guid: 0f29a89c035d019448581aa635b2fb9e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0f29a89c035d019448581aa635b2fb9e, type: 3}
+--- !u!114 &442318629854067196 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3681020845408429945, guid: 0f29a89c035d019448581aa635b2fb9e, type: 3}
+  m_PrefabInstance: {fileID: 3834518798491033221}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 435a3b8355e40074ab6a07b8e84901fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3853481083681415643
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -332,7 +403,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
       propertyPath: actionsOnFirstView.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
       propertyPath: actionsOnFirstView.Array.data[0]
@@ -342,6 +413,10 @@ PrefabInstance:
       propertyPath: actionsOnFirstView.Array.data[1]
       value: 
       objectReference: {fileID: 5373473846530246438, guid: 62f59619a9e0ef3448b300952c6f380a, type: 3}
+    - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
+      propertyPath: actionsOnFirstView.Array.data[2]
+      value: 
+      objectReference: {fileID: 442318629854067196}
     - target: {fileID: 7333657216506178581, guid: a92239f14153f8b4faab45af3eed303e, type: 3}
       propertyPath: actionsOnDoSomethingActions.Array.size
       value: 1

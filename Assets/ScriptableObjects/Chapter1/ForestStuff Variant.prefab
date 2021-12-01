@@ -129,7 +129,6 @@ MonoBehaviour:
   onPotenceUsed: {fileID: 0}
   important: 0
   clicked: 0
-  canInteract: 1
   _gameActions:
   - {fileID: 5373473846530246438, guid: bf9c30ef664fd9242a0d2820f7a7d695, type: 3}
   - {fileID: 4075678017206251113, guid: 48d01900c228cea429c564753d721aee, type: 3}
@@ -276,11 +275,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _withGAMUse: 1
-  onAuspexUsed: {fileID: 0}
+  onAuspexUsed: {fileID: 7400788609508498433}
   onPotenceUsed: {fileID: 0}
   important: 1
   clicked: 0
-  canInteract: 1
   _gameActions:
   - {fileID: 5373473846530246438, guid: bff47a5edf74ff64191cd2020cf9b5cd, type: 3}
   - {fileID: 4075678017206251113, guid: b6af23dec5db54445887621271140df3, type: 3}
@@ -431,7 +429,6 @@ MonoBehaviour:
   onPotenceUsed: {fileID: 0}
   important: 0
   clicked: 0
-  canInteract: 1
   _gameActions:
   - {fileID: 5373473846530246438, guid: 6204161c39a7640419a04c24e5d896cb, type: 3}
   - {fileID: 4075678017206251113, guid: 82d08215d1c3aae408a8ee4f85395fc9, type: 3}

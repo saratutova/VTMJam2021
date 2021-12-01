@@ -488,11 +488,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97a238744ed668d43b6d2c2302acbf98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _withGAMUse: 0
   onAuspexUsed: {fileID: 0}
   onPotenceUsed: {fileID: 0}
   important: 0
   clicked: 0
-  canInteract: 0
   _gameAction: {fileID: 0}
   _withGAM: 1
 --- !u!1 &6968893851087966395
@@ -921,7 +921,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4640641588230676017, guid: 4fdc25fdd3f4e0f4dbe2a54859dd3f26, type: 3}
       propertyPath: _onButtonClickedActions.Array.size
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4640641588230676017, guid: 4fdc25fdd3f4e0f4dbe2a54859dd3f26, type: 3}
       propertyPath: _onButtonClickedActions.Array.data[0]
@@ -951,6 +951,10 @@ PrefabInstance:
       propertyPath: _onButtonClickedActions.Array.data[6]
       value: 
       objectReference: {fileID: 215364859295407007}
+    - target: {fileID: 4640641588230676017, guid: 4fdc25fdd3f4e0f4dbe2a54859dd3f26, type: 3}
+      propertyPath: _onButtonClickedActions.Array.data[7]
+      value: 
+      objectReference: {fileID: 8829789130902021572, guid: eaae3839c8bc6774c8e0569e85422af6, type: 3}
     - target: {fileID: 7466120463332278453, guid: 4fdc25fdd3f4e0f4dbe2a54859dd3f26, type: 3}
       propertyPath: m_Name
       value: CanvasWithButton

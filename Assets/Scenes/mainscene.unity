@@ -2396,7 +2396,7 @@ MonoBehaviour:
   - clip: {fileID: 8300000, guid: c7125961eb1af904992c71c27087953e, type: 3}
     isTheme: 0
   - clip: {fileID: 8300000, guid: ec9dc53b3c6e2004283d4fea34ee2dc0, type: 3}
-    isTheme: 0
+    isTheme: 1
   - clip: {fileID: 8300000, guid: 552a449a28e864648afdb081955b83bf, type: 3}
     isTheme: 0
   - clip: {fileID: 8300000, guid: ef7c16ce57d23a54b9d7fa2cc83beee0, type: 3}
@@ -3605,7 +3605,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c320bbec392f0d844a4c1f23eabc452c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _startScenery: {fileID: 11400000, guid: c102dca7e28d5224a89a8bbdf1b68070, type: 2}
+  _startScenery: {fileID: 11400000, guid: aee558b4c2e2ead4b86ffe39388bda43, type: 2}
   _checks:
   - name: wasWindowDialoge
     value: 0
@@ -3614,6 +3614,10 @@ MonoBehaviour:
   - name: wasZofiowkaLetterRead
     value: 0
   - name: WasTalingToAlftred
+    value: 0
+  - name: HasLantern
+    value: 0
+  - name: ReadPaper
     value: 0
   _focus: 0
   _items: []
@@ -4059,7 +4063,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9a46a9e5b2a5f964d8e5e4d9202391b7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6421a75451bd8f0479064c26d6b38b22, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -4468,10 +4472,10 @@ RectTransform:
   m_Father: {fileID: 56607630}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 11.23478, y: -19.575012}
+  m_SizeDelta: {x: 22.46956, y: 39.150024}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1298774105199938472
 MonoBehaviour:
@@ -5048,7 +5052,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &8459362623522699050
 MonoBehaviour:
   m_ObjectHideFlags: 0

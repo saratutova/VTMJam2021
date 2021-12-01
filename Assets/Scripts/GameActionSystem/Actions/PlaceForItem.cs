@@ -27,6 +27,7 @@ public class PlaceForItem : GameAction
             _interaction.CanInteract = false;
             _renderer.sprite = _item.onPlace;
             _interaction.onAuspexUsed = default;
+            GameManager.Instance.RemoveItem(_item);
         }
         else
         {

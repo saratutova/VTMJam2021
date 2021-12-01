@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8eb88f90ac12c0f448833e759761a0fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _withGAM: 1
   _beforeAction: {fileID: 5373473846530246438, guid: 0596c4eea31dc5b42b7f068085e25fac, type: 3}
   _afterAction: {fileID: 0}
   isDone: 0
@@ -29,11 +30,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d101cf0bb0abe8e48b0881158ddbe2ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _withGAM: 0
   _beforeAction: {fileID: 0}
   _afterAction: {fileID: 0}
   isDone: 0
   _onCounterReached: {fileID: 1253660822707548380}
-  max: 3
+  max: 2
 --- !u!1001 &9201124762101435228
 PrefabInstance:
   m_ObjectHideFlags: 0
