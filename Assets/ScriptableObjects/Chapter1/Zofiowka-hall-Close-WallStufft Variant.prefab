@@ -175,11 +175,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97a238744ed668d43b6d2c2302acbf98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _withGAMUse: 0
   onAuspexUsed: {fileID: 0}
   onPotenceUsed: {fileID: 0}
   important: 1
   clicked: 0
-  canInteract: 1
   _gameAction: {fileID: 893027010715998890}
   _withGAM: 0
 --- !u!114 &893027010715998890
@@ -221,14 +221,19 @@ MonoBehaviour:
   actions:
   - actions:
     - {fileID: 4422607143685234299}
+    - {fileID: 4075678017206251113, guid: ea5502524386a8d46b3683f9688e8ab0, type: 3}
   - actions:
     - {fileID: 5836210640102515217}
+    - {fileID: 4075678017206251113, guid: ea5502524386a8d46b3683f9688e8ab0, type: 3}
   - actions:
     - {fileID: 8703423636702413198}
+    - {fileID: 4075678017206251113, guid: ea5502524386a8d46b3683f9688e8ab0, type: 3}
   - actions:
     - {fileID: 5120042216742519300}
+    - {fileID: 4075678017206251113, guid: ea5502524386a8d46b3683f9688e8ab0, type: 3}
   - actions:
     - {fileID: 3594260033209788926}
+    - {fileID: 4075678017206251113, guid: ea5502524386a8d46b3683f9688e8ab0, type: 3}
   - actions:
     - {fileID: 2158907065894321813}
 --- !u!1 &2131783881324692502
@@ -275,7 +280,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _withGAM: 0
-  _beforeAction: {fileID: 0}
+  _beforeAction: {fileID: 4075678017206251113, guid: 213651ba1c499d742b45b8202abecf65, type: 3}
   _afterAction: {fileID: 4505686318158041804}
   isDone: 0
   _spriteObj: {fileID: 1851973253437155887}
