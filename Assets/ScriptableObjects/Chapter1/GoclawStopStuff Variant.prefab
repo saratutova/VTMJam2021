@@ -54,6 +54,89 @@ MonoBehaviour:
   _easetype: 21
   _looptype: 0
   _onFinishedAction: {fileID: 0}
+--- !u!1 &1353666328972016079
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5619612836920702798}
+  - component: {fileID: 4391713359882047640}
+  m_Layer: 0
+  m_Name: Kosz2 Goclaw przystanek
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &5619612836920702798
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1353666328972016079}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.272, y: -2.542, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1056391099887634045}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &4391713359882047640
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1353666328972016079}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 25
+  m_Sprite: {fileID: 21300000, guid: a76877b281138384aba9e6961b9badb3, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3.54, y: 3.05}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &2364666745077529234
 GameObject:
   m_ObjectHideFlags: 0
@@ -271,9 +354,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5421309438340884761}
-  - component: {fileID: 1072543183906290149}
+  - component: {fileID: 4551766004809628290}
   m_Layer: 0
-  m_Name: ChangeSprite
+  m_Name: Disable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -293,7 +376,7 @@ Transform:
   m_Father: {fileID: 1056391099887634045}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1072543183906290149
+--- !u!114 &4551766004809628290
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -302,15 +385,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 5293916087237994369}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df090aabcb3bc04429e3e5d345c1428f, type: 3}
+  m_Script: {fileID: 11500000, guid: e672002579752f842989060d41ffcadd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _withGAM: 0
   _beforeAction: {fileID: 0}
   _afterAction: {fileID: 0}
   isDone: 0
-  _spriteRenderer: {fileID: 7607896736078534149}
-  _sprite: {fileID: 21300000, guid: a76877b281138384aba9e6961b9badb3, type: 3}
+  _object: {fileID: 6560842243770475152}
 --- !u!1 &6339523302766813828
 GameObject:
   m_ObjectHideFlags: 0
@@ -663,6 +745,54 @@ MonoBehaviour:
   _afterAction: {fileID: 8543981077957864291, guid: 2d6923ceac238884c8bfc52348e8b009, type: 3}
   isDone: 0
   _canvas: {fileID: 2319270434524836980}
+--- !u!1 &8740799450297110250
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2826499005254448689}
+  - component: {fileID: 4287786248791526308}
+  m_Layer: 0
+  m_Name: Enable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2826499005254448689
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8740799450297110250}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1056391099887634045}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4287786248791526308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8740799450297110250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3156a69b373b34eacfc6dd2497bb8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _withGAM: 0
+  _beforeAction: {fileID: 0}
+  _afterAction: {fileID: 0}
+  isDone: 0
+  _object: {fileID: 1353666328972016079}
 --- !u!114 &2191296646368438019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -680,6 +810,7 @@ MonoBehaviour:
   _afterAction: {fileID: 0}
   isDone: 0
   _action: {fileID: 2314061792127063728}
+  _actionOnFalse: {fileID: 0}
   _valueToCompare: 1
   _checkName: WasTalingToAlftred
 --- !u!1001 &1141453161980631159
@@ -921,7 +1052,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4640641588230676017, guid: 4fdc25fdd3f4e0f4dbe2a54859dd3f26, type: 3}
       propertyPath: _onButtonClickedActions.Array.size
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4640641588230676017, guid: 4fdc25fdd3f4e0f4dbe2a54859dd3f26, type: 3}
       propertyPath: _onButtonClickedActions.Array.data[0]
@@ -930,7 +1061,7 @@ PrefabInstance:
     - target: {fileID: 4640641588230676017, guid: 4fdc25fdd3f4e0f4dbe2a54859dd3f26, type: 3}
       propertyPath: _onButtonClickedActions.Array.data[1]
       value: 
-      objectReference: {fileID: 1072543183906290149}
+      objectReference: {fileID: 4551766004809628290}
     - target: {fileID: 4640641588230676017, guid: 4fdc25fdd3f4e0f4dbe2a54859dd3f26, type: 3}
       propertyPath: _onButtonClickedActions.Array.data[2]
       value: 
@@ -955,20 +1086,24 @@ PrefabInstance:
       propertyPath: _onButtonClickedActions.Array.data[7]
       value: 
       objectReference: {fileID: 8829789130902021572, guid: eaae3839c8bc6774c8e0569e85422af6, type: 3}
+    - target: {fileID: 4640641588230676017, guid: 4fdc25fdd3f4e0f4dbe2a54859dd3f26, type: 3}
+      propertyPath: _onButtonClickedActions.Array.data[8]
+      value: 
+      objectReference: {fileID: 4287786248791526308}
     - target: {fileID: 7466120463332278453, guid: 4fdc25fdd3f4e0f4dbe2a54859dd3f26, type: 3}
       propertyPath: m_Name
       value: CanvasWithButton
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4fdc25fdd3f4e0f4dbe2a54859dd3f26, type: 3}
---- !u!1 &2473519556443426771 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7466120463332278453, guid: 4fdc25fdd3f4e0f4dbe2a54859dd3f26, type: 3}
-  m_PrefabInstance: {fileID: 5030320601688493926}
-  m_PrefabAsset: {fileID: 0}
 --- !u!223 &7653793182404698981 stripped
 Canvas:
   m_CorrespondingSourceObject: {fileID: 3456782877993282563, guid: 4fdc25fdd3f4e0f4dbe2a54859dd3f26, type: 3}
+  m_PrefabInstance: {fileID: 5030320601688493926}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2473519556443426771 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7466120463332278453, guid: 4fdc25fdd3f4e0f4dbe2a54859dd3f26, type: 3}
   m_PrefabInstance: {fileID: 5030320601688493926}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2433676502316453970 stripped

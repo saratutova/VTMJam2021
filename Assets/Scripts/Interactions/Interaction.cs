@@ -30,7 +30,7 @@ public abstract class Interaction : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (!DialogueManager.Instance.IsDuringDialogue && CanInteract)
+        if (CanInteract && !DialogueManager.Instance.IsDuringDialogue && !ZoomManager.Instance.isDuringZoom)
         {
             clicked = true;
 

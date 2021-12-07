@@ -373,7 +373,7 @@ MonoBehaviour:
     character: {fileID: 21300000, guid: 252ed743b953d0940a73ef75149fe038, type: 3}
   - program: {fileID: 2480198943629176163, guid: 618a293b2baca7b4b9eb88a71cb0d14c, type: 3}
     startNode: Slajd33
-    background: {fileID: 21300000, guid: 089965314c832a5468f221cd2302d181, type: 3}
+    background: {fileID: 0}
     character: {fileID: 0}
   - program: {fileID: 2480198943629176163, guid: 6115c19e8f3fe1c449f97adfa67d643b, type: 3}
     startNode: Slajd332
@@ -487,12 +487,36 @@ MonoBehaviour:
     startNode: Slajd812
     background: {fileID: 0}
     character: {fileID: 0}
+  - program: {fileID: 2480198943629176163, guid: 8b1f89aa156ed6943917afde81cf9339, type: 3}
+    startNode: Slajd91
+    background: {fileID: 21300000, guid: b65c3d5d6d373e048b273d04e3a079b4, type: 3}
+    character: {fileID: 0}
   - program: {fileID: 2480198943629176163, guid: 0a553fb608eaaba45a17fc3d85fe66de, type: 3}
     startNode: Slajd97
     background: {fileID: 0}
     character: {fileID: 0}
   - program: {fileID: 2480198943629176163, guid: a60f9eb47f8ad7d4dac7e2849b7dfda9, type: 3}
     startNode: Slajd100
+    background: {fileID: 0}
+    character: {fileID: 0}
+  - program: {fileID: 2480198943629176163, guid: ff227ba4712ce2145a3d916b99e7b22f, type: 3}
+    startNode: Suchar1
+    background: {fileID: 0}
+    character: {fileID: 0}
+  - program: {fileID: 2480198943629176163, guid: 29cf8628f7fa9934eab7345a8b27b02d, type: 3}
+    startNode: Suchar2
+    background: {fileID: 0}
+    character: {fileID: 0}
+  - program: {fileID: 2480198943629176163, guid: 65000b38557716b4d9aa03db9931be07, type: 3}
+    startNode: Suchar3
+    background: {fileID: 0}
+    character: {fileID: 0}
+  - program: {fileID: 2480198943629176163, guid: 6c7bcb1cf4ee85e4faf9f7ce2b837623, type: 3}
+    startNode: Suchar4
+    background: {fileID: 0}
+    character: {fileID: 0}
+  - program: {fileID: 2480198943629176163, guid: 4f04dd1230c565446a3b67ae1ea1b31c, type: 3}
+    startNode: Suchar5
     background: {fileID: 0}
     character: {fileID: 0}
   DialogueCompleted:
